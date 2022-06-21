@@ -1,2 +1,2 @@
-# the-data-scientist-compendium
-I hands-on compendium of everything data science I have came across
+# The Data Scientist Compendium
+I hands-on compendium of everything (I have came across) data science 
