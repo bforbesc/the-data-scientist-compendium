@@ -1,3 +1,5 @@
+# Python snippets
+
 Add months to a date in Python
 ```
 future_date = dtObj + pd.DateOffset(months=n)
