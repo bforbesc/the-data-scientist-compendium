@@ -1,6 +1,6 @@
 # 🐍 python 
 
-This file compiles snippets of code to deal with day-to-day data science tasks, be it cleaning, processing or visualizing data. Most items should have a link to the source of salvation (i.e., the source which solved my problem). If there is no link it means it is an original (i.e., I had to figure it out myself). They range from basic knowledge (when I started coding), to more challenging tasks which required some little hacks to get the job done. As a true ptyhonist-data-scientist I frequently recurr to [Pandas](https://pandas.pydata.org/) and [NumPy](https://numpy.org/) so I assume you previouslly installed the libraries and ran the following code:
+This file compiles snippets of code to deal with day-to-day data science tasks, be it cleaning, processing or visualizing data. Most items should have a link to the source of salvation (i.e., the source which solved my problem). If there is no link it means that it is either an original (i.e., I had to figure it out myself) or I simply lost the link. The code ranges from basic knowledge (when I started coding), to more challenging tasks which required some little hacks to get the job done. As a true ptyhonist-data-scientist I frequently recurr to [Pandas](https://pandas.pydata.org/) and [NumPy](https://numpy.org/) so I assume you previouslly installed the libraries and ran the following code:
 
 ```
 import pandas as pd
@@ -10,7 +10,7 @@ When other libraries (ex. datetime) are required, I will specifically mention th
 
 
 ### 🕐 dates and time
-[Add months to a date in Python:](https://thispointer.com/add-months-to-a-date-in-python/){:target="_blank"}
+[Add months to a date in Python:](https://thispointer.com/add-months-to-a-date-in-python/)
 ```
 # Import datetime library
 from datetime import datetime
