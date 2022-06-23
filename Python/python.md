@@ -10,7 +10,7 @@ When other libraries (ex. datetime) are required, I will specifically mention th
 
 
 ### 🕐 dates and time
-[Add months to a date in Python:](https://thispointer.com/add-months-to-a-date-in-python/)
+[Add months to a date in Python:](https://thispointer.com/add-months-to-a-date-in-python/){:target="_blank"}
 ```
 # Import datetime library
 from datetime import datetime
