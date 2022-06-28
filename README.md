@@ -35,4 +35,4 @@ I hands-on compendium of everything (I have came across) data science
   - [Shapely](https://shapely.readthedocs.io/en/stable/manual.html#points)
 
 
-- [HMTL code validator](https://validator.w3.org/#validate_by_input)
+- [HMTL code sintax validator](https://validator.w3.org/#validate_by_input)
