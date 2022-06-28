@@ -1,5 +1,7 @@
 [The Effect Book](https://theeffectbook.net/ch-EventStudies.html?panelset=stata-code)
 
+## STATA
+
 [Panel Data: Event Studies, Difference in Differences, and Unobserved Effects](https://donskerclass.github.io/EconometricsII/PanelDataI.html)
 
 [Decomposiing, probing, and plotting interactions in STATA](https://stats.oarc.ucla.edu/stata/seminars/interactions-stata/)
