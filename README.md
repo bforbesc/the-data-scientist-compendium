@@ -13,15 +13,18 @@ I hands-on compendium of everything (I have came across) data science
 - [SQL keywords](https://www.w3schools.com/sql/sql_ref_keywords.asp)
 - [SQL style](https://www.sqlstyle.guide/)
 - [Git](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Codeacademy (multiple languages)](https://www.codecademy.com/resources/cheatsheets/language/python)
 
 
 ## Resources
 
 ### Books
-These are great books which are freely available online.
-- [Python: Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
-- [Hands-on Machine Learning](https://github.com/ageron/handson-ml2)
-- [Introduction to Machine Learning with Python](https://github.com/amueller/introduction_to_ml_with_python)
+This is a great books which is freely available online:
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+
+These are the code examples from two very good books which you can buy online:
+- [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow (code examples)](https://github.com/ageron/handson-ml2)
+- [Introduction to Machine Learning with Python (code examples)](https://github.com/amueller/introduction_to_ml_with_python)
 	
 
 ### Guides/ courses
@@ -29,15 +32,14 @@ These are great books which are freely available online.
 - [Spark by examples](https://sparkbyexamples.com/pyspark/): a comprehensive guide to PySpark based on examples.
 
 ### Specific resources and tools
-
-- For improving your plots
+- [Awesome list](https://github.com/sindresorhus/awesome/blob/main/readme.md): a comprehensive list of everything computer science.
+- [Awesome Bash](https://github.com/awesome-lists/awesome-bash): a curated list of delightful Bash scripts and resources.
+- Libraries for improving your plots:
   - [Altair](https://altair-viz.github.io/)
   - [Plotly](https://plotly.com/python/)
-- For dealing with maps and geocoordinates
+- Libraries for dealing with maps and geocoordinates:
   - [Geopy](https://geopy.readthedocs.io/en/stable/)
     - [Simple explanation](https://towardsdatascience.com/things-to-do-with-latitude-longitude-data-using-geopy-python-1d356ed1ae30)
   - [Geopandas](https://geopandas.org/en/stable/docs/user_guide/data_structures.html)
   - [Shapely](https://shapely.readthedocs.io/en/stable/manual.html#points)
-
-
 - [HMTL code sintax validator](https://validator.w3.org/#validate_by_input)
