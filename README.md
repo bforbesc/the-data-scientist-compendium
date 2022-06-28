@@ -30,10 +30,15 @@ These are the code examples from two very good books which you can buy online:
 ### Guides/ courses
 - [W3 school](https://www.w3schools.com/python/default.asp): excellent source for simple, editable examples of code with great explanations, in an array of languages, ranging from Pyhton, R or SQL, to JavaScript, HTML/ CSS or even C.
 - [Spark by examples](https://sparkbyexamples.com/pyspark/): a comprehensive guide to PySpark based on examples.
-
-### Specific resources and tools
 - [Awesome list](https://github.com/sindresorhus/awesome/blob/main/readme.md): a comprehensive list of everything computer science.
 - [Awesome Bash](https://github.com/awesome-lists/awesome-bash): a curated list of delightful Bash scripts and resources.
+
+#### STATA
+- [STATA tutorials](https://errickson.net/workshops.html)
+- [STATA guide](https://wlm.userweb.mwn.de/Stata/wstatgax.htm)
+
+### Specific resources and tools
+
 - Libraries for improving your plots:
   - [Altair](https://altair-viz.github.io/)
   - [Plotly](https://plotly.com/python/)
