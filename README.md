@@ -18,6 +18,11 @@ I hands-on compendium of everything (I have came across) data science
 ## Resources
 
 ### Books
+These are great books which are freely available online.
+- [Python: Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [Hands-on Machine Learning](https://github.com/ageron/handson-ml2)
+- [Introduction to Machine Learning with Python](https://github.com/amueller/introduction_to_ml_with_python)
+	
 
 ### Guides/ courses
 - [W3 school](https://www.w3schools.com/python/default.asp): excellent source for simple, editable examples of code with great explanations, in an array of languages, ranging from Pyhton, R or SQL, to JavaScript, HTML/ CSS or even C.
