@@ -12,10 +12,6 @@ Other links
 ML class links
 - https://ml-ops.org/content/mlops-principles
 - https://chrisalbon.com/
-- Books
-	- https://github.com/ageron/handson-ml2
-	- https://github.com/amueller/introduction_to_ml_with_python
-	- https://jakevdp.github.io/PythonDataScienceHandbook/
 - https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/
 - http://scott.fortmann-roe.com/docs/BiasVariance.html
 - Examples
