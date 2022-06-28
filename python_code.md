@@ -145,7 +145,7 @@ ax.set_xticklabels(df['date']) # assumes there is a column with dates named 'dat
 plt.show()
 ```
 
-Create a graph with different x- and y-axis, which combines two (or more) graphs (ex. two line plots) (https://stackoverflow.com/questions/42734109/two-or-more-graphs-in-one-plot-with-different-x-axis-and-y-axis-scales-in-pyth)
+[Create a graph with different x- and y-axis, which combines two (or more) graphs (ex. two line plots)](https://stackoverflow.com/questions/42734109/two-or-more-graphs-in-one-plot-with-different-x-axis-and-y-axis-scales-in-pyth)
 
 ```
 import matplotlib.pyplot as plt
