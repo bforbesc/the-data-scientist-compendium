@@ -48,3 +48,6 @@ These are the code examples from two very good books which you can buy online:
   - [Geopandas](https://geopandas.org/en/stable/docs/user_guide/data_structures.html)
   - [Shapely](https://shapely.readthedocs.io/en/stable/manual.html#points)
 - [HMTL code sintax validator](https://validator.w3.org/#validate_by_input)
+- APIs databases in case you need inspiration for data for your project:
+	- [ProgrammableWeb](https://www.programmableweb.com/apis/directory)
+	- [AnyAPI](https://any-api.com/)
