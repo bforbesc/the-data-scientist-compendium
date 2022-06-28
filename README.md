@@ -20,9 +20,10 @@ I hands-on compendium of everything (I have came across) data science
 ### Books
 
 ### Guides/ courses
-- [W3 school](https://www.w3schools.com/python/default.asp): excellent source for simple to intermediate examples of code with great explanations, in an array of languages, ranging from Pyhton, R or SQL, to JavaScript, HTML/ CSS or even C.
+- [W3 school](https://www.w3schools.com/python/default.asp): excellent source for simple, editable examples of code with great explanations, in an array of languages, ranging from Pyhton, R or SQL, to JavaScript, HTML/ CSS or even C.
+- [Spark by examples](https://sparkbyexamples.com/pyspark/): a comprehensive guide to PySpark based on examples.
 
-### Specific resources
+### Specific resources and tools
 
 - For improving your plots
   - [Altair](https://altair-viz.github.io/)
@@ -32,3 +33,6 @@ I hands-on compendium of everything (I have came across) data science
     - [Simple explanation](https://towardsdatascience.com/things-to-do-with-latitude-longitude-data-using-geopy-python-1d356ed1ae30)
   - [Geopandas](https://geopandas.org/en/stable/docs/user_guide/data_structures.html)
   - [Shapely](https://shapely.readthedocs.io/en/stable/manual.html#points)
+
+
+- [HMTL code validator](https://validator.w3.org/#validate_by_input)
