@@ -1,4 +1,4 @@
-#🐚 shell
+# 🐚 shell
 
 
 [Clone multiple repos from list](https://stackoverflow.com/questions/33649639/how-to-clone-a-list-of-git-repositories)
