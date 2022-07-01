@@ -25,7 +25,5 @@ I hands-on compendium of everything (I have came across) data science. I started
 - [Awesome list](https://github.com/sindresorhus/awesome/blob/main/readme.md): a comprehensive list of everything computer science.
 - [Awesome Bash](https://github.com/awesome-lists/awesome-bash): a curated list of delightful Bash scripts and resources.
 
-#### STATA
-- [STATA tutorials](https://errickson.net/workshops.html)
-- [STATA guide](https://wlm.userweb.mwn.de/Stata/wstatgax.htm)
+
 
