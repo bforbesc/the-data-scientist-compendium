@@ -1,4 +1,4 @@
-# 🐚 shell
+# 🐚 shell scripting
 
 
 - [Windows Command Prompt LS Equivalent Dir](https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/)
