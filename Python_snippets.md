@@ -11,7 +11,7 @@ When other libraries (ex. datetime) are required, I will specifically mention th
 ### ⚙️ setting up your working environment
 
 Setting up environment
-```python
+```
 conda create --name "env_name" jupyterlab pandas seaborn scikit-learn
 
 conda activate "env_name"
@@ -20,31 +20,32 @@ conda install -c anaconda ipykernel
 ipython kernel install --user --name="name to show on jupyterlab"
 ```
 
-Base set up
-```python
-# Install a package for kernel management in your base environment 
+Base set up: install a package for kernel management in your base environment 
+```
 conda install nb_conda_kernels
 conda config --add channels conda-forge
 ```
 
 Manage jupyter kernels
-```python
+```
 jupyter kernelspec list 
 jupyter kernelspec uninstall kernel_name
 ```
 
 Manage jupyter notebook sessions
-```python
+```
 jupyter notebook list 
 jupyter notebook close 8889
 ```
 
 Other Conda commands
-```
 # Check if a specific package is installed
+```
 conda list -n <environment name> <package name>
 conda upgrade <package name>
-#  Install a package with a specific version
+```
+Install a package with a specific version
+```
 conda <package name> = <version number>
 conda remove <package name>
 conda deactivate
