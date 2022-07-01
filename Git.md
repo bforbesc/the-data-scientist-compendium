@@ -37,4 +37,4 @@ fetch
 clone https://github.com/Data-Science-Knowledge-Center-Nova-SBE/doca-pesca-model.git 
 pull origin master
 ```
-See [cheatsheet on Git](https://education.github.com/git-cheat-sheet-education.pdf) for more.
+See [cheatsheet on Git](https://education.github.com/git-cheat-sheet-education.pdf) and the course I taught on [Advanced Programming for Data Scince](https://gitlab.com/adpro1/adpro2022/classes-advanced-programming-2022/-/tree/master/git_demo) for more.
