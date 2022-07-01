@@ -1,4 +1,4 @@
-# [![My Skills](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg) machine learning
+# [![My Skills](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg) python - machine learning
 
 
 Reinforcement learning
