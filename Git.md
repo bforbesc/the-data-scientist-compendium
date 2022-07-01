@@ -1,4 +1,4 @@
-# Git
+# [![My Skills](https://skills.thijs.gg/icons?i=git)](https://skills.thijs.gg) git
 
 Everything starting with "git"...
 ```
