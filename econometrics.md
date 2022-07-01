@@ -10,6 +10,9 @@
 
 
 ## R
+
+
+
 [Collinearity Diagnostics, Model Fit & Variable Contribution](https://cran.r-project.org/web/packages/olsrr/vignettes/regression_diagnostics.html)
 
 [Linear Regression Assumptions and Diagnostics in R: Essentials](http://www.sthda.com/english/articles/39-regression-model-diagnostics/161-linear-regression-assumptions-and-diagnostics-in-r-essentials/)
