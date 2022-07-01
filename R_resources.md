@@ -9,8 +9,8 @@ The following books are freely avaiable online:
 
 
 ## Courses/ resources
-- [RStudio primers](https://rstudio.cloud/learn/primers)the official RStudio guide
-- [Introduction to R for Social Scientists](https://clanfear.github.io/CSSS508/) ‼️extremely complete‼️ course and compendium of resources on R for social scientitis (i.e., data science) from Professor Charles Lanfear from the University of Washington, on which I base most of the resources on this document.
+- [RStudio primers](https://rstudio.cloud/learn/primers) the official RStudio guide
+- [Introduction to R for Social Scientists](https://clanfear.github.io/CSSS508/) ‼️extremely complete‼️ course and compendium of resources on R for social scientitis (i.e., data science) from [Professor Charles Lanfear](https://clanfear.github.io/) from the University of Washington, on which I base most of the resources on this document.
 - [What They Forgot to Teach You About R](https://rstats.wtf/index.html)
 - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 - [R for Graduate Students](https://bookdown.org/yih_huynh/Guide-to-R-Book/)
