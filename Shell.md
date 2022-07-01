@@ -1,5 +1,8 @@
 # 🐚 shell
 
+
+[Windows Command Prompt LS Equivalent Dir](https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/)
+
 General
 ```
 pwd  
