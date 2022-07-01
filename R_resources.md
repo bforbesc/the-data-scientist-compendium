@@ -1,5 +1,7 @@
 # [![My Skills](https://skills.thijs.gg/icons?i=r)](https://skills.thijs.gg)
 
+In this section I compile the books, courses, resources, packages and anything interesting and useful (for practical application and learning) on R language. I leave out the materials on [Econometrics](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/econometrics.md), which you can find on the respective section in this repository. 
+
 ## 📖 books
 
 The following books are freely avaiable online:
@@ -8,7 +10,8 @@ The following books are freely avaiable online:
 - [The Epidemiologist R Handbook](https://epirhandbook.com/en/)
 
 
-## Courses/ resources
+## 📃 courses/ resources
+The list includes everything from data wrangling to web-scrapping.
 - [RStudio primers](https://rstudio.cloud/learn/primers) the official RStudio guide
 - [Introduction to R for Social Scientists](https://clanfear.github.io/CSSS508/) ‼️extremely complete‼️ course and compendium of resources on R for social scientitis (i.e., data science) from [Professor Charles Lanfear](https://clanfear.github.io/) from the University of Washington, on which I base most of the resources on this document.
 - [What They Forgot to Teach You About R](https://rstats.wtf/index.html)
