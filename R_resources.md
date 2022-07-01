@@ -21,5 +21,5 @@ The following books are freely avaiable online:
 
 ## Other
 - [R for data science online learning community](https://www.rfordatasci.com/)
-- Graphs with 2 y-axis: [option (A)](https://www.r-graph-gallery.com/line-chart-dual-Y-axis-ggplot2.html), [Option (B)](https://rpubs.com/MarkusLoew/226759)
+- How to plot graphs with two different y-axis: [option (A)](https://www.r-graph-gallery.com/line-chart-dual-Y-axis-ggplot2.html), [option (B)](https://rpubs.com/MarkusLoew/226759)
 - [An R Package for Fitting Topic Models](https://cran.r-project.org/web/packages/topicmodels/vignettes/topicmodels.pdf)
