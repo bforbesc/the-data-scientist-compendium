@@ -14,16 +14,11 @@ I hands-on compendium of everything (I have came across) data science. I started
 - [SQL style](https://www.sqlstyle.guide/)
 - [Git](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Codeacademy (multiple languages)](https://www.codecademy.com/resources/cheatsheets/language/python)
-
-
-## Resources
 	
 
-### Guides/ courses
+### General guides/ resources
 - [W3 school](https://www.w3schools.com/python/default.asp): excellent source for simple, editable examples of code with great explanations, in an array of languages, ranging from Pyhton, R or SQL, to JavaScript, HTML/ CSS or even C.
-- [Spark by examples](https://sparkbyexamples.com/pyspark/): a comprehensive guide to PySpark based on examples.
 - [Awesome list](https://github.com/sindresorhus/awesome/blob/main/readme.md): a comprehensive list of everything computer science.
-- [Awesome Bash](https://github.com/awesome-lists/awesome-bash): a curated list of delightful Bash scripts and resources.
 
 
 
