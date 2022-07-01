@@ -1,9 +1,9 @@
 # The Data Scientist Compendium
-I hands-on compendium of everything (I have came across) data science 
+I hands-on compendium of everything (I have came across) data science. I started collecting these resources and snippets as a necessity for my day-to-day work, namely for teaching, and I thought I would share them with you!
 
 
 ## Cheat sheets
-- [🐚 shell](https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf)
+- [Shell](https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf)
 - [HTML, CSS, JavaScript](https://htmlcheatsheet.com/)
 - [Jquery](https://oscarotero.com/jquery/)
 - [Boostrap](https://hackerthemes.com/bootstrap-cheatsheet/)
@@ -17,14 +17,6 @@ I hands-on compendium of everything (I have came across) data science
 
 
 ## Resources
-
-### Books
-This is a great books which is freely available online:
-- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
-
-These are the code examples from two very good books which you can buy online:
-- [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow (code examples)](https://github.com/ageron/handson-ml2)
-- [Introduction to Machine Learning with Python (code examples)](https://github.com/amueller/introduction_to_ml_with_python)
 	
 
 ### Guides/ courses
@@ -37,17 +29,3 @@ These are the code examples from two very good books which you can buy online:
 - [STATA tutorials](https://errickson.net/workshops.html)
 - [STATA guide](https://wlm.userweb.mwn.de/Stata/wstatgax.htm)
 
-### Specific resources and tools
-
-- Libraries for improving your plots:
-  - [Altair](https://altair-viz.github.io/)
-  - [Plotly](https://plotly.com/python/)
-- Libraries for dealing with maps and geocoordinates:
-  - [Geopy](https://geopy.readthedocs.io/en/stable/)
-    - [Simple explanation](https://towardsdatascience.com/things-to-do-with-latitude-longitude-data-using-geopy-python-1d356ed1ae30)
-  - [Geopandas](https://geopandas.org/en/stable/docs/user_guide/data_structures.html)
-  - [Shapely](https://shapely.readthedocs.io/en/stable/manual.html#points)
-- [HMTL code sintax validator](https://validator.w3.org/#validate_by_input)
-- APIs databases in case you need inspiration for data for your project:
-	- [ProgrammableWeb](https://www.programmableweb.com/apis/directory)
-	- [AnyAPI](https://any-api.com/)
