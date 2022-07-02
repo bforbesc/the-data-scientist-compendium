@@ -22,7 +22,7 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [Jquery](https://oscarotero.com/jquery/)
 - [Boostrap](https://hackerthemes.com/bootstrap-cheatsheet/)
 - [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Pyhton - regular expressions](https://www.dataquest.io/wp-content/uploads/2019/03/python-regular-expressions-cheat-sheet.pdf)
+- [Python - regular expressions](https://www.dataquest.io/wp-content/uploads/2019/03/python-regular-expressions-cheat-sheet.pdf)
 - [STATA](https://www.stata.com/bookstore/statacheatsheets.pdf)
 - [SQL keywords](https://www.w3schools.com/sql/sql_ref_keywords.asp)
 - [SQL style](https://www.sqlstyle.guide/)
