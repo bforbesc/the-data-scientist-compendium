@@ -101,7 +101,12 @@ rename
 set # get all variables
 ```
 
-Setting up environment
+## Setting up environment
+[How to change the Jupyter start-up folder in your device](https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder) 
+1. Run ```jupyter server --generate-config``` in ```cmd``` (or Anaconda Prompt)
+2. Navigate to ```C:\Users\username\.jupyter\jupyter_notebook_config.py``` 
+3. Replace ```#c.ServerApp.root_dir = ''``` with ```c.ServerApp.root_dir = '/the/path/to/desired/folder/'```
+
 ```shell
 conda create --name "env_name" jupyterlab pandas seaborn scikit-learn
 
