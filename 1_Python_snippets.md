@@ -1,12 +1,12 @@
 # [![My Skills](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg) Python - snippets
 
-This file compiles snippets of code to deal with day-to-day data science tasks, be it cleaning, processing or visualizing data. Most items should have a link to the source of "salvation" (i.e., the source which solved my problem). If there is no link it means that it is either an original (i.e., I had to figure it out myself) or I simply lost the link. The code ranges from basic knowledge (from when I started coding), to more challenging tasks which required some little hacks to get the job done. I frequently recurr to [Pandas](https://pandas.pydata.org/) and [NumPy](https://numpy.org/) so I assume you have previouslly installed the libraries and ran the following code:
+This file compiles snippets of code to deal with day-to-day data science tasks, be it cleaning, processing or visualizing data. Most items should have a link to the source of "salvation" (i.e., the source which solved my problem). If there is no link it means that it is either an original (i.e., I had to figure it out myself) or I simply lost the link. The code ranges from basic knowledge, to more challenging tasks which required some little hacks to get the job done. I frequently recurr to [Pandas](https://pandas.pydata.org/) and [NumPy](https://numpy.org/) so I assume you have previouslly installed the libraries and ran the following code:
 
 ```python
 import pandas as pd
 import numpy as np
 ```
-When other libraries (ex. datetime) are required, I will specifically mention their use. The use of ```df``` refers to a general Pandas DataFrame object.
+When other libraries are required, I will specifically mention their use. The use of ```df``` refers to a general Pandas DataFrame object.
 
 # Table of contents
 1. [Setting up your working environment](#setting-up-your-working-environment)
@@ -186,65 +186,71 @@ df.idxmin()
 df.idxmax()
 ```
 
-[Split DataFrame into multiple csv's based on column value](https://stackoverflow.com/questions/49050455/pandas-split-data-frame-into-multiple-csvs-based-on-column-value)
+[Split DataFrame into multiple CSV files based on column value](https://stackoverflow.com/questions/49050455/pandas-split-data-frame-into-multiple-csvs-based-on-column-value)
+
+*Note: need [os](https://docs.python.org/3/library/os.html) module*
+
 ```python
-for i, x in df.groupby('CITY'): 
+# Import os module 
+import os 
+
+for i, x in df.groupby('column_value'): 
     p = os.path.join(os.getcwd(), "data_{}.csv".format(i.lower())) 
     x.to_csv(p, index=False)
 ```
 
-[How to access a "groupby" group by key](https://stackoverflow.com/questions/14734533/how-to-access-pandas-groupby-dataframe-by-key)
+[How to drop rows in which a value in a certain column is NaN](https://stackoverflow.com/questions/13413590/how-to-drop-rows-of-pandas-dataframe-whose-value-in-a-certain-column-is-nan)
 ```python
-gb = df.groupby(['A']).get_group("foo")
+df = df[~df['col1'].isna()]
 ```
 
-[How to flatten a NumPy array](https://numpy.org/doc/stable/reference/generated/numpy.ravel.html)
+[How to keep all columns except for specific ones](https://www.statology.org/pandas-keep-columns/)
 ```python
-x = np.array([[1, 2, 3], [4, 5, 6]]) 
-np.ravel(x) 
-array([1, 2, 3, 4, 5, 6])
-```
-
-[How to drop rows of DataFrame which value in a certain column is NaN](https://stackoverflow.com/questions/13413590/how-to-drop-rows-of-pandas-dataframe-whose-value-in-a-certain-column-is-nan)
-```python
-df = df[~df['EPS'].isna()]
-```
-[How to Keep Certain Columns in Pandas](https://www.statology.org/pandas-keep-columns/)
-```python
-#drop columns 'col3' and 'col4' 
+# Drop columns 'col3' and 'col4' 
 df[df.columns[~df.columns.isin(['col3', 'col4'])]]
 ```
-[How to apply a function to two columns of Pandas dataframe](https://stackoverflow.com/questions/13331698/how-to-apply-a-function-to-two-columns-of-pandas-dataframe)
+
+[How to apply a function to two columns](https://stackoverflow.com/questions/13331698/how-to-apply-a-function-to-two-columns-of-pandas-dataframe)
 ```python
-df['col_3'] = df.apply(lambda x: f(x['col 1'], x['col 2']), axis=1)
+df['col3'] = df.apply(lambda x: f(x['col1'], x['col2']), axis=1)
+# where "f" is the intended function
 ```
-[How to split a dataframe string column into two columns?](https://stackoverflow.com/questions/14745022/how-to-split-a-dataframe-string-column-into-two-columns)
+
+[How to split a string column into two columns?](https://stackoverflow.com/questions/14745022/how-to-split-a-dataframe-string-column-into-two-columns)
 ```python
 df[['A', 'B']] = df['AB'].str.split(' ', 1, expand=True)
 ```
-[Check if 2 dataframes are equal](https://www.geeksforgeeks.org/python-pandas-dataframe-equals/)
-```python
-df1.equals(df2)
-```
-Remove withe spaces from column headers
+
+Remove white spaces from column headers
 ```python
 df.columns = [col.strip() for col in df.columns]
 ```
 
-[Replace Values in Column Based on Condition in Pandas?](https://www.geeksforgeeks.org/how-to-replace-values-in-column-based-on-condition-in-pandas/)
+[Replace values in a column based on a condition](https://www.geeksforgeeks.org/how-to-replace-values-in-column-based-on-condition-in-pandas/)
 ```python
 df.loc[df["gender"] == "male", "gender"] = 1
 ```
-[Groupby with duplicates keeping first entry](https://stackoverflow.com/questions/12497402/remove-duplicates-by-columns-a-keeping-the-row-with-the-highest-value-in-column)
+
+[How to access a "groupby" group by key](https://stackoverflow.com/questions/14734533/how-to-access-pandas-groupby-dataframe-by-key)
 ```python
-df.sort_values('B', ascending=False).drop_duplicates('A').sort_index()
+get_foo_group = df.groupby(['col1']).get_group("foo")
 ```
 
-Check if 2 columns are equal
+[Groupby with duplicated values while keeping the first entry](https://stackoverflow.com/questions/12497402/remove-duplicates-by-columns-a-keeping-the-row-with-the-highest-value-in-column)
+```python
+df.sort_values('col2', ascending=False).drop_duplicates('col1').sort_index()
+```
+
+[Check if two DataFrames are equal](https://www.geeksforgeeks.org/python-pandas-dataframe-equals/)
+```python
+df1.equals(df2)
+```
+
+Check if two columns are equal
 [(A)](https://moonbooks.org/Articles/How-to-check-if-two-columns-are-equal-identical-with-pandas-/) or [(B)](https://stackoverflow.com/questions/19125091/pandas-merge-how-to-avoid-duplicating-columns)
 ```python
 # Option (A)
-for i in ["Neighborhood", "Latitude", "Longitude", "Airbnb_Host_ID"]:
+for i in ["col1", "col2", "col3"]:
     merged[i+'_x'].equals(merged[i+'_y'])
 ```
 or
@@ -253,35 +259,41 @@ or
 cols_to_use = df2.columns.difference(df.columns)
 dfNew = merge(df, df2[cols_to_use], left_index=True, right_index=True, how='outer')
 ```
+
 [Calculate correlation between columns of strings](https://stackoverflow.com/questions/51241575/calculate-correlation-between-columns-of-strings)
 ```python
-df['profession']=df['profession'].astype('category').cat.codes 
-df['media']=df['media'].astype('category').cat.codes 
+df['col1']=df['col1'].astype('category').cat.codes 
+df['col2']=df['col2'].astype('category').cat.codes 
 df.corr()
 ```
-[Axis identification (Pandas and NumPy)](https://stackoverflow.com/questions/22149584/what-does-axis-in-pandas-mean)
 
+[How to flatten a NumPy array](https://numpy.org/doc/stable/reference/generated/numpy.ravel.html)
+```python
+x = np.array([[1, 2, 3], [4, 5, 6]]) 
+np.ravel(x) 
+```
 
+[How to identify the axis number in Pandas and NumPy](https://stackoverflow.com/questions/22149584/what-does-axis-in-pandas-mean)
 
 # General Python snippets
-Python documentation
+Check Python documentation
 ```python
 dir()
 dir(__builtins__)
 ```
 
-Show pandas installed
+Show locally installed version of Pandas
 ```python
 pd.show_versions()
 ```
 
-Create X blocks of Y numbers:
+Create X blocks of Y numbers
 ```python
 n = 0 
 for i in range(0, X): 
     v = 0 
     for j in range(0, Y): 
-        if(v >= 10): 
+        if(v >= Y): 
             pass 
         else: 
             print(n) 
@@ -289,54 +301,50 @@ for i in range(0, X):
             v += 1
 ```
 
-[How to flatten a list of lists in Python](https://www.educative.io/edpresso/how-to-flatten-a-list-of-lists-in-python)
+[How to flatten a list of lists](https://www.educative.io/edpresso/how-to-flatten-a-list-of-lists-in-python)
 ```python
 List_2D = [[1,2,3],[4,5,6],[7,8,9]] #List to be flattened 
 List_flat = list(itertools.chain(*List_2D))
 ```
 
-TO DO
-```python
-# loop through created empty dataframes 
-n = 0 
-for df_name, df in dict.items(): 
-    # loop through parquet files 
-    v = 0 
-    for j in range(0, 2): 
-        if(v >= 2): F
-            pass 
-        else: 
-            chunk = pd.read_parquet(os.path.join(parquet_folder, 'parquet_' + str(n) + '.parquet')) 
-            dict[df_name] = pd.concat([dict[df_name] , chunk], ignore_index= True) 
-            n +=1  
-            v += 1
-```
 [Create multiple empty dataframes](https://stackoverflow.com/questions/30635145/create-multiple-dataframes-in-loop) & [iterate over them](https://stackoverflow.com/questions/41287310/python-how-to-iterate-over-dataframes-while-using-their-name-as-a-string)
 ```python
-# create empty dataframes 
 dict = {"df_" + str(i): pd.DataFrame() for i in range(0, 10)}
 
 for df_name, df in dict.items():
+    # Computation to be applied to each DataFrame
 ```
 
 [How to determine a file's encoding type](https://www.kaggle.com/paultimothymooney/how-to-resolve-a-unicodedecodeerror-for-a-csv-file)
+
+*Note: need [chardet](https://chardet.readthedocs.io/en/latest/usage.html) module*
 ```python
+# Import chardet module
 import chardet
+
 with open(file, 'rb') as rawdata:
     result = chardet.detect(rawdata.read(100000))
 result
 ```
 
 
-Display a webpage and a YouTube video in Jupyter
+Display a webpage and a YouTube video in Jupyter notebook
+
+*Note: need [IPython](https://pypi.org/project/ipython/) module*
+
+- Webpage
 ```python
+# Import IPython module
 import IPython 
+
 url = 'https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html' 
 IPython.display.IFrame(url, 800, 600)
 ```
+- YouTube video
 ```python
-url = 'https://www.youtube.com/watch?v=rfscVS0vtbw' 
-video_link = 'rfscVS0vtbw' 
+# Import IPython module
 from IPython.display import YouTubeVideo 
+
+video_link = 'https://www.youtube.com/watch?v=rfscVS0vtbw' 
 YouTubeVideo(video_link, width=500, height=300)
 ```
