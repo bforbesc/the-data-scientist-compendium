@@ -13,6 +13,7 @@ When other libraries (ex. datetime) are required, I will specifically mention th
 2. [Dates and time](#dates-and-time)
 3. [Visualization](#visualization)
 4. [Working with Pandas DataFrame and NumPy array objects](#Working-with-Pandas-DataFrame-and-NumPy-array-objects)
+5. [General Python snippets](#General-Python-snippets)
 
 
 # Setting up your working environment
@@ -262,7 +263,7 @@ df.corr()
 
 
 
-## General snippets
+# General Python snippets
 Python documentation
 ```python
 dir()
