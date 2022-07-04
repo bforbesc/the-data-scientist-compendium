@@ -48,16 +48,28 @@ https://rstats-tips.net/?utm_source=pocket_mylist
 https://rstats-tips.net/2021/01/01/anomaly-detection-with-prophet/?utm_source=pocket_mylist
 https://towardsdatascience.com/ten-awesome-r-markdown-tricks-56ef6d41098
 https://r-graph-gallery.com/
+https://support.rstudio.com/hc/en-us/articles/200532257-Customizing-LaTeX-Options?utm_source=pocket_mylist
+https://socviz.co/
 
 [What’s that disease called? Overview of icd package](https://www.r-bloggers.com/2019/05/whats-that-disease-called-overview-of-icd-package/?utm_source=pocket_mylist)
 
 [100+ Data Science Interview Questions and Answers for 2022](https://www.projectpro.io/article/100-data-science-interview-questions-and-answers-for-2021/184)
 [100+ Data Science Interview Questions And Answers for 2022](https://www.edureka.co/blog/interview-questions/data-science-interview-questions/)
 
+https://stackoverflow.com/questions/35465557/how-to-apply-color-in-markdown?utm_source=pocket_mylist
 
 [Dive into Machine Learning](https://github.com/metjush/dive-into-machine-learning)
 
+https://tomaugspurger.github.io/modern-1-intro?utm_source=pocket_mylist
+
+https://github.com/paulgp/applied-methods-phd
+https://mixtape.scunning.com/
+https://sites.google.com/view/christophe-hurlin/teaching-resources/panel-data-econometrics?utm_source=pocket_mylist
+
+## Data
 [Gapminder](https://www.gapminder.org/)
+[Our World in Data](https://ourworldindata.org/blog?utm_source=pocket_mylist)
+[Nutritionix](https://www.nutritionix.com/?utm_source=pocket_mylist): the world's larget verified nutrition database
 
 https://chart-studio.plotly.com/create/?fid=SolClover%3A40&utm_source=pocket_mylist#/
 https://github.com/guipsamora/pandas_exercises?utm_source=pocket_mylist
@@ -82,6 +94,9 @@ https://www.python-graph-gallery.com/?utm_source=pocket_mylist
 https://www.desmos.com/?utm_source=pocket_mylist
 https://www.thetruesize.com/#?borders=1~!MTYxMjA2Nzc.Mzg1Mjc5OQ*MzU0NzE2NTA(MjAyMDQ3OA~!CONTIGUOUS_US*MTAwMjQwNzU.MjUwMjM1MTc(MTc1)MA~!IN*NTI2NDA1MQ.Nzg2MzQyMQ)MQ~!CN*OTkyMTY5Nw.NzMxNDcwNQ(MjI1)Mg
 http://tylervigen.com/spurious-correlations?utm_source=pocket_mylist
+
+
+[Conda: Myths and Misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/?utm_source=pocket_mylist)
 
 # CS50 project
 [How to Deploy your data science Projects as web apps easily with Python](https://towardsdatascience.com/how-to-deploy-your-data-science-as-web-apps-easily-with-python-955dd462a9b5)
