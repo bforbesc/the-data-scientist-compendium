@@ -5,7 +5,7 @@
 - [Awesome Bash](https://github.com/awesome-lists/awesome-bash): a curated list of delightful Bash scripts and resources.
 
 General
-```
+```shell
 pwd  
 clear
 ~ # go back to home directory
@@ -45,44 +45,39 @@ which bash # tells me where bash is
 ```
 
 [Clone multiple repos from list](https://stackoverflow.com/questions/33649639/how-to-clone-a-list-of-git-repositories)
-```
+```shell
 while read repo; do
     git clone "$repo"
 done < projects.sh
 ```
 Move data to a remote server
-```
+```shell
 scp -r D:/0_PhD/0_Projects/3_HMR/Dados/hmr_data.csv bernardocosta@10.168.16.13:/media/data/bernardocostadata/HMR
 ```
 Check connection to remote address
-```
+```shell
 ping
 ```
 See which ports are being used in server
-```
+```shell
 htop
 ```
 Keep server running
-```
+```shell
 screen -ls  
 screen -r
 ```
 Rename folder
-```
+```shell
 mv /home/user/temp /home/user/directory
 ```
 Remove directory
-```
+```shell
 rm -r "directory"
 ```
-[Git: list files being tracked](https://stackoverflow.com/questions/15606955/how-can-i-make-git-show-a-list-of-the-files-that-are-being-tracked)
-```
-git ls-files
-```
-
 
 ## Windows (CMD prompt)
-```
+```shell
 cd 
 dir /a
 dir *.png
