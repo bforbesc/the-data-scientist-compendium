@@ -1,6 +1,6 @@
 # [![My Skills](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg) python - snippets
 
-This file compiles snippets of code to deal with day-to-day data science tasks, be it cleaning, processing or visualizing data. Most items should have a link to the source of salvation (i.e., the source which solved my problem). If there is no link it means that it is either an original (i.e., I had to figure it out myself) or I simply lost the link. The code ranges from basic knowledge (when I started coding), to more challenging tasks which required some little hacks to get the job done. As a true ptyhonist-data-scientist I frequently recurr to [Pandas](https://pandas.pydata.org/) and [NumPy](https://numpy.org/) so I assume you have previouslly installed the libraries and ran the following code:
+This file compiles snippets of code to deal with day-to-day data science tasks, be it cleaning, processing or visualizing data. Most items should have a link to the source of "salvation" (i.e., the source which solved my problem). If there is no link it means that it is either an original (i.e., I had to figure it out myself) or I simply lost the link. The code ranges from basic knowledge (from when I started coding), to more challenging tasks which required some little hacks to get the job done. As a true ptyhonist-data-scientist I frequently recurr to [Pandas](https://pandas.pydata.org/) and [NumPy](https://numpy.org/) so I assume you have previouslly installed the libraries and ran the following code:
 
 ```python
 import pandas as pd
@@ -13,49 +13,8 @@ When other libraries (ex. datetime) are required, I will specifically mention th
 2. 
 
 
-### Setting up your working environment ⚙️
+### Setting up your working environment
 
-Setting up environment
-```
-conda create --name "env_name" jupyterlab pandas seaborn scikit-learn
-
-conda activate "env_name"
-
-conda install -c anaconda ipykernel  
-ipython kernel install --user --name="name to show on jupyterlab"
-```
-
-Base set up: install a package for kernel management in your base environment 
-```
-conda install nb_conda_kernels
-conda config --add channels conda-forge
-```
-
-Manage jupyter kernels
-```
-jupyter kernelspec list 
-jupyter kernelspec uninstall kernel_name
-```
-
-Manage jupyter notebook sessions
-```
-jupyter notebook list 
-jupyter notebook close 8889
-```
-
-Other Conda commands
-# Check if a specific package is installed
-```
-conda list -n <environment name> <package name>
-conda upgrade <package name>
-```
-Install a package with a specific version
-```
-conda <package name> = <version number>
-conda remove <package name>
-conda deactivate
-conda env remove -n mlcourse --allconda 
-```
 [Setting up global seed](https://www.mikulskibartosz.name/how-to-set-the-global-random_state-in-scikit-learn/)
 ```python
 np.random.seed(31415)
