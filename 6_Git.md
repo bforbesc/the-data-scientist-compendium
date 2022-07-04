@@ -37,4 +37,9 @@ fetch
 clone https://github.com/Data-Science-Knowledge-Center-Nova-SBE/doca-pesca-model.git 
 pull origin master
 ```
+[Git: list files being tracked](https://stackoverflow.com/questions/15606955/how-can-i-make-git-show-a-list-of-the-files-that-are-being-tracked)
+```
+git ls-files
+```
+
 See [cheatsheet on Git](https://education.github.com/git-cheat-sheet-education.pdf) and the course I taught on [Advanced Programming for Data Scince](https://gitlab.com/adpro1/adpro2022/classes-advanced-programming-2022/-/tree/master/git_demo) for more.
