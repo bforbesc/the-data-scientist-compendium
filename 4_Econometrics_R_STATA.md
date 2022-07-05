@@ -28,6 +28,8 @@ In this section I gather the relevant books and general resources on Econometric
 
 # Other
 - [Course on applied empirical methods](https://github.com/paulgp/applied-methods-phd)
-
 - [Panel data econometrics](https://sites.google.com/view/christophe-hurlin/teaching-resources/panel-data-econometrics?utm_source=pocket_mylist)
 
+# ```STATA```
+- [STATA tutorials](https://errickson.net/workshops.html)
+- [STATA guide](https://wlm.userweb.mwn.de/Stata/wstatgax.htm)
