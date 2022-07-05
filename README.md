@@ -52,3 +52,4 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [The Best Free Data Science eBooks](https://towardsdatascience.com/the-best-free-data-science-ebooks-b671691e5231)
 - [The EDA Theoretical Guide](https://towardsdatascience.com/the-eda-theoretical-guide-b7cef7653f0d)
 - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist)
+- [Tips and suggestions for working with and designing with data](https://flowingdata.com/category/guides/)
