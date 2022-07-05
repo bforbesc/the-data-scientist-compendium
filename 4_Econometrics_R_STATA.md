@@ -6,6 +6,7 @@ In this section I gather the relevant books and general resources on Econometric
 - [R Companion to Real Econometrics](https://bookdown.org/carillitony/bailey/)
 - [The Effect Book](https://theeffectbook.net/ch-EventStudies.html?panelset=stata-code) (both STATA and R)
 - [Principles of Econometrics with  R](https://bookdown.org/ccolonescu/RPoE4/)
+- [Causal Inference: The Mixtape](https://mixtape.scunning.com/)
 
 ## ```STATA```
 - [Panel Data: Event Studies, Difference in Differences, and Unobserved Effects](https://donskerclass.github.io/EconometricsII/PanelDataI.html)
@@ -22,3 +23,11 @@ In this section I gather the relevant books and general resources on Econometric
 
 ## Both languages
 - [Econometrisc Academy](https://sites.google.com/site/econometricsacademy/home?authuser=0)
+
+
+
+# Other
+- [Course on applied empirical methods](https://github.com/paulgp/applied-methods-phd)
+
+- [Panel data econometrics](https://sites.google.com/view/christophe-hurlin/teaching-resources/panel-data-econometrics?utm_source=pocket_mylist)
+
