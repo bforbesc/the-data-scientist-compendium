@@ -47,6 +47,8 @@ ML class links
 - https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db
 - https://towardsdatascience.com/a-novel-approach-to-feature-importance-shapley-additive-explanations-d18af30fc21b
 - https://towardsdatascience.com/a-novel-approach-to-feature-importance-shapley-additive-explanations-d18af30fc21b
+- https://jermwatt.github.io/machine_learning_refined/notes/3_First_order_methods/3_7_Problems.html?utm_source=pocket_mylist
+- https://github.com/jermwatt/machine_learning_refined?utm_source=pocket_mylist
 
 
 True positive rate = Recall = Sensitivity
