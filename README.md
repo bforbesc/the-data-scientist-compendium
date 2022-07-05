@@ -55,7 +55,7 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [WTF visualizations: visualizations that make no sense](https://viz.wtf/?utm_source=pocket_mylist): examples of poorly used visualizations which might lead to misinformation
 
 
-## 🤔 other interesting content
+## 🤓 other interesting content
 - [11 data acience videos every data scientist must watch](https://pypi.org/project/ipython/)
 - Questions for data science interview preparation:
 	- [50 data science interview questions and answers](https://www.projectpro.io/article/100-data-science-interview-questions-and-answers-for-2021/184)
