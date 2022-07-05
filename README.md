@@ -62,4 +62,4 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist)
 - [Tips and suggestions for working with and designing with data](https://flowingdata.com/category/guides/)
 - [HMTL code sintax validator](https://validator.w3.org/#validate_by_input)
-
+- [Spurious correlations](https://tylervigen.com/spurious-correlations)
