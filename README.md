@@ -50,6 +50,8 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/?utm_source=pocket_mylist)
 - [Visual vocabulary: designing with data](https://ft-interactive.github.io/visual-vocabulary/)
 - [Tips and suggestions for working with and designing with data](https://flowingdata.com/category/guides/)
+- [Data wrapper: build graphs with ease](https://app.datawrapper.de/chart/rweXo/upload)
+- [WTF visualizations: visualizations that make no sense](https://viz.wtf/?utm_source=pocket_mylist)
 
 ## Other interesting content
 - [11 data acience videos every data scientist must watch](https://pypi.org/project/ipython/)
@@ -60,3 +62,4 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist)
 - [Tips and suggestions for working with and designing with data](https://flowingdata.com/category/guides/)
 - [HMTL code sintax validator](https://validator.w3.org/#validate_by_input)
+
