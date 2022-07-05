@@ -63,3 +63,5 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [Tips and suggestions for working with and designing with data](https://flowingdata.com/category/guides/)
 - [HMTL code sintax validator](https://validator.w3.org/#validate_by_input)
 - [Spurious correlations](https://tylervigen.com/spurious-correlations)
+- [The True Size of: map with which allows for comparison of countries' area](https://www.thetruesize.com/)
+- [Graphing calculator](https://www.desmos.com/calculator)
