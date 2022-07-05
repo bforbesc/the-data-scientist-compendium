@@ -1,7 +1,7 @@
 # Econometrics in ``STATA`` & [![My Skills](https://skills.thijs.gg/icons?i=r)](https://skills.thijs.gg) 
 In this section I gather the relevant books and general resources on Econometrics, using either R or STATA, which I found relevant in my work or learning journey.
 
-## Books
+## 📖 books
 - [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
 - [R Companion to Real Econometrics](https://bookdown.org/carillitony/bailey/)
 - [The Effect Book](https://theeffectbook.net/ch-EventStudies.html?panelset=stata-code) (both STATA and R)
