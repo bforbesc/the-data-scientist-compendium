@@ -15,7 +15,7 @@ I hands-on compendium of everything (I have came across) data science. I started
 1. [SQL](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/8_SQL.md)
 
 
-## Cheat sheets
+## Cheatsheets
 Hope these cheatsheets are of value to you. They have certainly saved me many hours of finding the right syntax to accomplish what I wanted to do.
 - [Shell](https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf)
 - [HTML, CSS, JavaScript](https://htmlcheatsheet.com/)
@@ -28,6 +28,7 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [SQL style](https://www.sqlstyle.guide/)
 - [Git](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Codeacademy (multiple languages)](https://www.codecademy.com/resources/cheatsheets/language/python)
+- [Ultimate cheatsheet for data scientists](https://levelup.gitconnected.com/the-ultimate-cheat-sheet-for-data-scientists-d1e247b6a60c)
 	
 
 ## General guides/ resources
@@ -36,9 +37,17 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 
 
 ## Data sources
+- APIs databases in case you need inspiration for data for your project:
+	- [ProgrammableWeb](https://www.programmableweb.com/apis/directory)
+	- [AnyAPI](https://any-api.com/)
+- [Gapminder](https://www.gapminder.org/)
+- [Our World in Data](https://ourworldindata.org/blog?utm_source=pocket_mylist)
+- [Nutritionix](https://www.nutritionix.com/?utm_source=pocket_mylist): the world's larget verified nutrition database
 
 
 ## Other interesting content
 - [11 data acience videos every data scientist must watch](https://pypi.org/project/ipython/)
+- [100+ Data Science Interview Questions and Answers for 2022](https://www.projectpro.io/article/100-data-science-interview-questions-and-answers-for-2021/184)
+- [100+ Data Science Interview Questions And Answers for 2022](https://www.edureka.co/blog/interview-questions/data-science-interview-questions/)
 
 
