@@ -23,38 +23,18 @@ These are the code examples from two very good books which you can buy online:
 
 
 
-[Visual Vocabulary: Designing with data](https://github.com/bforbesc/the-data-scientist-compendium/edit/main/1_Python_resources.md)
-
-
-https://stackoverflow.com/questions/35465557/how-to-apply-color-in-markdown?utm_source=pocket_mylist
 
 https://tomaugspurger.github.io/modern-1-intro?utm_source=pocket_mylist
-
-
-
-https://chart-studio.plotly.com/create/?fid=SolClover%3A40&utm_source=pocket_mylist#/
 https://github.com/guipsamora/pandas_exercises?utm_source=pocket_mylist
+
+
 https://pythontutor.com/visualize.html#mode=edit
-http://www.navan.name/roc/?utm_source=pocket_mylist
 
-https://jakevdp.github.io/PythonDataScienceHandbook/02.01-understanding-data-types.html
-https://chrisalbon.com/?utm_source=pocket_mylist
-https://github.com/dssg/hitchhikers-guide?utm_source=pocket_mylist
 https://towardsdatascience.com/three-concepts-to-become-a-better-python-programmer-b5808b7abedc
+
 https://towardsdatascience.com/jupyter-notebook-extensions-part-2-55fdb2c38348
-https://towardsdatascience.com/complete-guide-to-setting-up-a-new-python-environment-for-data-science-a4df585e7e0d
 
-
-https://github.com/BPLIM/Workshops?utm_source=pocket_mylist
-https://www.datawrapper.de/charts
-https://viz.wtf/?utm_source=pocket_mylist
-https://www.python-graph-gallery.com/?utm_source=pocket_mylist
-https://www.desmos.com/?utm_source=pocket_mylist
-https://www.thetruesize.com/#?borders=1~!MTYxMjA2Nzc.Mzg1Mjc5OQ*MzU0NzE2NTA(MjAyMDQ3OA~!CONTIGUOUS_US*MTAwMjQwNzU.MjUwMjM1MTc(MTc1)MA~!IN*NTI2NDA1MQ.Nzg2MzQyMQ)MQ~!CN*OTkyMTY5Nw.NzMxNDcwNQ(MjI1)Mg
-http://tylervigen.com/spurious-correlations?utm_source=pocket_mylist
-
-
-[Conda: Myths and Misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/?utm_source=pocket_mylist)
+[How to identify the axis number in Pandas and NumPy](https://stackoverflow.com/questions/22149584/what-does-axis-in-pandas-mean)
 
 # CS50 project
 [How to Deploy your data science Projects as web apps easily with Python](https://towardsdatascience.com/how-to-deploy-your-data-science-as-web-apps-easily-with-python-955dd462a9b5)
