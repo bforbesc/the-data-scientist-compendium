@@ -48,7 +48,7 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [From Data to Viz](https://www.data-to-viz.com/)
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/?utm_source=pocket_mylist)
 - [Visual vocabulary: designing with data](https://ft-interactive.github.io/visual-vocabulary/)
-
+- [Tips and suggestions for working with and designing with data](https://flowingdata.com/category/guides/)
 
 ## Other interesting content
 - [11 data acience videos every data scientist must watch](https://pypi.org/project/ipython/)
