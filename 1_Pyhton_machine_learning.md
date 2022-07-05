@@ -50,6 +50,10 @@ ML class links
 - https://jermwatt.github.io/machine_learning_refined/notes/3_First_order_methods/3_7_Problems.html?utm_source=pocket_mylist
 - https://github.com/jermwatt/machine_learning_refined?utm_source=pocket_mylist
 - [Dive into Machine Learning](https://github.com/metjush/dive-into-machine-learning)
+- [Machine learning categories guide](https://chart-studio.plotly.com/create/?fid=SolClover%3A40&utm_source=pocket_mylist#/)
+- [Understanding ROC curves](http://www.navan.name/roc/?utm_source=pocket_mylist)
+- [(book) Machine learning refined](https://jermwatt.github.io/machine_learning_refined/notes/)
+
 
 
 True positive rate = Recall = Sensitivity
