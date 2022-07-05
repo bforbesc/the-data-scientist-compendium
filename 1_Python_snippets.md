@@ -273,8 +273,6 @@ x = np.array([[1, 2, 3], [4, 5, 6]])
 np.ravel(x) 
 ```
 
-[How to identify the axis number in Pandas and NumPy](https://stackoverflow.com/questions/22149584/what-does-axis-in-pandas-mean)
-
 # General Python snippets
 Check Python documentation
 ```python
