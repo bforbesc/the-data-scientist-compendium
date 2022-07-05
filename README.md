@@ -33,7 +33,7 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [W3 school](https://www.w3schools.com/python/default.asp): excellent source for simple, editable examples of code with great explanations, in an array of languages, ranging from Pyhton, R or SQL, to JavaScript, HTML/ CSS or even C
 - [Awesome list](https://github.com/sindresorhus/awesome/blob/main/readme.md): a comprehensive list of everything computer science
 - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist): comprehensive list of programming tutorials to learn how to build an application from scratch, in multiple languages (including Python and R)
-- [Hitchhiker's Guide to Data Science for Social Good](https://github.com/dssg/hitchhikers-guide?utm_source=pocket_mylist): resources from the [Data Science for Social Good Fellowship (DSSG)](http://dssgfellowship.org/) covering anything from ETL to machine learning
+- [Hitchhiker's Guide to Data Science for Social Good](https://github.com/dssg/hitchhikers-guide?utm_source=pocket_mylist): resources from the [Data Science for Social Good Fellowship (DSSG)](http://dssgfellowship.org/) covering everything from ETL to machine learning
 
 
 ## 💽 data sources
