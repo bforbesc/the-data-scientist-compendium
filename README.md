@@ -44,6 +44,11 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [Our World in Data](https://ourworldindata.org/blog?utm_source=pocket_mylist)
 - [Nutritionix](https://www.nutritionix.com/?utm_source=pocket_mylist): the world's larget verified nutrition database
 
+## Data visualization
+- [From Data to Viz](https://www.data-to-viz.com/)
+- [The Data Visualisation Catalogue](https://datavizcatalogue.com/?utm_source=pocket_mylist)
+- [Visual vocabulary: designing with data](https://ft-interactive.github.io/visual-vocabulary/)
+
 
 ## Other interesting content
 - [11 data acience videos every data scientist must watch](https://pypi.org/project/ipython/)
@@ -53,3 +58,4 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [The EDA Theoretical Guide](https://towardsdatascience.com/the-eda-theoretical-guide-b7cef7653f0d)
 - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist)
 - [Tips and suggestions for working with and designing with data](https://flowingdata.com/category/guides/)
+- [HMTL code sintax validator](https://validator.w3.org/#validate_by_input)
