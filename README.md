@@ -49,5 +49,6 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [11 data acience videos every data scientist must watch](https://pypi.org/project/ipython/)
 - [100+ Data Science Interview Questions and Answers for 2022](https://www.projectpro.io/article/100-data-science-interview-questions-and-answers-for-2021/184)
 - [100+ Data Science Interview Questions And Answers for 2022](https://www.edureka.co/blog/interview-questions/data-science-interview-questions/)
-
-
+- [The Best Free Data Science eBooks](https://towardsdatascience.com/the-best-free-data-science-ebooks-b671691e5231)
+- [The EDA Theoretical Guide](https://towardsdatascience.com/the-eda-theoretical-guide-b7cef7653f0d)
+- [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist)
