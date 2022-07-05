@@ -147,3 +147,5 @@ conda remove <package name>
 conda deactivate
 conda env remove -n mlcourse --allconda 
 ```
+
+[Conda: Myths and Misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/?utm_source=pocket_mylist)
