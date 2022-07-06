@@ -150,3 +150,5 @@ conda install nltk # text analysis
 pip install aequitas # bias and fairness Audit Toolkit 
 conda install -c districtdatalabs yellowbrick # machine learning visualization 
 ```
+
+[Conda: myths and misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/)
