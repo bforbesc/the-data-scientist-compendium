@@ -1,5 +1,9 @@
 # ⚡SPARK
 
+## Books
+- [Learning Spark: Lightning-Fast Data Analytics](https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf) 
+
+## 🔨 resources and tools
 - [Spark by examples](https://sparkbyexamples.com/pyspark/): a comprehensive guide to PySpark based on examples
 
 # ```SQL```
