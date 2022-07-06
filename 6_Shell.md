@@ -142,7 +142,7 @@ conda remove 'package_name'
 Machine learning libraries
 ``` shell
 conda install -c conda-forge xgboost # Xgboost gradient boosting
-conda install -c conda-forge catboost # catboost gradient boosting 
+conda install -c conda-forge catboost # Catboost gradient boosting 
 conda install -c conda-forge tensorflow # neural networks (pydot needed for some plots in tensorflow) 
 conda install -c conda-forge shap # interpreting ML models 
 conda install -c conda-forge spacy # text analysis 
