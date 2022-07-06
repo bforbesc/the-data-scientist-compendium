@@ -28,6 +28,7 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [Git](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Codeacademy](https://www.codecademy.com/resources/cheatsheets/language/python) (multiple languages)
 - [R](https://www.rstudio.com/resources/cheatsheets/)
+- [PySpark](https://www.datacamp.com/cheat-sheet/pyspark-cheat-sheet-spark-in-python)
 
 	
 ## 🎓general guides/ resources
@@ -58,7 +59,8 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 
 ## 🤓 other interesting content
 - [11 data acience videos every data scientist must watch](https://pypi.org/project/ipython/)
-- Questions for data science interview preparation:
+- Data science interview preparation:
+	- [‼️MASSIVE‼️ compilation of data science career resources](https://github.com/cdeweyx/DS-Career-Resources): anything from interview preparation to general advice for aspiring data scientists
 	- [50 data science interview questions and answers](https://www.projectpro.io/article/100-data-science-interview-questions-and-answers-for-2021/184)
 	- [122 data science interview questions and answers](https://www.edureka.co/blog/interview-questions/data-science-interview-questions/)
 - [The best free data science eBooks](https://towardsdatascience.com/the-best-free-data-science-ebooks-b671691e5231): a list of FREE additional books you might find relevant
