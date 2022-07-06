@@ -20,6 +20,7 @@ These are the code examples from two very good books which you can buy online:
     - [Simple explanation](https://towardsdatascience.com/things-to-do-with-latitude-longitude-data-using-geopy-python-1d356ed1ae30)
   - [Geopandas](https://geopandas.org/en/stable/docs/user_guide/data_structures.html)
   - [Shapely](https://shapely.readthedocs.io/en/stable/manual.html#points)
+- [Package for time-series: Prophet](https://facebook.github.io/prophet/docs/quick_start.html#python-api) 
 - [Visualize Python code under the hood](https://pythontutor.com/visualize.html#mode=edit)
 - [Jupyter notebook extensions](https://towardsdatascience.com/jupyter-notebook-extensions-part-2-55fdb2c38348)
 - [How to identify the axis number in Pandas and NumPy](https://stackoverflow.com/questions/22149584/what-does-axis-in-pandas-mean)
