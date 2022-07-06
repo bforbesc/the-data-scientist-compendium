@@ -1,4 +1,4 @@
-# [![My Skills](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg) python - machine learning
+# [![My Skills](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg) Python - Machine Learning
 
 
 Reinforcement learning
@@ -54,38 +54,23 @@ ML class links
 - [Understanding ROC curves](http://www.navan.name/roc/?utm_source=pocket_mylist)
 - [(book) Machine learning refined](https://jermwatt.github.io/machine_learning_refined/notes/)
 
-# Building machiine learning web apps
+## Building machiine learning web apps
 - [How to Deploy your data science Projects as web apps easily with Python](https://towardsdatascience.com/how-to-deploy-your-data-science-as-web-apps-easily-with-python-955dd462a9b5)
 - [How to Build a Data Science Web App in Python (Penguin Classifier)](https://towardsdatascience.com/how-to-build-a-data-science-web-app-in-python-penguin-classifier-2f101ac389f3)
 - [How to write Web apps using simple Python for Data Scientists?](https://towardsdatascience.com/how-to-write-web-apps-using-simple-python-for-data-scientists-a227a1a01582)
 
 
-True positive rate = Recall = Sensitivity
-True negative rate = Specificity = TN / (TN + FP)
-False positive rate = 1 - Specificity
+## Formulas/ reminders
 
-``` shell
-# Xgboost, lightgbm
-conda install -c conda-forge xgboost lightgbm
+Classification metrics
 
-# catboost gradient boosting 
-conda install -c conda-forge catboost 
+$\text{True positive rate} = \text{Recall} = \text{Sensitivity}$
 
-# tensorflow neural networks (pydot needed for some plots in tensorflow) 
-conda install -c conda-forge tensorflow 
+$\text{True negative rate} = \text{Specificity} = \dfrac{TN}{TN + FP}$
 
-# shap interpreting ML models 
-conda install -c conda-forge shap 
+$\text{False positive rate} = 1 - \text{Specificity}$
 
-# spacy, nltk text analysis 
-conda install -c conda-forge spacy 
-conda install nltk 
+<br>
 
-# aequitas Bias and Fairness Audit Toolkit 
-pip install aequitas 
-
-# yellowbrick machine learning visualization 
-conda install -c districtdatalabs yellowbrick
-```
-
-- The general rule is balancing, scaling, selection
+Data processing
+> General rule: balancing > scaling > selection
