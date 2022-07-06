@@ -7,6 +7,7 @@
 
 # Resources
 - [Awesome Bash](https://github.com/awesome-lists/awesome-bash): a extremely comprehensive list of Bash scripts and resources
+- [Windows commands official documentation](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands#r)
 - [Windows Command Prompt vs. Shell equivalence of commands](https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/)
 - [Conda: Myths and Misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/?utm_source=pocket_mylist)
 
@@ -42,20 +43,20 @@ General operators
 | # use as input previous code
 && # run second command only if first one run sucessfully
 ; # run commands sequentially
+* # which means "match zero or more characters"
+? # matches a single character, so 201?.txt will match 2017.txt or 2018.txt, but not 2017-01.txt
+$ # get the variable's value
+$@ # all of the command-line parameters given to the script
+$* # all arguments
+$# # gives lenght(number) of arguments 
+[...] # matches any one of the characters inside the square brackets, so 201[78].txt matches 2017.txt or 2018.txt, but not 2016.txt
+{...} # matches any of the comma-separated patterns inside the curly brackets, so {*.txt, *.csv} matches any file whose name ends with .txt or .csv, but not files which names end with '.pdf'
 ```
 
 Data wrangling
 ```shell
 grep # selects lines according to what they contain
 wc # prints the number of characters, words, and lines in a file; you can make it print only one of those using -c, -w, or -l, respectively
-* # which means "match zero or more characters"
-? # matches a single character, so 201?.txt will match 2017.txt or 2018.txt, but not 2017-01.txt
-[...] # matches any one of the characters inside the square brackets, so 201[78].txt matches 2017.txt or 2018.txt, but not 2016.txt
-{...} # matches any of the comma-separated patterns inside the curly brackets, so {*.txt, *.csv} matches any file whose name ends with .txt or .csv, but not files which names end with '.pdf'
-$ # get the variable's value
-$@ # all of the command-line parameters given to the script
-$* # all arguments
-$# # gives lenght(number) of arguments 
 sed # does pattern-matched string replacement
 ```
 
@@ -77,26 +78,24 @@ screen -r # keep server running
 
 # Windows command prompt snippets
 ```shell
-cd 
-dir /a
-dir *.png
-/?
+/? # get help
+cls # clear screen
+dir *.png # change directory
+rename "hello.txt" "goodbye.txt"
 mkdir parent\child
 rmdir /s child
-del
+del # dele file
 move
 copy
-xcopy
-tree
-cls
-echo "some text" > filename.txt
-echo "add some text" >> filename.txtx\
-ipconfig
-wmic logicaldisk get name
-attrib
-dir > porky.txt
-rename
-set # get all variables
+xcopy # recursively copy a directory tree
+tree # recursive directory listing
+echo "some text" > filename.txt # add text to exis
+echo "add some text" >> filename.txt
+ipconfig # get address of local machine
+wmic logicaldisk get name # obtain a list of drives
+attrib # displays, sets, or removes attributes assigned to files or directories
+dir > directory_tree.txt # print the current directory tree to a text file
+set # prints a list of all environment variables
 ```
 
 # Anaconda/ Conda snippets
