@@ -10,7 +10,7 @@ These are the code examples from two very good books which you can buy online:
 - [Introduction to Machine Learning with Python (code examples)](https://github.com/amueller/introduction_to_ml_with_python)
 
 
-# 🔨 specific resources and tools
+# 🔨 resources and tools
 
 - Libraries for improving your plots:
   - [Altair](https://altair-viz.github.io/)
