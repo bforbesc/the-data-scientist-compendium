@@ -8,9 +8,9 @@ I hands-on compendium of everything (I have came across) data science. I started
 	1. [Machine learning (resources)](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/1_Pyhton_machine_learning.md)
 1. [R](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/2_R.md)
 1. [Econometrics (in R and STATA)](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/3_Econometrics_R_STATA.md)
-1. [Spark & SQL](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/5_Spark_SQL.md)
-1. [Git](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/6_Git.md)
-1. [Shell](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/7_Shell.md)
+1. [Spark & SQL](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/4_Spark_SQL.md)
+1. [Git](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/5_Git.md)
+1. [Shell](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/6_Shell.md)
 
 
 ## 🙈 cheatsheets
