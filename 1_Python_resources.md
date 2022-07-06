@@ -2,15 +2,12 @@
 
 
 # 📖 books
-This is a great books which is freely available online:
-- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
-
-These are the code examples from two very good books which you can buy online:
-- [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow (code examples)](https://github.com/ageron/handson-ml2)
-- [Introduction to Machine Learning with Python (code examples)](https://github.com/amueller/introduction_to_ml_with_python)
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): probably the most popular Python data science book
+- [Official Pandas user guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html)
 
 
 # 🔨 resources and tools
+- [Pandas official 'cookbook'](https://pandas.pydata.org/pandas-docs/stable/user_guide/cookbook.html): snippets for useful pandas tasks
 - [Notes on data science & machine learning](https://chrisalbon.com/): ‼️incredible resource‼️ for Python snippets for data science and machine learning in general
 - Libraries for improving your plots:
   - [Altair](https://altair-viz.github.io/)
