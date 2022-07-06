@@ -9,6 +9,7 @@
 # 🔨 resources and tools
 - [Pandas official 'cookbook'](https://pandas.pydata.org/pandas-docs/stable/user_guide/cookbook.html): snippets for useful pandas tasks
 - [Notes on data science & machine learning](https://chrisalbon.com/): ‼️incredible resource‼️ for Python snippets for data science and machine learning in general
+- [Things in Pandas I Wish I'd known earlier](https://nbviewer.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb): collection of Pandas snippets
 - Libraries for improving your plots:
   - [Altair](https://altair-viz.github.io/)
   - [Plotly](https://plotly.com/python/)
