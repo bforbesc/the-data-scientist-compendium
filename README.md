@@ -15,6 +15,7 @@ I hands-on compendium of everything (I have came across) data science. I started
 
 ## 🙈 cheatsheets
 Hope these cheatsheets are of value to you. They have certainly saved me many hours of finding the right syntax to accomplish what I wanted to do.
+- [Ultimate cheatsheet for data scientists](https://levelup.gitconnected.com/the-ultimate-cheat-sheet-for-data-scientists-d1e247b6a60c) (a list of cheatsheets; multiple languages)
 - [Shell](https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf)
 - [HTML, CSS, JavaScript](https://htmlcheatsheet.com/)
 - [Jquery](https://oscarotero.com/jquery/)
@@ -25,8 +26,8 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [SQL keywords](https://www.w3schools.com/sql/sql_ref_keywords.asp)
 - [SQL style](https://www.sqlstyle.guide/)
 - [Git](https://education.github.com/git-cheat-sheet-education.pdf)
-- [Ultimate cheatsheet for data scientists](https://levelup.gitconnected.com/the-ultimate-cheat-sheet-for-data-scientists-d1e247b6a60c) (multiple languages)
 - [Codeacademy](https://www.codecademy.com/resources/cheatsheets/language/python) (multiple languages)
+- [R](https://www.rstudio.com/resources/cheatsheets/)
 
 	
 ## 🎓general guides/ resources
