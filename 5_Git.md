@@ -1,45 +1,52 @@
 # [![My Skills](https://skills.thijs.gg/icons?i=git)](https://skills.thijs.gg) git
 
-Everything starting with ```git <...>```:
-```
-init
+## Resources
+- [The official git documentation](https://git-scm.com/docs)
+- [Pro Git book](https://git-scm.com/book/en/v2): the official git book
+- [A visual cheatsheet](https://ndpsoftware.com/git-cheatsheet.html#loc=local_repo;)
+- [Additional cheatsheets](https://training.github.com/)
+
+## Snippets
+### Everything starting with ```git <...>```:
+
+Initiate git and check the current version:
+``` shell
+init # start tracking folder
 --version
+remote add origin 'your_url' # remote repository for your local repository
+clone 'your_url' # clone an existing GitHub repository
 ```
 
-```
+Common operations:
+```shell
 status
-commit -m "Commit message"
-commit -am "Commit message" # commit directly without stage area
-push origin file_name
-push -u github_ninckname_project master
+add 'your_file' # or 'add .' to add everything in your folder being tracked
+reset HEAD 'your_file' # remove file from stage area
+commit -m 'your message'
+commit -am 'your message' # commit directly without stage area
+push # uploads all local branch commits to GitHub
+pull # updates current local working branch with all new commits from the corresponding remote branch on GitHub (combination of 'fetch' and 'merge')
 ```
+*Note: commit messages should not exceed 50 characters and should explain what was changed and why the change was made*
 
-```
+Check and configure user information:
+```shell
 config --list
-config --global user.email "bernardoforbescosta@gmail.com" 
-config --global user.name "bforbesc"
-```
+config --global user.email 'your_email@email.com'
+config --global user.name 'your_user_name'
 ```
 
-log
-log -author="Bernardo Forbes Costa"
+Version control:
+```shell
+log # show commit logs
+log -author = 'your name'
 diff  # compares work copy and repository
 diff --stage # compares stage area and repository 
 checkout -b # gets version of repository
-checkout 01e7dba -- pixa.txt # gets version by commit ID
+checkout 'your_commit_ID' --'your_file_name' # gets version by commit ID
 ```
 
+[List files being tracked](https://stackoverflow.com/questions/15606955/how-can-i-make-git-show-a-list-of-the-files-that-are-being-tracked)
 ```
-add pixa.txt  # or "add ." to add everything in that folder
-reset HEAD file.txt # remove from stage area
-remote add github_ninckname_project https://github.com/Data-Science-Knowledge-Center-Nova-SBE/doca-pesca-model.git
-fetch
-clone https://github.com/Data-Science-Knowledge-Center-Nova-SBE/doca-pesca-model.git 
-pull origin master
+ls-files
 ```
-[Git: list files being tracked](https://stackoverflow.com/questions/15606955/how-can-i-make-git-show-a-list-of-the-files-that-are-being-tracked)
-```
-git ls-files
-```
-
-See [cheatsheet on Git](https://education.github.com/git-cheat-sheet-education.pdf) and the course I taught on [Advanced Programming for Data Scince](https://gitlab.com/adpro1/adpro2022/classes-advanced-programming-2022/-/tree/master/git_demo) for more.
