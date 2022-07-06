@@ -1,47 +1,62 @@
-# 🐚 shell scripting
+# Table of contents
+1. [Resources](#resources)
+2. [Bash snippets](#bash-snippets)
+3. [Windows command prompt snippets](#windows-command-prompt-snippets)
+4. [Anaconda/ Conda snippets](#anaconda-conda-snippets)
 
 
-- [Windows Command Prompt LS Equivalent Dir](https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/)
-- [Awesome Bash](https://github.com/awesome-lists/awesome-bash): a curated list of delightful Bash scripts and resources.
+# Resources
+- [Awesome Bash](https://github.com/awesome-lists/awesome-bash): a extremely comprehensive list of Bash scripts and resources
+- [Windows Command Prompt vs. Shell equivalence of commands](https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/)
+- [Conda: Myths and Misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/?utm_source=pocket_mylist)
 
-General
+
+# Bash snippets
+General commands
 ```shell
-pwd  
-clear
-~ # go back to home directory
--la # hidden stuff as well
-cd 
+-la # show hidden files
 ls -R -F # recursive, show all; indicate directory or runnable
 cp # copy
-mv second.txt third.txt # rename 
+mv second.txt third.txt # rename file
+mv /home/user/temp /home/user/directory # rename folder
 mv second.txt pasta\second.txt # move to new folder
 rm # delete files
+rm -r 'directory' # delete directory
 rmdir # delete folder
-mdir cona\clitoris # create folder
+mdir parent\child # create folder
 cat # print file
 man # describes function
 cut # select columns
-history # of commands used
-! # select recently used command, can also use with index to history ex. !2
-grep # selects lines according to what they contain
+history # history of commands used
+sort
+unzip # tool to unzip
+^C # or CTRL + C to end process
+which bash # tells me where bash is
+```
+
+General operators
+```shell
+~ # go back to home directory
+! # select recently used command, can also use with index to history ex. '!2'
 > # redirect output
-wc # prints the number of characters, words, and lines in a file. You can make it print only one of these using -c, -w, or -l respectively
+| # use as input previous code
+&& # run second command only if first one run sucessfully
+; # run commands sequentially
+```
+
+Data wrangling
+```shell
+grep # selects lines according to what they contain
+wc # prints the number of characters, words, and lines in a file; you can make it print only one of those using -c, -w, or -l, respectively
 * # which means "match zero or more characters"
 ? # matches a single character, so 201?.txt will match 2017.txt or 2018.txt, but not 2017-01.txt
 [...] # matches any one of the characters inside the square brackets, so 201[78].txt matches 2017.txt or 2018.txt, but not 2016.txt
-{...} # matches any of the comma-separated patterns inside the curly brackets, so {*.txt, *.csv} matches any file whose name ends with .txt or .csv, but not files whose names end with .pdf
-sort
-^C # or CTRL + C to end process
+{...} # matches any of the comma-separated patterns inside the curly brackets, so {*.txt, *.csv} matches any file whose name ends with .txt or .csv, but not files which names end with '.pdf'
 $ # get the variable's value
 $@ # all of the command-line parameters given to the script
 $* # all arguments
 $# # gives lenght(number) of arguments 
-unzip # tool to unzip
-| # use as input previous code
-&& # run second command only if first one run sucessfully
-; # run commands sequentially
 sed # does pattern-matched string replacement
-which bash # tells me where bash is
 ```
 
 [Clone multiple repos from list](https://stackoverflow.com/questions/33649639/how-to-clone-a-list-of-git-repositories)
@@ -50,41 +65,24 @@ while read repo; do
     git clone "$repo"
 done < projects.sh
 ```
-Move data to a remote server
+
+Working with a remote server
 ```shell
-scp -r D:/0_PhD/0_Projects/3_HMR/Dados/hmr_data.csv bernardocosta@10.168.16.13:/media/data/bernardocostadata/HMR
-```
-Check connection to remote address
-```shell
-ping
-```
-See which ports are being used in server
-```shell
-htop
-```
-Keep server running
-```shell
-screen -ls  
-screen -r
-```
-Rename folder
-```shell
-mv /home/user/temp /home/user/directory
-```
-Remove directory
-```shell
-rm -r "directory"
+scp -r D:/your_local_file_path your_username@your_IP_address:/your_remote_server_path # move data to a remote server
+ping # check connection to remote address
+htop # see which ports are being used in server
+screen -ls 
+screen -r # keep server running
 ```
 
-## Windows (CMD prompt)
+# Windows command prompt snippets
 ```shell
 cd 
 dir /a
 dir *.png
 /?
-../..
-mkdir cona\clitoris
-rmdir /s Bacon
+mkdir parent\child
+rmdir /s child
 del
 move
 copy
@@ -101,7 +99,7 @@ rename
 set # get all variables
 ```
 
-## Setting up environment
+# Anaconda/ Conda snippets
 [How to change the Jupyter start-up folder in your device](https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder) 
 1. Run ```jupyter server --generate-config``` in ```cmd``` (or Anaconda Prompt)
 2. Navigate to ```C:\Users\username\.jupyter\jupyter_notebook_config.py``` 
@@ -147,5 +145,3 @@ conda remove <package name>
 conda deactivate
 conda env remove -n mlcourse --allconda 
 ```
-
-[Conda: Myths and Misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/?utm_source=pocket_mylist)
