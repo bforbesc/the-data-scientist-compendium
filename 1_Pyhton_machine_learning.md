@@ -56,18 +56,19 @@ $\text{False positive rate} = 1 - \text{Specificity}$
 
 <br>
 
-Data processing
+Data processing:
 > General rule: balancing > scaling > selection
 
 > All models have tendency to overfit to some extent: “If you torture the data long enough, it will confess.” (Nobel Laureate Ronald Coase)
 
 
 > Logistic regression insights: “All else being equal, if your income had been $20,000 higher you would have been granted this particular mortgage.”
+> 
 > KNN insigghts: “We declined your mortgage application because you remind us of the Smiths and the Mitchells, who both defaulted.”
 
 
 
-# Building machine learning web apps
+# 🌐 machine learning web apps
 - [How to deploy your data science projects as web apps?](https://towardsdatascience.com/how-to-deploy-your-data-science-as-web-apps-easily-with-python-955dd462a9b5)
 - [How to build a data science web app?](https://towardsdatascience.com/how-to-build-a-data-science-web-app-in-python-penguin-classifier-2f101ac389f3)
 - [How to write web apps using Python for data scientists?](https://towardsdatascience.com/how-to-write-web-apps-using-simple-python-for-data-scientists-a227a1a01582)
