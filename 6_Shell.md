@@ -138,3 +138,15 @@ conda upgrade 'package_name' # upgrade package
 conda 'package_name' = 'version_number' # install package in specific version
 conda remove 'package_name'
 ```
+
+Machine learning libraries
+``` shell
+conda install -c conda-forge xgboost # Xgboost gradient boosting
+conda install -c conda-forge catboost # catboost gradient boosting 
+conda install -c conda-forge tensorflow # neural networks (pydot needed for some plots in tensorflow) 
+conda install -c conda-forge shap # interpreting ML models 
+conda install -c conda-forge spacy # text analysis 
+conda install nltk # text analysis 
+pip install aequitas # bias and fairness Audit Toolkit 
+conda install -c districtdatalabs yellowbrick # machine learning visualization 
+```
