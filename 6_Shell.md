@@ -104,43 +104,37 @@ set # prints a list of all environment variables
 2. Navigate to ```C:\Users\username\.jupyter\jupyter_notebook_config.py``` 
 3. Replace ```#c.ServerApp.root_dir = ''``` with ```c.ServerApp.root_dir = '/the/path/to/desired/folder/'```
 
-```shell
-conda create --name "env_name" jupyterlab pandas seaborn scikit-learn
-
+Basic environment setup
+```conda
+conda create --name "env_name" jupyterlab pandas seaborn scikit-learn # create environment and install main libraries
+conda config --add channels conda-forge # add conda-forge channel
 conda activate "env_name"
-
-conda install -c anaconda ipykernel  
-ipython kernel install --user --name="name to show on jupyterlab"
+conda deactivate # deactivate environment
 ```
 
-Base set up: install a package for kernel management in your base environment 
+Kernel management and link to Jupyter
 ```shell
 conda install nb_conda_kernels
-conda config --add channels conda-forge
+conda install -c anaconda ipykernel # package to link Jupyter to Conda environments
+ipython kernel install --user --name="name to show on Jupyter" # link Conda environment to Jupyter
 ```
 
-Manage jupyter kernels
+Manage Jupyter kernels
 ```shell
 jupyter kernelspec list 
-jupyter kernelspec uninstall kernel_name
+jupyter kernelspec uninstall 'your_kernel_name'
 ```
 
-Manage jupyter notebook sessions
+Manage Jupyter Notebook sessions
 ```shell
 jupyter notebook list 
-jupyter notebook close 8889
+jupyter notebook close 'your_port_number'
 ```
 
-Other Conda commands
-Check if a specific package is installed
+Package management
 ```shell
-conda list -n <environment name> <package name>
-conda upgrade <package name>
-```
-Install a package with a specific version
-```shell
-conda <package name> = <version number>
-conda remove <package name>
-conda deactivate
-conda env remove -n mlcourse --allconda 
+conda list -n 'environment_name' 'package name' # check if a specific package is installed and upgrade it
+conda upgrade 'package_name' # upgrade package
+conda 'package_name' = 'version_number' # install package in specific version
+conda remove 'package_name'
 ```
