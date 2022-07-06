@@ -11,7 +11,7 @@ These are the code examples from two very good books which you can buy online:
 
 
 # 🔨 resources and tools
-
+- [Notes on data science & machine learning](https://chrisalbon.com/): ‼️incredible resource‼️ for Python snippets for data science and machine learning in general
 - Libraries for improving your plots:
   - [Altair](https://altair-viz.github.io/)
   - [Plotly](https://plotly.com/python/)
