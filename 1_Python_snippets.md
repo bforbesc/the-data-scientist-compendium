@@ -273,6 +273,15 @@ x = np.array([[1, 2, 3], [4, 5, 6]])
 np.ravel(x) 
 ```
 
+[Apply multiple functions to multiple groupby columns](https://stackoverflow.com/questions/14529838/apply-multiple-functions-to-multiple-groupby-columns)
+```python
+df.groupby('group').agg({'a':['sum', 'max'], 
+                         'b':'mean', 
+                         'c':'sum', 
+                         'd': lambda x: x.max() - x.min()})
+```
+
+
 # General Python snippets
 Check Python documentation
 ```python
@@ -283,6 +292,20 @@ dir(__builtins__)
 Show locally installed version of Pandas
 ```python
 pd.show_versions()
+```
+
+[Convert a list to a dictionary](https://www.geeksforgeeks.org/python-convert-a-list-to-dictionary/)
+```python
+def convert(lst):
+    res_dct = {lst[i]: lst[i + 1] for i in range(0, len(lst), 2)}
+    return res_dct
+```
+
+[How to merge dictionaries](https://favtutor.com/blogs/merge-dictionaries-python)
+```python
+dict_1 = {'John': 15, 'Rick': 10, 'Misa' : 12 }
+dict_2 = {'Bonnie': 18,'Rick': 20,'Matt' : 16 }
+dict_1.update(dict_2)
 ```
 
 Create X blocks of Y numbers
