@@ -1,4 +1,4 @@
-# The Data Scientist Compendium
+# The Data Scientist Compendium <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
 I hands-on compendium of everything (I have came across) data science. I started collecting these resources and snippets as a necessity for my day-to-day work, namely for teaching, and I thought I would share them with you! Because I work mostly on Pyhton you will see that there is an oversampling on resources on that programming language.
 
 ## Table of contents
