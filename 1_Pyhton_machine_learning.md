@@ -69,7 +69,10 @@ Data processing:
 
 
 # 🌐 machine learning web apps
-- [How to deploy your data science projects as web apps?](https://towardsdatascience.com/how-to-deploy-your-data-science-as-web-apps-easily-with-python-955dd462a9b5)
-- [How to build a data science web app?](https://towardsdatascience.com/how-to-build-a-data-science-web-app-in-python-penguin-classifier-2f101ac389f3)
-- [How to write web apps using Python for data scientists?](https://towardsdatascience.com/how-to-write-web-apps-using-simple-python-for-data-scientists-a227a1a01582)
+- [Streamlit](https://docs.streamlit.io/): the library to easily create web applications in Python
+- [Heroku](https://devcenter.heroku.com/): a library which allows for deployment of your application on the web
+- Examples using Streamlit (and one Horuku):
+	- [How to deploy your data science projects as web apps?](https://towardsdatascience.com/how-to-deploy-your-data-science-as-web-apps-easily-with-python-955dd462a9b5) (Heroku)
+	- [How to build a data science web app?](https://towardsdatascience.com/how-to-build-a-data-science-web-app-in-python-penguin-classifier-2f101ac389f3) (Streamlit)
+	- [How to write web apps using Python for data scientists?](https://towardsdatascience.com/how-to-write-web-apps-using-simple-python-for-data-scientists-a227a1a01582) (Streamlit)
 
