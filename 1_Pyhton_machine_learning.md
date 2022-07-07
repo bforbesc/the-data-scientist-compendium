@@ -71,5 +71,5 @@ Data processing:
 # 🌐 machine learning web app
 - [Streamlit](https://docs.streamlit.io/): the library to easily create web applications in Python
 - [Heroku](https://devcenter.heroku.com/): a library which allows for deployment of your application on the web
-- [Example using Streamlit and Horuku](https://towardsdatascience.com/how-to-build-a-data-science-web-app-in-python-penguin-classifier-2f101ac389f3)
+- [Example using Streamlit and Horuku](https://towardsdatascience.com/how-to-build-a-data-science-web-app-in-python-penguin-classifier-2f101ac389f3): building a Penguin classifier deployed on the web
 
