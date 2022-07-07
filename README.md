@@ -69,3 +69,4 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [Spurious correlations](https://tylervigen.com/spurious-correlations): examples of spurious correlations in the wild and easily one can fall victim to this statistical trap
 - [The True Size of](https://www.thetruesize.com/): map with which allows for comparison of countries' areas
 - [Graphing calculator](https://www.desmos.com/calculator): a graphic calculator
+- [Tips for improving your GitHub profile](https://towardsdatascience.com/enrich-your-github-profile-with-these-tips-272fa1eafe05?gi=27b896f9e9c4)
