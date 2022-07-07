@@ -1,4 +1,5 @@
-# Econometrics in ``STATA`` & [![My Skills](https://skills.thijs.gg/icons?i=r)](https://skills.thijs.gg) 
+# Econometrics in ``STATA`` & <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" />
+          
 In this section I gather the relevant books and general resources on Econometrics, using either R or STATA, which I found relevant in my work or learning journey.
 
 ## 📖 books
@@ -18,7 +19,7 @@ Specific tasks/ resources:
 - [Causal machine learning for Econometrics: causal forests](https://towardsdatascience.com/causal-machine-learning-for-econometrics-causal-forests-5ab3aec825a7)
 
 
-## [![My Skills](https://skills.thijs.gg/icons?i=r)](https://skills.thijs.gg)
+## <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" />
 - Regression model diagnostics:
   - [Collinearity, model fit and variable contribution](https://cran.r-project.org/web/packages/olsrr/vignettes/regression_diagnostics.html)
   - [Linear regression assumptions and diagnostics](http://www.sthda.com/english/articles/39-regression-model-diagnostics/161-linear-regression-assumptions-and-diagnostics-in-r-essentials/)
