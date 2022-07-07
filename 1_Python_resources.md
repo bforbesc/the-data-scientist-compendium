@@ -1,4 +1,4 @@
-# [![My Skills](https://skills.thijs.gg/icons?i=py)](https://skills.thijs.gg) Python - resources
+# # <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> Python - Resources
 
 
 # 📖 books
