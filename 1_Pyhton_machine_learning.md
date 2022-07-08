@@ -13,6 +13,7 @@ These are the code examples from two very good books which you can buy online:
 - [An introduction to machine learning with scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutorial.html): official scikit-learn (based) tutorial
 - [Harvard CS 181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/): lecture recaps and notes
 - [Notes on data science & machine learning](https://chrisalbon.com/): ‼️incredible resource‼️ for Python snippets for data science and machine learning in general
+- [Machine learning mastery](https://machinelearningmastery.com/start-here/#getstarted): another ‼️awesome resource‼️ with extremely complete reach from theory and practice of data science and machine learning
 - [Guide to choosing the right algorithm/ estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/): visual tool to choose the appropriate machine learning algorithm for your specific problem
 - [Dive into Machine Learning](https://github.com/metjush/dive-into-machine-learning): an (old but interesting) guide on machine learning and data science
 
@@ -24,7 +25,7 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 	- [the bias-variance tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
 	- [underfitting vs. overfitting](https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html)
 	- [ROC curves](http://www.navan.name/roc/)
-	- [gradient boosting](https://explained.ai/gradient-boosting/): great and practical explanation of gradient boosting
+	- [gradient boosting](https://explained.ai/gradient-boosting/): great and practical explanation of gradient boosting (and other concepts)
 	- [the difference between clustering algorithms](https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html)
 	- [UMPA](https://pair-code.github.io/understanding-umap/)
 	- reinforcement learning:
