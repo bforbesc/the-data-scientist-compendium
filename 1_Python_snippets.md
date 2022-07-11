@@ -290,6 +290,10 @@ df.apply(pd.Series.first_valid_index)
 df.apply(pd.Series.last_valid_index)
 ```
 
+[How to get the last value in each group?](https://datascienceparichay.com/article/pandas-groupby-last-value/): also works for getting the last "available" (i.e., non Nan) observation
+```Python
+df.groupby('group')['colA'].last()
+```
 
 # General Python snippets
 Check Python documentation
