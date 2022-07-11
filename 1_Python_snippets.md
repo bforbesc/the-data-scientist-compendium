@@ -281,6 +281,15 @@ df.groupby('group').agg({'a':['sum', 'max'],
                          'd': lambda x: x.max() - x.min()})
 ```
 
+[Locate first and last non NaN values in a DataFrame](https://stackoverflow.com/questions/22403469/locate-first-and-last-non-nan-values-in-a-pandas-dataframe)
+```Python
+# first valid index for each column
+df.apply(pd.Series.first_valid_index)
+
+# last valid index for each column
+df.apply(pd.Series.last_valid_index)
+```
+
 
 # General Python snippets
 Check Python documentation
