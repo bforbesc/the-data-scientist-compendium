@@ -295,6 +295,13 @@ df.apply(pd.Series.last_valid_index)
 df.groupby('group')['colA'].last()
 ```
 
+[Compare two columns and replace value based on condition](https://stackoverflow.com/questions/27474921/compare-two-columns-using-pandas)
+```Python
+df['new'] = np.where((df['colA'] >= df['colB']) & (df['colA'] <= df['colC'])
+                     , df['colA'], np.nan)
+```
+
+
 # General Python snippets
 Check Python documentation
 ```python
