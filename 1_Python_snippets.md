@@ -75,6 +75,16 @@ df['StartDate'].dt.to_period('M')
 df.sort_values('DATE_CHANGED').drop_duplicates('STATION_ID',keep='last')
 ```
 
+[Check if a date is between dates/ date range](https://stackoverflow.com/questions/47545090/how-can-i-check-if-date-is-on-range-on-python)
+```python
+TODAY_CHECK = datetime.datetime.now()
+start = datetime.datetime(day=26,month=11,year=2017)
+end = datetime.datetime(day=30,month=11,year=2017)
+if start <= TODAY_CHECK <= end:
+    print "PASS!"
+else:
+    print "YOU SHALL NOT PASS, FRODO."
+```
 
 # Visualization
 For this section you will need to have installed the [```matplotlib```](https://matplotlib.org/) and [```seaborn```](https://seaborn.pydata.org/) modules and run the following code:
