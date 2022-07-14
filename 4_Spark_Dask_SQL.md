@@ -13,5 +13,9 @@
 # ```SQL```
 
 - [SQL main tasks summarized](https://towardsdatascience.com/sql-practical-details-cheat-sheet-for-data-analysis-f98406a71a09)
-
 - [10 most important SQL concepts](https://towardsdatascience.com/ten-sql-concepts-you-should-know-for-data-science-interviews-7acf3e428185)
+
+
+# Dask
+- [Official documentation](https://docs.dask.org/en/stable/)
+- [](https://coiled.io/blog/tag/dask/)
