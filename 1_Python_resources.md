@@ -9,7 +9,7 @@
 - [Pandas official 'cookbook'](https://pandas.pydata.org/pandas-docs/stable/user_guide/cookbook.html): snippets for useful pandas tasks
 - [Notes on data science & machine learning](https://chrisalbon.com/): ‼️incredible resource‼️ for Python snippets for data science and machine learning in general
 - [Things in Pandas I Wish I'd known earlier](https://nbviewer.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb): collection of Pandas snippets
-- [Data cleaning](https://www.projectpro.io/recipes/tagged/data-cleaning-python?utm_source=DSBlog184&utm_medium=RcpLink&utm_campaign=Blog): snippets for common data clean taks
+- [Data cleaning](https://www.projectpro.io/recipes/tagged/data-cleaning-python?utm_source=DSBlog184&utm_medium=RcpLink&utm_campaign=Blog): snippets for common data cleaning tasks
 
 # 🔨tools
 - Libraries for improving your plots:
