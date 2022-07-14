@@ -61,7 +61,7 @@ $\text{F-score} = \text{Harmonic mean of precision and recall} = (1 + \beta^2) \
 
 $\text{Specificity} = \text{True negative rate} = \dfrac{TN}{TN + FP}$
 
-$\text{False positive rate} = 1 - \text{Specificity}$
+$\text{False positive rate} = 1 - \text{Specificity} = \dfrac{FP}{TN + FP}$ 
 
 <br>
 
