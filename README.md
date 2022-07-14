@@ -61,7 +61,6 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [11 data acience videos every data scientist must watch](https://pypi.org/project/ipython/)
 - Data science interview preparation:
 	- [‼️MASSIVE‼️ compilation of data science career resources](https://github.com/cdeweyx/DS-Career-Resources): anything from interview preparation to general advice for aspiring data scientists
-	- [50 data science interview questions and answers](https://www.projectpro.io/article/100-data-science-interview-questions-and-answers-for-2021/184)
 	- [122 data science interview questions and answers](https://www.edureka.co/blog/interview-questions/data-science-interview-questions/)
 - [The best free data science eBooks](https://towardsdatascience.com/the-best-free-data-science-ebooks-b671691e5231): a list of FREE additional books you might find relevant
 - [The EDA Theoretical Guide](https://towardsdatascience.com/the-eda-theoretical-guide-b7cef7653f0d): non-code-based simple guide for Exploratory Data Analysis (EDA) ranging from reading data, to missing values analysis, outlier treatment and variable transformation
