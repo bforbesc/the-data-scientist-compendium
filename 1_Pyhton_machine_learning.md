@@ -49,9 +49,17 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 
 Classification metrics:
 
-$\text{True positive rate} = \text{Recall} = \text{Sensitivity}$
+$\text{Error rate} = \dfrac{FP + FN}{TN + FP + FN + TP}$
 
-$\text{True negative rate} = \text{Specificity} = \dfrac{TN}{TN + FP}$
+$\text{Accuracy} = \dfrac{TP + TN}{TN + FP + FN + TP}$
+
+$\text{Recall} = \text{True positive rate} = \text{Sensitivity} = \dfrac{TP}{TP + FN}$
+
+$\text{Precision} = \text{Positive predicted value} = \dfrac{TP}{TP + FP}$
+
+$\text{F-score} = \text{Harmonic mean of precision and recall} = (1 + \beta^2) \dfrac{Precision \cdot Recall}{(\beta^2 \cdot Precision) + Recall}$
+
+$\text{Specificity} = \text{True negative rate} = \dfrac{TN}{TN + FP}$
 
 $\text{False positive rate} = 1 - \text{Specificity}$
 
