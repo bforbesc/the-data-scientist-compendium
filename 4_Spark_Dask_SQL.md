@@ -17,5 +17,5 @@
 
 
 # ```Dask```
-- [Official documentation](https://docs.dask.org/en/stable/)
-- [](https://coiled.io/blog/tag/dask/)
+- [Official documentation](https://docs.dask.org/en/stable/): including examples and tutorials
+- [Dask archives](https://coiled.io/blog/tag/dask/): official blog with additional examples and tutorials
