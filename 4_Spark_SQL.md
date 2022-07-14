@@ -5,6 +5,10 @@
 
 ## 🔨 resources and tools
 - [Spark by examples](https://sparkbyexamples.com/pyspark/): a comprehensive guide to PySpark based on examples
+- Project
+- [Project pro](https://www.projectpro.io/tutorial/):
+  - [Spark tutorial](https://www.projectpro.io/apache-spark-tutorial/spark-tutorial)
+  - [PySpark tutorial](https://www.projectpro.io/apache-spark-tutorial/pyspark-tutorial)
 
 # ```SQL```
 
