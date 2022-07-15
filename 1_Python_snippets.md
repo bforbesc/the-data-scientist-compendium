@@ -311,6 +311,11 @@ df['new'] = np.where((df['colA'] >= df['colB']) & (df['colA'] <= df['colC'])
                      , df['colA'], np.nan)
 ```
 
+[How to convert column (with NaN) to integer](https://stackoverflow.com/questions/62899860/how-can-i-resolve-typeerror-cannot-safely-cast-non-equivalent-float64-to-int6)
+```Python
+df['A'] = np.floor(pd.to_numeric(df['A'], errors='coerce')).astype('Int64')
+```
+
 
 # General Python snippets
 Check Python documentation
