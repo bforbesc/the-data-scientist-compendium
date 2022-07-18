@@ -316,6 +316,14 @@ df['new'] = np.where((df['colA'] >= df['colB']) & (df['colA'] <= df['colC'])
 df['A'] = np.floor(pd.to_numeric(df['A'], errors='coerce')).astype('Int64')
 ```
 
+[How to deal with missing value with LabelEncoder](https://stackoverflow.com/questions/36808434/label-encoder-encoding-missing-values)
+```Python
+original = df
+mask = df.isnull()
+df = df.astype(str).apply(LabelEncoder().fit_transform)
+df.where(~mask, original)
+```
+
 
 # General Python snippets
 Check Python documentation
