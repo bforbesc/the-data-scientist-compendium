@@ -42,7 +42,7 @@ For this section you will need to have installed the [```datetime```](https://do
 from datetime import datetime
 ```
 
-[Add months to a date in Python:](https://thispointer.com/add-months-to-a-date-in-python/)
+[Add months to a date in Python](https://thispointer.com/add-months-to-a-date-in-python/)
 ```python
 given_date = '1/21/2021'
 
