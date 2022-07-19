@@ -19,3 +19,16 @@
 # ```Dask```
 - [Official documentation](https://docs.dask.org/en/stable/): including examples and tutorials
 - [Dask archives](https://coiled.io/blog/tag/dask/): official blog with additional examples and tutorials
+
+
+## Snippets
+[Adjust memory budget](https://stackoverflow.com/questions/69429950/dask-what-does-memory-limit-control#:~:text=The%20link%20you%20posted%20says,reach%2095%25%20of%20RAM%20usage.)
+```python
+from dask.distributed import LocalCluster, Client
+cluster = LocalCluster(n_workers=2,
+                       threads_per_worker=4,
+                       memory_target_fraction=0.95,
+                       memory_limit='8GB')
+client = Client(cluster)
+client
+```
