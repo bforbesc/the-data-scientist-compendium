@@ -324,6 +324,10 @@ df = df.astype(str).apply(LabelEncoder().fit_transform)
 df.where(~mask, original)
 ```
 
+[Generate a dictionary of data type for each column](https://stackoverflow.com/questions/41087887/is-there-a-way-to-generate-the-dtypes-as-a-dictionary-in-pandas)
+```python
+df.dtypes.to_dict()
+```
 
 # General Python snippets
 Check Python documentation
