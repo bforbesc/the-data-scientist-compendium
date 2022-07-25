@@ -351,6 +351,21 @@ for key in entries:
         del the_dict[key]
 ```
 
+[Save dictionary to disk](https://pythonspot.com/save-a-dictionary-to-a-file/)
+```pyython
+# define dict
+dict = {'Python' : '.py', 'C++' : '.cpp', 'Java' : '.java'}
+
+# open file for writing
+f = open("dict.txt","w")
+
+# write file
+f.write( str(dict) )
+
+# close file
+f.close()
+```
+
 
 [Convert a list to a dictionary](https://www.geeksforgeeks.org/python-convert-a-list-to-dictionary/)
 ```python
