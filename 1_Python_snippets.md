@@ -346,10 +346,9 @@ pd.show_versions()
 entries = ('a', 'b', 'c')
 the_dict = {'b': 'foo'}
 
-def entries_to_remove(entries, the_dict):
-    for key in entries:
-        if key in the_dict:
-            del the_dict[key]
+for key in entries:
+    if key in the_dict:
+        del the_dict[key]
 ```
 
 
