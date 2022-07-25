@@ -11,7 +11,8 @@ These are the code examples from two very good books which you can buy online:
 
 # 🔨 resources and tools
 - [An introduction to machine learning with scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutorial.html): official scikit-learn (based) tutorial
-- [Harvard CS 181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/): lecture recaps and notes
+- [Harvard CS181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/): lecture recaps and notes
+- [Stanford CS231: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/): lecture recaps and notes
 - [Notes on data science & machine learning](https://chrisalbon.com/): ‼️incredible resource‼️ for Python snippets for data science and machine learning in general
 - [Machine learning mastery](https://machinelearningmastery.com/start-here/#getstarted): another ‼️awesome resource‼️ with extremely complete reach from theory and practice of data science and machine learning
 - [Guide to choosing the right algorithm/ estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/): visual tool to choose the appropriate machine learning algorithm for your specific problem
@@ -28,6 +29,7 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 	- [gradient boosting](https://explained.ai/gradient-boosting/): great and practical explanation of gradient boosting (and other concepts)
 	- [the difference between clustering algorithms](https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html)
 	- [UMPA](https://pair-code.github.io/understanding-umap/)
+	- [neural networks (from scratch)](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3)
 	- reinforcement learning:
 		- [The essentials of Reinforcement Learning](https://towardsdatascience.com/reinforcement-learning-101-e24b50e1d292)
 		- [A guide on Reinforcement Learning](https://deepsense.ai/what-is-reinforcement-learning-the-complete-guide/)
