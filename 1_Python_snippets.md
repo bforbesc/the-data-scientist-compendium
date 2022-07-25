@@ -341,6 +341,18 @@ Show locally installed version of Pandas
 pd.show_versions()
 ```
 
+[Remove multiple keys from a dictionary safely](https://stackoverflow.com/questions/8995611/removing-multiple-keys-from-a-dictionary-safely)
+```python
+entries = ('a', 'b', 'c')
+the_dict = {'b': 'foo'}
+
+def entries_to_remove(entries, the_dict):
+    for key in entries:
+        if key in the_dict:
+            del the_dict[key]
+```
+
+
 [Convert a list to a dictionary](https://www.geeksforgeeks.org/python-convert-a-list-to-dictionary/)
 ```python
 def convert(lst):
