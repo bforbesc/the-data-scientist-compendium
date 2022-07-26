@@ -4,6 +4,7 @@
 - [Machine learning refined](https://jermwatt.github.io/machine_learning_refined/)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): probably the most popular Python data science book, has a dedicated section on machine learning
 - [Scikit learn official guide](https://scikit-learn.org/stable/user_guide.html)
+- [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html): a book by the father of RL and his advisor
 
 These are the code examples from two very good books which you can buy online:
 - [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow (code examples)](https://github.com/ageron/handson-ml2)
@@ -17,6 +18,7 @@ These are the code examples from two very good books which you can buy online:
 - [Machine learning mastery](https://machinelearningmastery.com/start-here/#getstarted): another ‼️awesome resource‼️ with extremely complete reach from theory and practice of data science and machine learning
 - [Guide to choosing the right algorithm/ estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/): visual tool to choose the appropriate machine learning algorithm for your specific problem
 - [Dive into Machine Learning](https://github.com/metjush/dive-into-machine-learning): an (old but interesting) guide on machine learning and data science
+- [Introductory course on Reinforcement Learning](https://www.davidsilver.uk/teaching/)
 
 # 🤔 machine learning explained
 Theoretical and practical explanations of machine learning concepts and ideas:
