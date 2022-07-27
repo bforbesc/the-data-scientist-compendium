@@ -30,3 +30,4 @@
 - [Unpacking operators (* and **), args and kwargs, and iteration, iterables and iterators](https://towardsdatascience.com/three-concepts-to-become-a-better-python-programmer-b5808b7abedc)
 - [Difference between apply, applymap and map](https://towardsdatascience.com/introduction-to-pandas-apply-applymap-and-map-5d3e044e93ff)
 - [When to use label and one-hot encoding](https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd)
+- [Python Programming](https://pythonprogramming.net/): tutorials on everything Python, from game developement, to machine learning and quantum computing
