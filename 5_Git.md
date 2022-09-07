@@ -56,7 +56,7 @@ ls-files
 rm -r --cached <folder>
 ```
 
-[Adding a local repository to GitHub with GitHub CLI](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github)
+[Adding a local repository to GitHub](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github)
 ```git
 init -b main
 add . # Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
