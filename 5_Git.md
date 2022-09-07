@@ -65,3 +65,7 @@ remote add origin  <REMOTE_URL> # Sets the new remote
 remote -v # Verifies the new remote URL
 push origin main # Pushes the changes in your local repository up to the remote repository you specified as the origin
 ```
+[How to delete a Git repository](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/delete-local-git-repository-repo-command-windows-linux-rm)
+```git
+ rm -fr .git
+ ```
