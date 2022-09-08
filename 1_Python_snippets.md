@@ -329,6 +329,12 @@ df.where(~mask, original)
 df.dtypes.to_dict()
 ```
 
+[Import multiple CSV files into pandas and concatenate them](https://stackoverflow.com/questions/20906474/import-multiple-csv-files-into-pandas-and-concatenate-into-one-dataframe)
+```python
+all_files = glob.glob(os.path.join(path, "*.csv"))
+df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
+```
+
 # General Python snippets
 Check Python documentation
 ```python
