@@ -110,6 +110,7 @@ conda create --name "env_name" jupyterlab pandas seaborn scikit-learn # create e
 conda config --add channels conda-forge # add conda-forge channel
 conda activate "env_name"
 conda deactivate # deactivate environment
+conda rename -n old_name -d new_name  # rename environment
 ```
 
 Kernel management and link to Jupyter
