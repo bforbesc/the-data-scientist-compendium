@@ -19,6 +19,7 @@
 # ```Dask```
 - [Official documentation](https://docs.dask.org/en/stable/): including examples and tutorials
 - [Dask archives](https://coiled.io/blog/tag/dask/): official blog with additional examples and tutorials
+- [XGboost](https://xgboost.readthedocs.io/en/stable/tutorials/dask.html): example of a full implementation
 
 
 ## Snippets
@@ -32,3 +33,4 @@ cluster = LocalCluster(n_workers=2,
 client = Client(cluster)
 client
 ```
+
