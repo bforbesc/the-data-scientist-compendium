@@ -35,6 +35,12 @@ from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = 'all'
 ```
 
+[Show a progress for cell being run](https://stackoverflow.com/questions/59953611/how-can-i-get-a-tqdm-progress-apply-bar-in-vs-code-notebooks)
+```python
+from tqdm.notebook import tqdm
+tqdm.pandas()
+```
+
 ## Dates and time 
 For this section you will need to have installed the [```datetime```](https://docs.python.org/3/library/datetime.html) module and run the following code:
 ```python
