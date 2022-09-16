@@ -69,3 +69,4 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [The True Size of](https://www.thetruesize.com/): map with which allows for comparison of countries' areas
 - [Graphing calculator](https://www.desmos.com/calculator): a graphic calculator
 - [Tips for improving your GitHub profile](https://towardsdatascience.com/enrich-your-github-profile-with-these-tips-272fa1eafe05?gi=27b896f9e9c4)
+- [Github quantitative finance repos](https://www.linkedin.com/posts/stylianos-iordanis-34787a19_goldman-sachs-activity-6974353708239237120-al7X/)
