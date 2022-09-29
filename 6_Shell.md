@@ -72,8 +72,7 @@ Working with a remote server
 scp -r D:/your_local_file_path your_username@your_IP_address:/your_remote_server_path # move data to a remote server
 ping # check connection to remote address
 htop # see which ports are being used in server
-screen -ls 
-screen -r # keep server running
+screen # keep server running
 ```
 
 # Windows command prompt snippets
