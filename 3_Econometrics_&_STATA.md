@@ -8,7 +8,7 @@ In this section I gather the relevant books and general resources on Econometric
 - [The Effect Book](https://theeffectbook.net/ch-EventStudies.html?panelset=stata-code) (both STATA and R)
 - [Principles of Econometrics with  R](https://bookdown.org/ccolonescu/RPoE4/)
 - [Causal Inference: The Mixtape](https://mixtape.scunning.com/) (non-code-based)
-- [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
+- [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html) (Pyhton)
 
 
 ## ```STATA```
