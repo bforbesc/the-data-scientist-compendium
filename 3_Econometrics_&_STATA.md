@@ -1,4 +1,4 @@
-# Econometrics in ``STATA`` & <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" />
+# Econometrics
           
 In this section I gather the relevant books and general resources on Econometrics, using either R or STATA, which I found relevant in my work or learning journey.
 
@@ -8,6 +8,7 @@ In this section I gather the relevant books and general resources on Econometric
 - [The Effect Book](https://theeffectbook.net/ch-EventStudies.html?panelset=stata-code) (both STATA and R)
 - [Principles of Econometrics with  R](https://bookdown.org/ccolonescu/RPoE4/)
 - [Causal Inference: The Mixtape](https://mixtape.scunning.com/) (non-code-based)
+- [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
 
 
 ## ```STATA```
