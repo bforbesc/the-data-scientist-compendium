@@ -74,6 +74,7 @@ ping # check connection to remote address
 htop # see which ports are being used in server
 screen # keep server running
 ```
+- [More details on ```screen```](https://linuxize.com/post/how-to-use-linux-screen/)
 
 # Windows command prompt snippets
 ```shell
