@@ -378,6 +378,19 @@ f.write( str(dict) )
 f.close()
 ```
 
+[How to create all possible combinations of parameters in a dictionary](https://stackoverflow.com/questions/71488625/how-to-create-all-possible-combinations-of-parameters-in-a-dictionaryp)
+```python
+import itertools
+
+hyper_params = {
+    'penalty': ['l1', 'l2'],
+    'class_weight': [None, 'balanced'],
+    'max_iter': [500, 1000]
+}
+
+combinations = list(itertools.product(*hyper_params.values()))
+```
+
 
 [Convert a list to a dictionary](https://www.geeksforgeeks.org/python-convert-a-list-to-dictionary/)
 ```python
