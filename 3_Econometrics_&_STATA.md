@@ -9,6 +9,7 @@ In this section I gather the relevant books and general resources on Econometric
 - [Principles of Econometrics with  R](https://bookdown.org/ccolonescu/RPoE4/)
 - [Causal Inference: The Mixtape](https://mixtape.scunning.com/) (non-code-based)
 - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html) (Pyhton)
+- [Matching Methods for Causal Inference: a Machine Learning Update](https://humboldt-wi.github.io/blog/research/applied_predictive_modeling_19/matching_methods/)
 
 
 ## ```STATA```
