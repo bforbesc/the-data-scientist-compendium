@@ -92,6 +92,16 @@ else:
     print "YOU SHALL NOT PASS, FRODO."
 ```
 
+[Force months/ weeks to be 2 digits](https://stackoverflow.com/questions/20990863/python-pandas-add-leading-zero-to-make-all-months-2-digits)
+```python
+df["Month"] = df.Month.map("{:02}".format)
+```
+
+[Combine two columns of numbers as text]()
+```python
+df["period"] = df["Year"].astype(str) + df["quarter"].astype(str)
+```
+
 # Visualization
 For this section you will need to have installed the [```matplotlib```](https://matplotlib.org/) and [```seaborn```](https://seaborn.pydata.org/) modules and run the following code:
 ```python
