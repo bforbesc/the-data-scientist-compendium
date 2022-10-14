@@ -25,7 +25,7 @@ These are the code examples from two very good books which you can buy online:
 Theoretical and practical explanations of machine learning concepts and ideas:
 - [Machine learning algorithms: a visual guide](https://chart-studio.plotly.com/create/?fid=SolClover%3A40&utm_source=pocket_mylist#/)
 - [Distance metrics in high dimensions](https://towardsdatascience.com/the-surprising-behaviour-of-distance-metrics-in-high-dimensions-c2cb72779ea6)
-- Understanding ... :
+- Understanding ... 
 	- [the bias-variance tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
 	- [underfitting vs. overfitting](https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html)
 	- [ROC curves](http://www.navan.name/roc/)
