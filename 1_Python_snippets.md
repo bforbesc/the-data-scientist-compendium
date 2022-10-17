@@ -102,6 +102,11 @@ df["Month"] = df.Month.map("{:02}".format)
 df["period"] = df["Year"].astype(str) + df["quarter"].astype(str)
 ```
 
+[Get previous date's value in group](https://stackoverflow.com/questions/53335567/use-pandas-shift-within-a-group)
+```python
+df['prev_value'] = df.groupby('object')['value'].shift()
+```
+
 # Visualization
 For this section you will need to have installed the [```matplotlib```](https://matplotlib.org/) and [```seaborn```](https://seaborn.pydata.org/) modules and run the following code:
 ```python
