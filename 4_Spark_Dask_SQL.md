@@ -19,7 +19,7 @@
 # ```Dask```
 - [Official documentation](https://docs.dask.org/en/stable/): including examples and tutorials
 - [Dask archives](https://coiled.io/blog/tag/dask/): official blog with additional examples and tutorials
-- [XGboost](https://xgboost.readthedocs.io/en/stable/tutorials/dask.html): example of a full implementation; another example can be found [here](https://coiled.io/blog/dask-python-xgboost-example/](https://github.com/coiled/coiled-resources/blob/main/blogs/dask-python-xgboost-example-100GB-synth-dataset.ipynb)
+- [XGboost](https://xgboost.readthedocs.io/en/stable/tutorials/dask.html): example of a full implementation; another example can be found [here](https://github.com/coiled/coiled-resources/blob/main/blogs/dask-python-xgboost-example-100GB-synth-dataset.ipynb)
 
 
 ## Snippets
