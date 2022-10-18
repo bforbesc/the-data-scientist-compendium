@@ -9,7 +9,6 @@ In this section I gather the relevant books and general resources on Econometric
 - [Principles of Econometrics with  R](https://bookdown.org/ccolonescu/RPoE4/)
 - [Causal Inference: The Mixtape](https://mixtape.scunning.com/) (non-code-based)
 - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html) (Pyhton)
-- [Matching Methods for Causal Inference: a Machine Learning Update](https://humboldt-wi.github.io/blog/research/applied_predictive_modeling_19/matching_methods/)
 
 
 ## ```STATA```
@@ -31,6 +30,7 @@ Specific tasks/ resources:
 
 
 ## 🎓general resources
+- [Matching Methods for Causal Inference: a Machine Learning Update](https://humboldt-wi.github.io/blog/research/applied_predictive_modeling_19/matching_methods/)
 - [Econometrisc Academy](https://sites.google.com/site/econometricsacademy/home?authuser=0): general learning resources (on both STATA and R)
 - [Applied empirical methods](https://github.com/paulgp/applied-methods-phd): econometric methods course for empirical research
 - [Panel data econometrics](https://sites.google.com/view/christophe-hurlin/teaching-resources/panel-data-econometrics?utm_source=pocket_mylist): course on panel data
