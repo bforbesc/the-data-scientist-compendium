@@ -39,4 +39,4 @@ Specific tasks/ resources:
   - [Causal Econometrics](https://donskerclass.github.io/CausalEconometrics.html) (non-code-based)
   - [Forecasting for Economics and Business](https://donskerclass.github.io/Forecasting.html) (non-code-based and R)
   - [Econometrics](https://donskerclass.github.io/EconometricsII/Econometrics.html) (non-code-based and R)
-
+- [Propensity score matching in Python](https://towardsdatascience.com/psmpy-propensity-score-matching-in-python-a3e0cd4d2631)
