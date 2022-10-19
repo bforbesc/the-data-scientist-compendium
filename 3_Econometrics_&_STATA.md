@@ -31,6 +31,7 @@ Specific tasks/ resources:
 
 ## 🎓general resources
 - [Matching Methods for Causal Inference: a Machine Learning Update](https://humboldt-wi.github.io/blog/research/applied_predictive_modeling_19/matching_methods/)
+- [Research methods](https://clas.ucdenver.edu/marcelo-perraillon/teaching/health-services-research-methods-i-hsmp-7607): for empirical researchers (examples in STATA) by Professor [Marcelo Coca Perraillon](https://clas.ucdenver.edu/marcelo-perraillon/)
 - [Econometrisc Academy](https://sites.google.com/site/econometricsacademy/home?authuser=0): general learning resources (on both STATA and R)
 - [Applied empirical methods](https://github.com/paulgp/applied-methods-phd): econometric methods course for empirical research
 - [Panel data econometrics](https://sites.google.com/view/christophe-hurlin/teaching-resources/panel-data-econometrics?utm_source=pocket_mylist): course on panel data
