@@ -36,7 +36,7 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [Awesome list](https://github.com/sindresorhus/awesome/blob/main/readme.md): a comprehensive list of everything computer science
 - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist): comprehensive list of programming tutorials to learn how to build an application from scratch, in multiple languages (including Python and R)
 - [Hitchhiker's Guide to Data Science for Social Good](https://github.com/dssg/hitchhikers-guide?utm_source=pocket_mylist): resources from the [Data Science for Social Good Fellowship (DSSG)](http://dssgfellowship.org/) covering everything from ETL to machine learning
-- [Open Source Society University: Path to a free self-taught education in Computer Science](https://github.com/ossu/computer-science#introduction-to-computer-science)
+- [Open Source Society University](https://github.com/ossu/computer-science#introduction-to-computer-science): Path to a free self-taught education in Computer Science
 
 
 ## 💽 data sources
