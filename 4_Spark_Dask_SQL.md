@@ -5,7 +5,7 @@
 
 ## 🔨 resources and tools
 - [Spark by examples](https://sparkbyexamples.com/pyspark/): a comprehensive guide to PySpark based on examples
-- Project
+- [Spark tutorial](https://www.youtube.com/watch?v=zC9cnh8rJd0&list=PLYhRPCyrSUlpJTrU8CSjy94O66m-04ifn&index=2&t=343s)
 - [Project pro](https://www.projectpro.io/tutorial/):
   - [Spark tutorial](https://www.projectpro.io/apache-spark-tutorial/spark-tutorial)
   - [PySpark tutorial](https://www.projectpro.io/apache-spark-tutorial/pyspark-tutorial)
