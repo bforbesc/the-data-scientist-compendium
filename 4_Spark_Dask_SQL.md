@@ -12,7 +12,7 @@
 
 ## Snippets
 ```python
-sc._conf.getAll() # check Spark configurations in shell
+sc._conf.getAll() # check SparkContext configurations in shell
 ```
 
 # ```SQL```
