@@ -10,6 +10,11 @@
   - [Spark tutorial](https://www.projectpro.io/apache-spark-tutorial/spark-tutorial)
   - [PySpark tutorial](https://www.projectpro.io/apache-spark-tutorial/pyspark-tutorial)
 
+## Snippets
+```python
+sc._conf.getAll() # check Spark configurations in shell
+```
+
 # ```SQL```
 
 - [SQL main tasks summarized](https://towardsdatascience.com/sql-practical-details-cheat-sheet-for-data-analysis-f98406a71a09)
