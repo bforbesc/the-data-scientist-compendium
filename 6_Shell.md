@@ -42,6 +42,12 @@ which bash # tells me where bash is
 du -h --max-depth=1 /path/to/directory 
 ```
 
+[Determine number of cores](https://linuxhint.com/find-the-number-of-cores-in-ubuntu/)
+```shell
+nproc
+```
+
+
 General operators
 ```shell
 ~ # go back to home directory
