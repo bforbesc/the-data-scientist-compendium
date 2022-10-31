@@ -37,6 +37,11 @@ unzip # tool to unzip
 which bash # tells me where bash is
 ```
 
+[Determinetotal size of a directory](https://askubuntu.com/questions/1224/how-do-i-determine-the-total-size-of-a-directory-folder-from-the-command-line)
+```shell
+du -h --max-depth=1 /path/to/directory 
+```
+
 General operators
 ```shell
 ~ # go back to home directory
