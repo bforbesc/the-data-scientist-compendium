@@ -35,6 +35,10 @@ array.getNumPartitions()
 - [Official documentation](https://docs.dask.org/en/stable/): including examples and tutorials
 - [Dask archives](https://coiled.io/blog/tag/dask/): official blog with additional examples and tutorials
 - [XGboost](https://xgboost.readthedocs.io/en/stable/tutorials/dask.html): example of a full implementation; other example can be found [here](https://github.com/coiled/coiled-resources/blob/main/blogs/dask-python-xgboost-example-100GB-synth-dataset.ipynb) and [here](https://matthewrocklin.com/blog/work/2017/03/28/dask-xgboost)
+- Resource management:
+  - [Best practices](https://docs.dask.org/en/stable/best-practices.html)
+  - [Choosing chunk sizes](https://blog.dask.org/2021/11/02/choosing-dask-chunk-sizes)
+  - [Memory usage](https://www.coiled.io/blog/dask-memory-usage)
 
 
 ## Snippets
