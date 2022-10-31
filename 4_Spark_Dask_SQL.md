@@ -52,4 +52,23 @@ cluster = LocalCluster(n_workers=2,
 client = Client(cluster)
 client
 ```
+[Assessing DataFrame partitions](https://www.coiled.io/blog/dask-memory-usage)
+```python
+def partition_report(ddf):
+    series = ddf.memory_usage_per_partition(deep=True).compute()
+    total = series.count()
+    print(f"Total number of partitions: {total}")
+    total_memory = format_bytes(series.sum())
+    print(f"Total DataFrame memory: {total_memory}")
+    total = total.astype(numpy.float64)
+    lt_1kb = series.where(lambda x : x < 1000).count()
+    lt_1kb_percentage = '{:.1%}'.format(lt_1kb/total)
+    lt_1mb = series.where(lambda x : x < 1000000).count()
+    lt_1mb_percentage = '{:.1%}'.format(lt_1mb/total)
+    gt_1gb = series.where(lambda x : x > 1000000000).count()
+    gt_1gb_percentage = '{:.1%}'.format(gt_1gb/total)
+    print(f"Num partitions < 1 KB: {lt_1kb} ({lt_1kb_percentage})")
+    print(f"Num partitions < 1 MB: {lt_1mb} ({lt_1mb_percentage})")
+    print(f"Num partitions > 1 GB: {gt_1gb} ({gt_1gb_percentage})")
+```
 
