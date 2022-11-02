@@ -89,27 +89,6 @@ screen # keep server running
 ```
 - [More details on ```screen```](https://linuxize.com/post/how-to-use-linux-screen/)
 
-# Windows command prompt snippets
-```shell
-/? # get help
-cls # clear screen
-dir *.png # change directory
-rename "hello.txt" "goodbye.txt"
-mkdir parent\child
-rmdir /s child
-del # dele file
-move
-copy
-xcopy # recursively copy a directory tree
-tree # recursive directory listing
-echo "some text" > filename.txt # add text to exis
-echo "add some text" >> filename.txt
-ipconfig # get address of local machine
-wmic logicaldisk get name # obtain a list of drives
-attrib # displays, sets, or removes attributes assigned to files or directories
-dir > directory_tree.txt # print the current directory tree to a text file
-set # prints a list of all environment variables
-```
 
 # Anaconda/ Conda snippets
 [How to change the Jupyter start-up folder in your device](https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder) 
@@ -165,4 +144,32 @@ pip install aequitas # bias and fairness Audit Toolkit
 conda install -c districtdatalabs yellowbrick # machine learning visualization 
 ```
 
-[Conda: myths and misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/)
+- [Conda: myths and misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/)
+- [Using pip with Conda](https://www.anaconda.com/blog/using-pip-in-a-conda-environment):
+    1. Use an isolated conda environment. 
+    2. Only after conda has been used to install as many packages as possible should pip be used to install any remaining software. 
+    3. If modifications are needed to the environment, it is best to create a new environment rather than running conda after pip. 
+    4. When appropriate conda and pip requirements should be stored in text files.
+
+
+# Windows command prompt snippets
+```shell
+/? # get help
+cls # clear screen
+dir *.png # change directory
+rename "hello.txt" "goodbye.txt"
+mkdir parent\child
+rmdir /s child
+del # dele file
+move
+copy
+xcopy # recursively copy a directory tree
+tree # recursive directory listing
+echo "some text" > filename.txt # add text to exis
+echo "add some text" >> filename.txt
+ipconfig # get address of local machine
+wmic logicaldisk get name # obtain a list of drives
+attrib # displays, sets, or removes attributes assigned to files or directories
+dir > directory_tree.txt # print the current directory tree to a text file
+set # prints a list of all environment variables
+```
