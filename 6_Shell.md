@@ -108,6 +108,10 @@ conda activate "env_name"
 conda deactivate # deactivate environment
 conda rename -n old_name -d new_name  # rename environment
 ```
+[Rename environment](https://stackoverflow.com/questions/42231764/how-can-i-rename-a-conda-environment)
+```conda
+conda rename -n old_name -d new_name
+```
 
 Kernel management and link to Jupyter
 ```shell
