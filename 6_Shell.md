@@ -12,6 +12,12 @@
 - [Conda: Myths and Misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/?utm_source=pocket_mylist)
 - [How to use tmux](https://www.howtogeek.com/671422/how-to-use-tmux-on-linux-and-why-its-better-than-screen/)
 - [VS Code and tmux intergation](https://cppdev.medium.com/vs-code-and-tmux-intergation-for-reliable-remote-development-e26594e6757a)
+- [Details on ```screen```](https://linuxize.com/post/how-to-use-linux-screen/)
+- [Using pip with Conda](https://www.anaconda.com/blog/using-pip-in-a-conda-environment):
+    - Use an isolated conda environment. 
+    - Only after conda has been used to install as many packages as possible should pip be used to install any remaining software. 
+    - If modifications are needed to the environment, it is best to create a new environment rather than running conda after pip. 
+    - When appropriate conda and pip requirements should be stored in text files.
 
 
 # Bash snippets
@@ -87,8 +93,6 @@ ping # check connection to remote address
 htop # see which ports are being used in server
 screen # keep server running
 ```
-- [More details on ```screen```](https://linuxize.com/post/how-to-use-linux-screen/)
-
 
 # Anaconda/ Conda snippets
 [How to change the Jupyter start-up folder in your device](https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder) 
@@ -143,13 +147,6 @@ conda install nltk # text analysis
 pip install aequitas # bias and fairness Audit Toolkit 
 conda install -c districtdatalabs yellowbrick # machine learning visualization 
 ```
-
-- [Conda: myths and misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/)
-- [Using pip with Conda](https://www.anaconda.com/blog/using-pip-in-a-conda-environment):
-    1. Use an isolated conda environment. 
-    2. Only after conda has been used to install as many packages as possible should pip be used to install any remaining software. 
-    3. If modifications are needed to the environment, it is best to create a new environment rather than running conda after pip. 
-    4. When appropriate conda and pip requirements should be stored in text files.
 
 
 # Windows command prompt snippets
