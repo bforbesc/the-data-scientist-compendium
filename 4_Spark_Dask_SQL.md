@@ -27,7 +27,7 @@
     - Dask manipulates as many chunks in parallel as you have cores on that machine (ex. 1 GB chunks and 10 cores, will use at least 10 GB of memory).
     - Example: machine with 100 GB and 10 cores, should have partition in the 1GB range, allowing 10 chunks per core and preventing from being too small.
 - **Number of threads per core**
-  - If you use NumPy, Pandas, Scikit-learn, Numba that release the global interpreter lock (GIL): (1) the default number of threads (1 thread per worker) works fine (i.e. you won’t benefit from multiple threads per core); (2) use mostly threads (fewer workers)
+  - If you use NumPy, Pandas, Scikit-learn, Numba that release the global interpreter lock (GIL): (1) the default number of threads (1 thread per core) works fine (i.e. you won’t benefit from multiple threads per core); (2) use mostly threads (fewer workers)
   - If you’re on larger machines with a high thread count (\> 10), you should split things up into a few processes (workers). 
       - Python can be highly productive with 10 threads per process (worker) with numeric work, but not 50 threads.
   - If you’re doing work on text data or Python collections like lists and dicts then use mostly processes (i.e. fewer threads per core, more workers).
