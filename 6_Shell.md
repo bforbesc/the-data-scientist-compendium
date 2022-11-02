@@ -11,7 +11,7 @@
 - [Windows Command Prompt vs. Shell equivalence of commands](https://skimfeed.com/blog/windows-command-prompt-ls-equivalent-dir/)
 - [Conda: Myths and Misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/?utm_source=pocket_mylist)
 - [How to use tmux](https://www.howtogeek.com/671422/how-to-use-tmux-on-linux-and-why-its-better-than-screen/)
-- [VS Code and tmux intergation](https://cppdev.medium.com/vs-code-and-tmux-intergation-for-reliable-remote-development-e26594e6757a)
+- [VS Code and ```tmux``` intergation](https://cppdev.medium.com/vs-code-and-tmux-intergation-for-reliable-remote-development-e26594e6757a)
 - [Details on ```screen```](https://linuxize.com/post/how-to-use-linux-screen/)
 - [Using pip with Conda](https://www.anaconda.com/blog/using-pip-in-a-conda-environment):
     - Use an isolated conda environment. 
