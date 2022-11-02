@@ -8,6 +8,10 @@
   - [Memory usage](https://www.coiled.io/blog/dask-memory-usage)
 
 
+## Notes
+- 
+
+
 ## Snippets
 [Adjust memory budget](https://stackoverflow.com/questions/69429950/dask-what-does-memory-limit-control#:~:text=The%20link%20you%20posted%20says,reach%2095%25%20of%20RAM%20usage.)
 ```python
@@ -19,6 +23,12 @@ cluster = LocalCluster(n_workers=2,
 client = Client(cluster)
 client
 ```
+
+Missing values count
+```python
+
+```
+
 [Assessing DataFrame partitions](https://www.coiled.io/blog/dask-memory-usage)
 ```python
 def partition_report(ddf):
