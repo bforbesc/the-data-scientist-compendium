@@ -9,7 +9,9 @@
 
 
 ## Notes
-- 
+- Ideally we should have one partition for each worker.
+- Typically 10% of RAM is used to communicate with OS. Then, around 60% of RAM is needed to manage workload (overhead). Ultimately, we only end up with  roughly 54% of initial RAM to actually perform computations.
+- Typically, each chunk/ partition should be between 10 MB and 1 GB to minimize IO overhead.
 
 
 ## Snippets
@@ -26,7 +28,26 @@ client
 
 Missing values count
 ```python
+mssing_count = ((df.isnull().sum() / df.index.size()) * 100)
+mssing_count.compute()
+```
 
+Inspecting partitioning of dataframe
+```python
+df.divisions # boundaries of the partitioning scheme
+df.npartitions
+df.map_partitions(len).compute() # number of rows in each partition
+```
+
+How to store andd read a model
+```python
+import dill
+with open('model.pkl', 'wb') as file:
+  dill.dump(model, file)
+  
+ with open('model.pkl', 'rb') as file:
+  model_loaded = dill.load(file)
+model_loaded.predict(X_test)
 ```
 
 [Assessing DataFrame partitions](https://www.coiled.io/blog/dask-memory-usage)
