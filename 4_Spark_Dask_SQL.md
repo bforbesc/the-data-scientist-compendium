@@ -6,12 +6,36 @@
   - [Best practices](https://docs.dask.org/en/stable/best-practices.html)
   - [Choosing chunk sizes](https://blog.dask.org/2021/11/02/choosing-dask-chunk-sizes)
   - [Memory usage](https://www.coiled.io/blog/dask-memory-usage)
+  - [General guidelines](https://docs.nersc.gov/analytics/dask/)
 
 
 ## Notes
-- Ideally we should have one partition for each worker.
-- Typically 10% of RAM is used to communicate with OS. Then, around 60% of RAM is needed to manage workload (overhead). Ultimately, we only end up with  roughly 54% of initial RAM to actually perform computations.
-- Typically, each chunk/ partition should be between 10 MB and 1 GB to minimize IO overhead.
+- *Number of workers*
+  - Ideally we should have one partition for each worker. In general more threads per worker are good for a program that spends most of its time in NumPy, SciPy, Numba, etc.
+  - Rule of thumb: square root of the number of cores per worker. 
+- *Number/ size of partitions*
+  - Each chunk/ partition size should be between 100MB and 1GB to minimize I/O overhead.
+    - Going over 1GB or 2GB means you have a really big dataset and/or a lot of memory available per core.
+    - Partitions should be small enough so that many of them fit in a worker’s available memory at once.
+  - Number of partitions should equal 2 - 3 times number of worker cores, otherwise some workers will stay idle.
+    - At minimum shold equal the number of worker cores available.
+    - > 10,000 or 100,000 partitions may start to perform poorly.
+    - Dask manipulates as many chunks in parallel as you have cores on that machine (ex. 1 GB chunks and 10 cores, will use at least 10 GB of memory).
+    - Example: machine with 100 GB and 10 cores, should have partition in the 1GB range, allowing 10 chunks per core and preventing from being too small.
+- *Storge*
+  - Store  data in formats that are optimized for random access, metadata storage, and binary encoding/ serialized (ex. Parquet, Zarr, HDF5). 
+- *Diagnostic*
+  - If workers are under memory pressure: repartition your dataset and increase the number of partitions. 
+    - Smaller chunks of data will fit in memory easier and lowers the need to spill to disk.
+- *Other*
+  - Typically 10% of RAM is used to communicate with OS. Then, around 60% of RAM is needed to manage workload (overhead). Ultimately, we only end up with  roughly 54% of initial RAM to actually perform computations.
+  - Accessing data from RAM is often much faster than accessing it from disk. Once you have your dataset in a clean state that both: (1) fits in memory, (2) is clean enough that you will want to try many different analyses, then it is a good time to persist your data in RAM.
+  - Partition/ chunk data in alignment with common queries (ex. choose a dataframe column to sort by for fast selection and joins).
+
+
+- If you’re doing mostly numeric work with Numpy, pandas, Scikit-learn, Numba, and other libraries that release the GIL, then use mostly threads. 
+- If you’re doing work on text data or Python collections like lists and dicts then use mostly processes. 
+- If you’re on larger machines with a high thread count (greater than 10), then you should probably split things up into at least a few processes regardless. Python can be highly productive with 10 threads per process with numeric work, but not 50 threads.
 
 
 ## Snippets
