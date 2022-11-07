@@ -35,6 +35,7 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 	- [neural networks (from scratch)](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3)
 	- [reinforcement learning](https://towardsdatascience.com/reinforcement-learning-101-e24b50e1d292)
 	- [XGBoost (from scratch)](https://medium.com/analytics-vidhya/what-makes-xgboost-so-extreme-e1544a4433bb)
+	- [structured learning](https://pystruct.github.io/intro.html)
 - [CatBoost vs. Light GBM vs. XGBoost](https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db)
 - [Stacking vs. Bagging vs. Boosting](https://mksaad.wordpress.com/2019/12/21/stacking-vs-bagging-vs-boosting/)
 - [Guide to hyperparameter tuning in XGBoost](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
