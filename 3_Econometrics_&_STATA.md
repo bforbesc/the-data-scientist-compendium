@@ -28,7 +28,7 @@ Specific tasks/ resources:
 - [Fixed/ random effects models](https://rstudio-pubs-static.s3.amazonaws.com/372492_3e05f38dd3f248e89cdedd317d603b9a.html)
 - [An introduction to ‘margins’](https://cran.r-project.org/web/packages/margins/vignettes/Introduction.html?utm_source=pocket_mylist)
 
-## <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> Python - Resources
+## <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 - [Difference-in-differences (DiD) package](https://differences.readthedocs.io/en/latest/getting_started/index.html)
 
 ## 🎓general resources
