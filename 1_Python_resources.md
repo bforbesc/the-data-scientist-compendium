@@ -15,6 +15,7 @@
 - Libraries for improving your plots:
   - [Altair](https://altair-viz.github.io/)
   - [Plotly](https://plotly.com/python/)
+  - [Bokeh](https://bokeh.org/): includes dashboard building
 - Libraries for dealing with maps and geocoordinates:
   - [Geopy](https://geopy.readthedocs.io/en/stable/)
     - [Simple explanation](https://towardsdatascience.com/things-to-do-with-latitude-longitude-data-using-geopy-python-1d356ed1ae30)
