@@ -345,6 +345,16 @@ df = df.astype(str).apply(LabelEncoder().fit_transform)
 df.where(~mask, original)
 ```
 
+[Replace missing values based on values from another column](https://stackoverflow.com/questions/30357276/how-to-pass-another-entire-column-as-argument-to-pandas-fillna)
+```Python
+df['Cat1'].fillna(df['Cat2'])
+```
+
+[Convert column to categorical variable](https://stackoverflow.com/questions/39092067/pandas-dataframe-convert-column-type-to-string-or-categorical)
+```Python
+df['zipcode'] = df.zipcode.astype('category')
+```
+
 [Generate a dictionary of data type for each column](https://stackoverflow.com/questions/41087887/is-there-a-way-to-generate-the-dtypes-as-a-dictionary-in-pandas)
 ```python
 df.dtypes.to_dict()
