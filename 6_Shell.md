@@ -43,9 +43,15 @@ unzip # tool to unzip
 which bash # tells me where bash is
 ```
 
-[Determine total size of a directory](https://askubuntu.com/questions/1224/how-do-i-determine-the-total-size-of-a-directory-folder-from-the-command-line)
+[Determine size of files or folders](https://stackoverflow.com/questions/11720079/linux-command-to-get-size-of-files-and-directories-present-in-a-particular-folde)
 ```shell
-du -h --max-depth=1 /path/to/directory 
+ls -l filename   # Displays Size of the specified file
+ls -l *          # Displays Size of All the files in the current directory
+ls -al *         # Displays Size of All the files including hidden files in the current directory
+ls -al dir/      # Displays Size of All the files including hidden files in the 'dir' directory
+
+du -sh directory_name    # Gives you the summarized(-s) size of the directory in human readable(-h) format
+du -bsh *                # Gives you the apparent(-b) summarized(-s) size of all the files and directories in the current directory in human readable(-h) format
 ```
 
 [Determine number of cores](https://linuxhint.com/find-the-number-of-cores-in-ubuntu/)
