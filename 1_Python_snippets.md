@@ -298,6 +298,13 @@ df['col2']=df['col2'].astype('category').cat.codes
 df.corr()
 ```
 
+[Drop highly correlated features](https://www.projectpro.io/recipes/drop-out-highly-correlated-features-in-python)
+```python
+cor_matrix = df.corr().abs()
+upper_tri = cor_matrix.where(np.triu(np.ones(cor_matrix.shape),k=1).astype(np.bool))
+to_drop = [column for column in upper_tri.columns if any(upper_tri[column] > 0.95)]
+```
+
 [How to flatten a NumPy array](https://numpy.org/doc/stable/reference/generated/numpy.ravel.html)
 ```python
 x = np.array([[1, 2, 3], [4, 5, 6]]) 
@@ -349,10 +356,19 @@ df.where(~mask, original)
 ```Python
 df['Cat1'].fillna(df['Cat2'])
 ```
+[Split string and create column](https://datatofish.com/left-right-mid-pandas/)
+```Python
+df["new_Identifier"] = df['Identifier'].str.split('-').str[0]
+```
 
 [Convert column to categorical variable](https://stackoverflow.com/questions/39092067/pandas-dataframe-convert-column-type-to-string-or-categorical)
 ```Python
 df['zipcode'] = df.zipcode.astype('category')
+```
+
+[Check if column is sorted](https://stackoverflow.com/questions/28419877/check-whether-non-index-column-sorted-in-pandas)
+```Python
+pandas.Series.is_monotonic_increasing
 ```
 
 [Generate a dictionary of data type for each column](https://stackoverflow.com/questions/41087887/is-there-a-way-to-generate-the-dtypes-as-a-dictionary-in-pandas)
