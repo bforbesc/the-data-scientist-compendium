@@ -387,6 +387,11 @@ df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
 columns_to_drop = [col for col in base_model_data.columns if col not in ["date"]]
 df.dropna(subset=columns_to_drop)
 ```
+[Force datatypes based on dictionary](https://docs.dask.org/en/latest/generated/dask.dataframe.DataFrame.astype.html)
+```python
+dict = {'col1': 'int32'}
+df.astype(dict)
+```
 
 # General Python snippets
 Check Python documentation
