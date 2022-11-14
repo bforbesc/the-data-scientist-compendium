@@ -10,6 +10,7 @@
   - [Difference between processes and threads](https://towardsdatascience.com/which-is-faster-python-threads-or-processes-some-insightful-examples-26074e90848f)
     - [Configuration of LocalCluster](https://stackoverflow.com/questions/57760475/difference-between-dask-distributed-localcluster-with-threads-vs-processes)
    - [Threads per core](https://discourse.prefect.io/t/what-is-the-difference-between-a-daskexecutor-and-a-localdaskexecutor/374)
+   - [Reduce size by selecting "smaller" datatypes (ex. int8)](https://www.coiled.io/blog/dask-dtype-astype)
 
 
 ## Notes
