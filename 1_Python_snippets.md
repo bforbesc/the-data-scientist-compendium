@@ -382,6 +382,12 @@ all_files = glob.glob(os.path.join(path, "*.csv"))
 df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
 ```
 
+[Select columns from list of columns drop rows based on those columns](https://stackoverflow.com/questions/51488470/pandas-dropping-all-the-columns-that-contain-any-nan-except-one)
+```python
+columns_to_drop = [col for col in base_model_data.columns if col not in ["date"]]
+df.dropna(subset=columns_to_drop)
+```
+
 # General Python snippets
 Check Python documentation
 ```python
@@ -431,7 +437,6 @@ hyper_params = {
 
 combinations = list(itertools.product(*hyper_params.values()))
 ```
-
 
 [Convert a list to a dictionary](https://www.geeksforgeeks.org/python-convert-a-list-to-dictionary/)
 ```python
