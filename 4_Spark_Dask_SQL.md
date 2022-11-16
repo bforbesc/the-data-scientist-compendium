@@ -99,6 +99,21 @@ def partition_report(ddf):
     print(f"Num partitions > 1 GB: {gt_1gb} ({gt_1gb_percentage})")
 ```
 
+[Repartition DataFrame to get even-sized partitions](https://stackoverflow.com/questions/52642966/repartition-dask-dataframe-to-get-even-partitions)
+```python
+def _rebalance_ddf(ddf):
+    """Repartition dask dataframe to ensure that partitions are roughly equal size.
+
+    Assumes `ddf.index` is already sorted.
+    """
+    if not ddf.known_divisions:  # e.g. for read_parquet(..., infer_divisions=False)
+        ddf = ddf.reset_index().set_index(ddf.index.name, sorted=True)
+    index_counts = ddf.map_partitions(lambda _df: _df.index.value_counts().sort_index()).compute()
+    index = np.repeat(index_counts.index, index_counts.values)
+    divisions, _ = dd.io.io.sorted_division_locations(index, npartitions=ddf.npartitions)
+    return ddf.repartition(divisions=divisions)
+```
+
 # ⚡SPARK
 
 ## Books
