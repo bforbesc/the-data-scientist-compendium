@@ -59,6 +59,11 @@ du -bsh *                # Gives you the apparent(-b) summarized(-s) size of all
 nproc
 ```
 
+[Remove all files from directory](https://askubuntu.com/questions/60228/how-to-remove-all-files-from-a-directory)
+```shell
+rm *
+```
+
 
 General operators
 ```shell
