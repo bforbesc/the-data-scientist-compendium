@@ -25,6 +25,8 @@
 - [Visualize Python code under the hood](https://pythontutor.com/visualize.html#mode=edit)
 - [Jupyter notebook extensions](https://towardsdatascience.com/jupyter-notebook-extensions-part-2-55fdb2c38348)
 - [Find/replace text within a notebook cell in Visual Studio](https://github.com/microsoft/vscode/issues/141493)
+- [Command line interfaces with argparse](https://realpython.com/command-line-interfaces-python-argparse/)
+- [Error log](https://realpython.com/python-logging/)
 
 # 🎓concepts/ explanations
 - [How to identify the axis number in Pandas and NumPy](https://stackoverflow.com/questions/22149584/what-does-axis-in-pandas-mean)
