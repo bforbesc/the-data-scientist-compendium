@@ -272,6 +272,11 @@ get_foo_group = df.groupby(['col1']).get_group("foo")
 df.sort_values('col2', ascending=False).drop_duplicates('col1').sort_index()
 ```
 
+[How to remove levels from a multi-index](https://stackoverflow.com/questions/17084579/how-to-remove-levels-from-a-multi-indexed-dataframe)
+```python
+df.index = df.index.droplevel(2)
+```python
+
 [Check if two DataFrames are equal](https://www.geeksforgeeks.org/python-pandas-dataframe-equals/)
 ```python
 df1.equals(df2)
