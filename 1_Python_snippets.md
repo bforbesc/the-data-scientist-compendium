@@ -339,6 +339,11 @@ df['new'] = np.where((df['colA'] >= df['colB']) & (df['colA'] <= df['colC'])
                      , df['colA'], np.nan)
 ```
 
+Check if there are elements which do not overlap between columns
+```Python
+set(list(df1.col.unique())) - set(list(df2.col.unique()))
+```
+
 [How to convert column (with NaN) to integer](https://stackoverflow.com/questions/62899860/how-can-i-resolve-typeerror-cannot-safely-cast-non-equivalent-float64-to-int6)
 ```Python
 df['A'] = np.floor(pd.to_numeric(df['A'], errors='coerce')).astype('Int64')
