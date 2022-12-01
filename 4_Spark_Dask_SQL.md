@@ -147,3 +147,99 @@ array.getNumPartitions()
 - [SQL main tasks summarized](https://towardsdatascience.com/sql-practical-details-cheat-sheet-for-data-analysis-f98406a71a09)
 - [10 most important SQL concepts](https://towardsdatascience.com/ten-sql-concepts-you-should-know-for-data-science-interviews-7acf3e428185)
 - [Connecting PostgreSQL to Visual Studio Code](https://ryanhutzley.medium.com/getting-started-with-the-postgresql-extension-for-vscode-d666c281ec72)
+
+
+```SQL
+SELECT TOP (10) product_id, year_intro
+FROM products
+```
+```SQL
+DECLARE @my_artist VARCHAR(100)
+DECLARE @test_int INT
+SET @test_int = 5
+SET @my_artist = 'AC/DC'
+```
+```SQL
+WHERE
+  artist IN ('Van Halen', 'ZZ Top')
+  description LIKE '%storm'
+  demand_loss_mw IS NOT NULL
+  name = @my_artist
+  country IN
+    (SELECT name
+    FROM states
+    WHERE indep_year < 1800);
+```
+```SQL
+HAVING SUM(demand_loss_mw) > 1000
+```
+```SQL
+SELECT country
+FROM prime_ministers
+
+UNION -- Duplicate rows are excluded
+UNION ALL -- Includes duplicate rows
+INTERSECT
+EXCEPT
+
+SELECT country
+FROM presidents;
+```
+```SQL
+SELECT col1, col2, col3 
+INTO #my_temp_table
+FROM my_existing_table
+
+#my_temp_table -- exists until connection or session ends
+-- Remove table manually
+DROP TABLE #my_temp_table
+```
+
+```SQL
+SELECT p1.country, p1.continent,
+prime_minister, president
+FROM prime_ministers AS p1
+INNER JOIN presidents AS p2
+ON p1.country = p2.country;
+ON p1.continent = p2.continent AND p1.country <> p2.country;
+-- or if the key is the same
+USING (country);
+```
+
+```SQL
+SELECT name, continent, indep_year,
+  CASE WHEN ___ < ___ THEN 'before 1900'
+       WHEN indep_year <= 1930 THEN '___'
+       ELSE '___' END
+       AS indep_year_group
+FROM states
+ORDER BY indep_year_group;
+```
+An anti-join
+```SQL
+SELECT president, country, continent
+FROM presidents
+WHERE ___ LIKE '___'
+  AND country ___ NOT IN
+  (SELECT name
+  FROM states
+  WHERE indep_year < 1800);
+```
+Subquery inside SELECT clause - complete
+```SQL
+SELECT DISTINCT continent,
+  (SELECT COUNT(*)
+  FROM states
+  WHERE prime_ministers.continent = states.continent) AS countries_num
+FROM prime_ministers;
+```
+Subquery
+```SQL
+SELECT DISTINCT monarchs.continent, subquery.max_perc
+FROM monarchs,
+(SELECT continent, MAX(women_parli_perc) AS max_perc
+FROM states
+GROUP BY continent) AS subquery
+WHERE monarchs.continent = subquery.continent
+ORDER BY continent;
+```SQL
