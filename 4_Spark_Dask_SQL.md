@@ -144,21 +144,25 @@ array.getNumPartitions()
 
 # 🏁 SQL
 
+## Resources
 - [SQL main tasks summarized](https://towardsdatascience.com/sql-practical-details-cheat-sheet-for-data-analysis-f98406a71a09)
 - [10 most important SQL concepts](https://towardsdatascience.com/ten-sql-concepts-you-should-know-for-data-science-interviews-7acf3e428185)
 - [Connecting PostgreSQL to Visual Studio Code](https://ryanhutzley.medium.com/getting-started-with-the-postgresql-extension-for-vscode-d666c281ec72)
 
-
+## Snippets
+Alternative to LIMIT
 ```SQL
 SELECT TOP (10) product_id, year_intro
 FROM products
 ```
+Declaring and using variables
 ```SQL
 DECLARE @my_artist VARCHAR(100)
 DECLARE @test_int INT
 SET @test_int = 5
 SET @my_artist = 'AC/DC'
 ```
+Filtering
 ```SQL
 WHERE
   artist IN ('Van Halen', 'ZZ Top')
@@ -169,22 +173,33 @@ WHERE
     (SELECT name
     FROM states
     WHERE indep_year < 1800);
+ -- Filtering the intermediate output
+ HAVING SUM(demand_loss_mw) > 1000
 ```
+If then statements
 ```SQL
-HAVING SUM(demand_loss_mw) > 1000
+SELECT name, continent, indep_year,
+  CASE WHEN ___ < ___ THEN 'before 1900'
+       WHEN indep_year <= 1930 THEN '___'
+       ELSE '___' END
+       AS indep_year_group
+FROM states
+ORDER BY indep_year_group;
 ```
+Concatenating two tables
 ```SQL
 SELECT country
 FROM prime_ministers
-
+-- Alternatives
 UNION -- Duplicate rows are excluded
 UNION ALL -- Includes duplicate rows
 INTERSECT
 EXCEPT
-
+--
 SELECT country
 FROM presidents;
 ```
+Temporary tables
 ```SQL
 SELECT col1, col2, col3 
 INTO #my_temp_table
@@ -194,7 +209,7 @@ FROM my_existing_table
 -- Remove table manually
 DROP TABLE #my_temp_table
 ```
-
+Join
 ```SQL
 SELECT p1.country, p1.continent,
 prime_minister, president
@@ -205,17 +220,7 @@ ON p1.continent = p2.continent AND p1.country <> p2.country;
 -- or if the key is the same
 USING (country);
 ```
-
-```SQL
-SELECT name, continent, indep_year,
-  CASE WHEN ___ < ___ THEN 'before 1900'
-       WHEN indep_year <= 1930 THEN '___'
-       ELSE '___' END
-       AS indep_year_group
-FROM states
-ORDER BY indep_year_group;
-```
-An anti-join
+Anti-join
 ```SQL
 SELECT president, country, continent
 FROM presidents
@@ -224,14 +229,6 @@ WHERE ___ LIKE '___'
   (SELECT name
   FROM states
   WHERE indep_year < 1800);
-```
-Subquery inside SELECT clause - complete
-```SQL
-SELECT DISTINCT continent,
-  (SELECT COUNT(*)
-  FROM states
-  WHERE prime_ministers.continent = states.continent) AS countries_num
-FROM prime_ministers;
 ```
 Subquery
 ```SQL
@@ -242,4 +239,12 @@ FROM states
 GROUP BY continent) AS subquery
 WHERE monarchs.continent = subquery.continent
 ORDER BY continent;
+```
+Subquery inside SELECT clause
 ```SQL
+SELECT DISTINCT continent,
+  (SELECT COUNT(*)
+  FROM states
+  WHERE prime_ministers.continent = states.continent) AS countries_num
+FROM prime_ministers;
+```
