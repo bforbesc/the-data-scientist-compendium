@@ -376,6 +376,3 @@ ROW_NUMBER()
 OVER (PARTITION BY SalesPerson ORDER BY SalesYear) AS QuotabySalesPerson
 FROM SaleGoal
 ```
-
-```SQL
-```
