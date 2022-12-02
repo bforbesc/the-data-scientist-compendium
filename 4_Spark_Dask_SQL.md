@@ -157,6 +157,10 @@ FROM products
 ```
 Declaring and using variables
 ```SQL
+-- DECLARE @variablename data_type: VARCHAR(n), INT, DECIMAL(p ,s), NUMERIC(p ,s)
+-- where p : number of decimal digits that will be stored, both to the left and to the right of
+the decimal point; s : number of decimal digits that will be stored to the right of the decimal point
+
 DECLARE @my_artist VARCHAR(100)
 DECLARE @test_int INT
 SET @test_int = 5
@@ -173,16 +177,32 @@ WHERE
     (SELECT name
     FROM states
     WHERE indep_year < 1800);
- -- Filtering the intermediate output
+ -- Filtering for GROUP BY
  HAVING SUM(demand_loss_mw) > 1000
 ```
-If then statements
+Replacing NULL
+```SQL
+SELECT TradeGDPPercent, ImportGoodPercent,
+ISNULL(Country, 'Unknown') AS NewCountry -- specify a value
+ISNULL(TradeGDPPercent, ImportGoodPercent) AS NewPercent -- use value from another columns
+FROM EconomicIndicators
+
+-- Note: a blank is not the same as a NULL; empty string '' can be used to find blanks
+```
+Replacing NULL with COALESCE
+```SQL
+-- returns the first non-missing value
+SELECT TradeGDPPercent, ImportGoodPercent,
+COALESCE(TradeGDPPercent, ImportGoodPercent, 'N/A') AS NewPercent
+FROM EconomicIndicators
+```
+Change column values based on conditions
 ```SQL
 SELECT name, continent, indep_year,
   CASE WHEN ___ < ___ THEN 'before 1900'
        WHEN indep_year <= 1930 THEN '___'
-       ELSE '___' END
-       AS indep_year_group
+       ELSE '___' 
+       END AS indep_year_group
 FROM states
 ORDER BY indep_year_group;
 ```
@@ -247,4 +267,13 @@ SELECT DISTINCT continent,
   FROM states
   WHERE prime_ministers.continent = states.continent) AS countries_num
 FROM prime_ministers;
+```
+Dates
+```SQL
+-- DATEPART: DD for Day, MM for Month, YY for Year, HH for Hour
+-- DATEADD (DATEPART, number, date)
+-- DATEDIFF (datepart, startdate, enddate)
+
+SELECT DATEADD(DD, -30, '2020-06-21') AS Addition,
+       DATEDIFF(DD, '2020-07-21', '2020-06-21') AS Difference
 ```
