@@ -155,6 +155,7 @@ Alternative to LIMIT
 SELECT TOP (10) product_id, year_intro
 FROM products
 ```
+
 Declaring and using variables
 ```SQL
 -- DECLARE @variablename data_type: VARCHAR(n), INT, DECIMAL(p ,s), NUMERIC(p ,s)
@@ -166,6 +167,7 @@ DECLARE @test_int INT
 SET @test_int = 5
 SET @my_artist = 'AC/DC'
 ```
+
 Filtering
 ```SQL
 WHERE
@@ -180,6 +182,7 @@ WHERE
  -- Filtering for GROUP BY
  HAVING SUM(demand_loss_mw) > 1000
 ```
+
 Replacing NULL
 ```SQL
 SELECT TradeGDPPercent, ImportGoodPercent,
@@ -189,6 +192,7 @@ FROM EconomicIndicators
 
 -- Note: a blank is not the same as a NULL; empty string '' can be used to find blanks
 ```
+
 Replacing NULL with COALESCE
 ```SQL
 -- returns the first non-missing value
@@ -196,6 +200,7 @@ SELECT TradeGDPPercent, ImportGoodPercent,
 COALESCE(TradeGDPPercent, ImportGoodPercent, 'N/A') AS NewPercent
 FROM EconomicIndicators
 ```
+
 Change column values based on conditions
 ```SQL
 SELECT name, continent, indep_year,
@@ -206,6 +211,7 @@ SELECT name, continent, indep_year,
 FROM states
 ORDER BY indep_year_group;
 ```
+
 Concatenating two tables
 ```SQL
 SELECT country
@@ -219,6 +225,7 @@ EXCEPT
 SELECT country
 FROM presidents;
 ```
+
 Temporary tables
 ```SQL
 SELECT col1, col2, col3 
@@ -229,6 +236,7 @@ FROM my_existing_table
 -- Remove table manually
 DROP TABLE #my_temp_table
 ```
+
 Join
 ```SQL
 SELECT p1.country, p1.continent,
@@ -240,6 +248,7 @@ ON p1.continent = p2.continent AND p1.country <> p2.country;
 -- or if the key is the same
 USING (country);
 ```
+
 Anti-join
 ```SQL
 SELECT president, country, continent
@@ -250,6 +259,7 @@ WHERE ___ LIKE '___'
   FROM states
   WHERE indep_year < 1800);
 ```
+
 Subquery
 ```SQL
 SELECT DISTINCT monarchs.continent, subquery.max_perc
@@ -260,6 +270,7 @@ GROUP BY continent) AS subquery
 WHERE monarchs.continent = subquery.continent
 ORDER BY continent;
 ```
+
 Subquery inside SELECT clause
 ```SQL
 SELECT DISTINCT continent,
@@ -268,6 +279,7 @@ SELECT DISTINCT continent,
   WHERE prime_ministers.continent = states.continent) AS countries_num
 FROM prime_ministers;
 ```
+
 Dates
 ```SQL
 -- DATEPART: DD for Day, MM for Month, YY for Year, HH for Hour
@@ -276,4 +288,94 @@ Dates
 
 SELECT DATEADD(DD, -30, '2020-06-21') AS Addition,
        DATEDIFF(DD, '2020-07-21', '2020-06-21') AS Difference
+```
+
+WHILE loop
+```SQL
+-- Declare ctr as an integer
+DECLARE @ctr INT
+-- Assign 1 to ctr
+SET @ctr = 1
+-- Specify the condition of the WHILE loop
+WHILE @ctr < 10
+-- Begin the code to execute inside WHILE loop
+BEGIN
+-- Keep incrementing the value of @ctr
+SET @ctr = @ctr + 1
+-- Check if ctr is equal to 4
+IF @ctr = 4
+-- When ctr is equal to 4, the loop will break
+BREAK
+-- End WHILE loop
+END
+```
+
+Derived tables
+```SQL
+SELECT a.* FROM Kidney a
+-- This derived table computes the Average age joined to the actual table
+JOIN (SELECT AVG(Age) AS AverageAge
+FROM Kidney) b
+ON a.Age = b.AverageAge
+```
+
+Common Table Expressions (CTE)
+```SQL
+-- CTE definitions start with the keyword WITH
+-- Followed by the CTE names and the columns it contains
+-- Create a CTE to get the Maximum BloodPressure by Age
+WITH BloodPressureAge(Age, MaxBloodPressure)
+AS
+(SELECT Age, MAX(BloodPressure) AS MaxBloodPressure
+FROM Kidney
+GROUP BY Age)
+-- Create a query to use the CTE as a table
+SELECT a.Age, MIN(a.BloodPressure), b.MaxBloodPressure
+FROM Kidney a
+-- Join the CTE with the table
+JOIN BloodpressureAge b
+ON a.Age = b.Age
+GROUP BY a.Age, b.MaxBloodPressure
+```
+
+Window syntax
+```SQL
+-- Create the window with OVER clause
+-- PARTITION BY creates the frame
+-- If you do not include PARTITION BY the frame is the entire table
+-- For FIRST_VALUE and LAST_VALUE the ORDER BY command is required
+SELECT SalesPerson, SalesYear, CurrentQuota,
+-- First value from every window
+FIRST_VALUE(CurrentQuota)
+OVER (PARTITION BY SalesYear ORDER BY ModifiedDate) AS StartQuota,
+-- Last value from every window
+LAST_VALUE(CurrentQuota)
+OVER (PARTITION BY SalesYear ORDER BY ModifiedDate) AS EndQuota,
+ModifiedDate as ModDate
+FROM SaleGoal
+```
+
+Window syntax - lag and lead
+```SQL
+SELECT SalesPerson, SalesYear, CurrentQuota,
+-- Create a window function to get the values from the next row
+LEAD(CurrentQuota)
+-- Create a window function to get the values from the previous row
+LAG(CurrentQuota)
+OVER (PARTITION BY SalesYear ORDER BY ModifiedDate) AS NextQuota,
+ModifiedDate AS ModDate
+FROM SaleGoal
+```
+
+Row numbers
+```SQL
+-- Sequentially numbers the rows in the window
+-- ORDER BY is required when using ROW_NUMBER()
+SELECT SalesPerson, SalesYear, CurrentQuota,
+ROW_NUMBER()
+OVER (PARTITION BY SalesPerson ORDER BY SalesYear) AS QuotabySalesPerson
+FROM SaleGoal
+```
+
+```SQL
 ```
