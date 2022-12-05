@@ -160,7 +160,7 @@ Declaring and using variables
 ```SQL
 -- DECLARE @variablename data_type: VARCHAR(n), INT, DECIMAL(p ,s), NUMERIC(p ,s)
 -- where p : number of decimal digits that will be stored, both to the left and to the right of
-the decimal point; s : number of decimal digits that will be stored to the right of the decimal point
+-- the decimal point; s : number of decimal digits that will be stored to the right of the decimal point
 
 DECLARE @my_artist VARCHAR(100)
 DECLARE @test_int INT
