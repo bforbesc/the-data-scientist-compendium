@@ -14,6 +14,8 @@ These are the code examples from two very good books which you can buy online:
 # 🔨 resources and tools
 - [An introduction to machine learning with scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutorial.html): official scikit-learn (based) tutorial
 - [Harvard CS181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/): lecture recaps and notes
+- [Standford CS229](https://cs229.stanford.edu/): lectures slides and notes
+	- [Main lectures notes](https://cs229.stanford.edu/notes2022fall/main_notes.pdf): one of the best synthesis of machine learning principles out there
 - [Stanford CS231: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/): lecture recaps and notes
 - [Notes on data science & machine learning](https://chrisalbon.com/): ‼️incredible resource‼️ for Python snippets for data science and machine learning in general
 - [Machine learning mastery](https://machinelearningmastery.com/start-here/#getstarted): another ‼️awesome resource‼️ with extremely complete reach from theory and practice of data science and machine learning
