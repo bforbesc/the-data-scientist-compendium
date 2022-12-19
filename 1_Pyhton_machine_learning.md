@@ -12,6 +12,7 @@ These are the code examples from two very good books which you can buy online:
 - [Introduction to Machine Learning with Python (code examples)](https://github.com/amueller/introduction_to_ml_with_python)
 
 # 🔨 resources and tools
+- [The Machine Learning, AI and Data (MAD) Landscape](https://mattturck.com/data2021/)
 - [An introduction to machine learning with scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutorial.html): official scikit-learn (based) tutorial
 - [Harvard CS181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/): lecture recaps and notes
 - [Standford CS229](https://cs229.stanford.edu/): lectures slides and notes
