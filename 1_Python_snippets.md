@@ -275,7 +275,12 @@ df.sort_values('col2', ascending=False).drop_duplicates('col1').sort_index()
 [How to remove levels from a multi-index](https://stackoverflow.com/questions/17084579/how-to-remove-levels-from-a-multi-indexed-dataframe)
 ```python
 df.index = df.index.droplevel(2)
+```
+
+[How to slice multi-index](https://stackoverflow.com/questions/45128523/pandas-multiindex-how-to-select-second-level-when-using-columns)
 ```python
+df.xs('price', level=1, drop_level=False)
+```
 
 [Check if two DataFrames are equal](https://www.geeksforgeeks.org/python-pandas-dataframe-equals/)
 ```python
