@@ -25,7 +25,6 @@ These are the code examples from two very good books which you can buy online:
 - [Introductory course on Reinforcement Learning](https://www.davidsilver.uk/teaching/)
 - [Machine learning operations principles](https://ml-ops.org/content/mlops-principles)
 - [The People + AI Guidebook (Google)](https://pair.withgoogle.com/guidebook/): methods, best practices and examples for designing better AI systems
-- [Guide on XGBoost hyperparameters tuning](https://www.kaggle.com/code/prashant111/a-guide-on-xgboost-hyperparameters-tuning/notebook)
 
 # 🤔 machine learning explained
 Theoretical and practical explanations of machine learning concepts and ideas:
@@ -53,6 +52,8 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 	- [one-hot encoding?](https://stats.stackexchange.com/questions/288095/what-algorithms-require-one-hot-encoding)
 	- [scaling, besides SVM?](https://stats.stackexchange.com/questions/244507/what-algorithms-need-feature-scaling-beside-from-svm)
 - [Shap: shapley additive explanations](https://towardsdatascience.com/a-novel-approach-to-feature-importance-shapley-additive-explanations-d18af30fc21b): feature importance algorithm explained
+- [Guide on XGBoost hyperparameters tuning](https://www.kaggle.com/code/prashant111/a-guide-on-xgboost-hyperparameters-tuning/notebook)
+- [Early stopping with XGBoost](https://machinelearningmastery.com/avoid-overfitting-by-early-stopping-with-xgboost-in-python/)
 
 
 # 📝 formulas/ reminders
