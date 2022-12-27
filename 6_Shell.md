@@ -64,6 +64,11 @@ nproc
 rm *
 ```
 
+[Decompress file with .zst or tar.zst extension](https://stackoverflow.com/questions/45355277/how-can-i-decompress-an-archive-file-having-zst-or-tar-zst)
+```shell
+tar --use-compress-program=unzstd -xvf file_name.tar.zst
+```
+
 
 General operators
 ```shell
@@ -73,7 +78,7 @@ General operators
 | # use as input previous code
 && # run second command only if first one run sucessfully
 ; # run commands sequentially
-* # which means "match zero or more characters"
+* # all items/ "match zero or more characters"
 ? # matches a single character, so 201?.txt will match 2017.txt or 2018.txt, but not 2017-01.txt
 $ # get the variable's value
 $@ # all of the command-line parameters given to the script
