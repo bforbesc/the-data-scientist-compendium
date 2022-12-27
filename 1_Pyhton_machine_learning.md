@@ -54,6 +54,7 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 - [Shap: shapley additive explanations](https://towardsdatascience.com/a-novel-approach-to-feature-importance-shapley-additive-explanations-d18af30fc21b): feature importance algorithm explained
 - [Guide on XGBoost hyperparameters tuning](https://www.kaggle.com/code/prashant111/a-guide-on-xgboost-hyperparameters-tuning/notebook)
 - [Early stopping with XGBoost](https://machinelearningmastery.com/avoid-overfitting-by-early-stopping-with-xgboost-in-python/)
+- [Bagging: hyperparameter tuning](https://www.kaggle.com/code/juanmah/tactic-03-hyperparameter-optimization-bagging)
 
 
 # 📝 formulas/ reminders
