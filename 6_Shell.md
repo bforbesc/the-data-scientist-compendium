@@ -69,6 +69,11 @@ rm *
 tar --use-compress-program=unzstd -xvf file_name.tar.zst
 ```
 
+[Check user's activity in server](https://www.golinuxcloud.com/list-check-active-ssh-connections-linux/)
+```shell
+who
+w
+```
 
 General operators
 ```shell
