@@ -465,6 +465,12 @@ def convert(lst):
     return res_dct
 ```
 
+[Concatenate items in a list to a single string](https://stackoverflow.com/questions/12453580/how-to-concatenate-join-items-in-a-list-to-a-single-string)
+```python
+song_ids = ["7ouMYWpwJ422jRcDASZB7P" , "1zkv7xawuzN0qkzaab1vmu"]
+ids_list = ','.join(song_ids)
+```
+
 [How to merge dictionaries](https://favtutor.com/blogs/merge-dictionaries-python)
 ```python
 dict_1 = {'John': 15, 'Rick': 10, 'Misa' : 12 }
