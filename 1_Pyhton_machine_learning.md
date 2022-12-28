@@ -56,7 +56,7 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 - [Early stopping with XGBoost](https://machinelearningmastery.com/avoid-overfitting-by-early-stopping-with-xgboost-in-python/)
 - [Bagging: hyperparameter tuning](https://www.kaggle.com/code/juanmah/tactic-03-hyperparameter-optimization-bagging)
 - [Multiclass classification: Micro, Macro & Weighted Averages](https://towardsdatascience.com/micro-macro-weighted-averages-of-f1-score-clearly-explained-b603420b292f)
-- [Multiclass classification ROC: OvO vs. OvR](https://towardsdatascience.com/multiclass-classification-evaluation-with-roc-curves-and-roc-auc-294fd4617e3a)
+- [Multiclass classification ROC: OvO vs. OvR](https://towardsdatascience.com/multiclass-classification-evaluation-with-roc-curves-and-roc-auc-294fd4617e3a): as well, as adaptations to use probabilities ([version 1](https://medium.com/@plog397/auc-roc-curve-scoring-function-for-multi-class-classification-9822871a6659), [version 2](https://github.com/scikit-learn/scikit-learn/issues/18676))
 
 
 # 📝 formulas/ reminders
