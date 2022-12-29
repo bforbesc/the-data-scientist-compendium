@@ -376,3 +376,8 @@ ROW_NUMBER()
 OVER (PARTITION BY SalesPerson ORDER BY SalesYear) AS QuotabySalesPerson
 FROM SaleGoal
 ```
+
+[Standardize text: lowercase, unaccented, no special characters](https://www.codefari.com/2019/11/removereplace-special-characters-from.html)
+```SQL
+regexp_replace(lower(unaccent(column)), '[^\w]+',' ','g') AS new_column
+```
