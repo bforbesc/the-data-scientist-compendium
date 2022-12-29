@@ -148,7 +148,7 @@ array.getNumPartitions()
 - [SQL main tasks summarized](https://towardsdatascience.com/sql-practical-details-cheat-sheet-for-data-analysis-f98406a71a09)
 - [10 most important SQL concepts](https://towardsdatascience.com/ten-sql-concepts-you-should-know-for-data-science-interviews-7acf3e428185)
 - [Connecting PostgreSQL to Visual Studio Code](https://ryanhutzley.medium.com/getting-started-with-the-postgresql-extension-for-vscode-d666c281ec72)
-- [Importing data from a PostgreSQL database to a Pandas DataFrame](https://medium.com/@alestamm/importing-data-from-a-postgresql-database-to-a-pandas-dataframe-5f4bffcd8bb2)
+- [Importing data from a PostgreSQL database to a Pandas DataFrame](https://medium.com/@alestamm/importing-data-from-a-postgresql-database-to-a-pandas-dataframe-5f4bffcd8bb2): alternative [source](https://www.geeksforgeeks.org/python-postgresql-select-data/)
 
 ## Snippets
 Alternative to LIMIT
