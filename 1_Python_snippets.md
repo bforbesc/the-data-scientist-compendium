@@ -257,6 +257,12 @@ Remove white spaces from column headers
 df.columns = [col.strip() for col in df.columns]
 ```
 
+[Drop rows containing empty cells](https://stackoverflow.com/questions/29314033/drop-rows-containing-empty-cells-from-a-pandas-dataframe)
+```python
+df['Tenant'].replace('', np.nan, inplace=True)
+df.dropna(subset=['Tenant'], inplace=True)
+```
+
 [Replace values in a column based on a condition](https://www.geeksforgeeks.org/how-to-replace-values-in-column-based-on-condition-in-pandas/)
 ```python
 df.loc[df["gender"] == "male", "gender"] = 1
