@@ -116,6 +116,13 @@ screen # keep server running
 ```
 
 # Anaconda/ Conda snippets
+[Working with Anaconda in Visual Studio Code](https://stackoverflow.com/questions/54828713/working-with-anaconda-in-visual-studio-code)
+```json
+"terminal.integrated.shellArgs.windows": [
+       "PowerShell -NoExit -File C:\\ProgramFiles\\Anaconda\\shell\\condabin\\conda-hook.ps1"
+    ]
+```
+
 [How to change the Jupyter start-up folder in your device](https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder) 
 1. Run ```jupyter server --generate-config``` in ```cmd``` (or Anaconda Prompt)
 2. Navigate to ```C:\Users\username\.jupyter\jupyter_notebook_config.py``` 
