@@ -133,6 +133,10 @@ conda rename -n old_name -d new_name  # rename environment
 ```conda
 conda rename -n old_name -d new_name
 ```
+[Clone conda environment](https://iq.opengenus.org/clone-conda-environment/)
+```conda
+conda create --name cloned_env --clone original_env
+```conda
 
 Kernel management and link to Jupyter
 ```shell
