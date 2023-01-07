@@ -75,6 +75,11 @@ who
 w
 ```
 
+[Determine shell in use](https://www.cyberciti.biz/tips/how-do-i-find-out-what-shell-im-using.html)
+```shell
+printf "My current shell - %s\n" "$SHELL"
+```
+
 General operators
 ```shell
 ~ # go back to home directory
