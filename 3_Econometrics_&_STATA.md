@@ -31,6 +31,7 @@ Specific tasks/ resources:
 
 ## <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 - [Difference-in-differences (DiD) package](https://differences.readthedocs.io/en/latest/getting_started/index.html)
+- [Generalized linear models](https://towardsdatascience.com/scikit-learns-generalized-linear-models-4899695445fa)
 
 ## 🎓general resources
 - [Matching Methods for Causal Inference: a Machine Learning Update](https://humboldt-wi.github.io/blog/research/applied_predictive_modeling_19/matching_methods/)
