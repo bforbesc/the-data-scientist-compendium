@@ -414,6 +414,20 @@ dict = {'col1': 'int32'}
 df.astype(dict)
 ```
 
+[Read json with arrays of different length](https://stackoverflow.com/questions/59221626/pandas-and-json-valueerror-arrays-must-all-be-same-length)
+```python
+import json
+with open('json_file.json') as json_data:
+    data = json.load(json_data)
+    
+df = pd.json_normalize(data)
+```
+
+[How to convert column with list of values into rows](https://stackoverflow.com/questions/39954668/how-to-convert-column-with-list-of-values-into-rows-in-pandas-dataframe)
+```python
+df = df.explode('column_name')
+```
+
 # General Python snippets
 Check Python documentation
 ```python
