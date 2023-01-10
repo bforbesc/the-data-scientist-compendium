@@ -4,6 +4,7 @@
 # 📖 books
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): probably the most popular Python data science book
 - [Official Pandas user guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html)
+- [Data Science Topics](https://datascience.oneoffcoder.com/index.html): extremely complete, code-based book with great examples and useful snippets
 
 # 🪨 resources
 - [Pandas official 'cookbook'](https://pandas.pydata.org/pandas-docs/stable/user_guide/cookbook.html): snippets for useful pandas tasks
