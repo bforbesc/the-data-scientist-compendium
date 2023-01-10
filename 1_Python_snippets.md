@@ -538,7 +538,6 @@ with open(file, 'rb') as rawdata:
 result
 ```
 
-
 Display a webpage and a YouTube video in Jupyter notebook
 
 *Note: need [IPython](https://pypi.org/project/ipython/) module*
@@ -558,4 +557,25 @@ from IPython.display import YouTubeVideo
 
 video_link = 'https://www.youtube.com/watch?v=rfscVS0vtbw' 
 YouTubeVideo(video_link, width=500, height=300)
+```
+
+[Reading/ writing a list from/ to disk](https://stackabuse.com/reading-and-writing-lists-to-a-file-in-python/)
+```python
+# Writing to disk
+places = ['Berlin', 'Cape Town', 'Sydney', 'Moscow']
+
+with open('listfile.txt', 'w') as filehandle:
+    for listitem in places:
+        filehandle.write(f'{listitem}\n')
+        
+# Reading from disk
+places = []
+
+# Open the file and read the content in a list
+with open('listfile.txt', 'r') as filehandle:
+    for line in filehandle:
+        # Remove linebreak which is the last character of the string
+        curr_place = line[:-1]
+        # Add item to the list
+        places.append(curr_place)
 ```
