@@ -57,7 +57,7 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 - [Bagging: hyperparameter tuning](https://www.kaggle.com/code/juanmah/tactic-03-hyperparameter-optimization-bagging)
 - [Multiclass classification: Micro, Macro & Weighted Averages](https://towardsdatascience.com/micro-macro-weighted-averages-of-f1-score-clearly-explained-b603420b292f)
 - [Multiclass classification ROC: OvO vs. OvR](https://towardsdatascience.com/multiclass-classification-evaluation-with-roc-curves-and-roc-auc-294fd4617e3a): as well, as adaptations to use probabilities ([version 1](https://medium.com/@plog397/auc-roc-curve-scoring-function-for-multi-class-classification-9822871a6659), [version 2](https://github.com/scikit-learn/scikit-learn/issues/18676))
-- Models for count data: [Poisson](https://scikit-learn.org/stable/auto_examples/linear_model/plot_poisson_regression_non_normal_loss.html); [ZIF Poission](https://timeseriesreasoning.com/contents/zero-inflated-poisson-regression-model/); [Negative Binomial](https://timeseriesreasoning.com/contents/negative-binomial-regression-model/)
+- Models for count data: [Poisson](https://scikit-learn.org/stable/auto_examples/linear_model/plot_poisson_regression_non_normal_loss.html); [ZIF Poission](https://timeseriesreasoning.com/contents/zero-inflated-poisson-regression-model/); [Negative Binomial](https://towardsdatascience.com/negative-binomial-regression-f99031bb25b4); [Generalized Poisson](https://towardsdatascience.com/generalized-poisson-regression-for-real-world-datasets-d1ff32607d79)
 - [Baseline models: mean, median, constant](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyRegressor.html#sklearn.dummy.DummyRegressor)
 
 
