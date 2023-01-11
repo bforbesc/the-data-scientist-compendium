@@ -440,6 +440,13 @@ Show locally installed version of Pandas
 pd.show_versions()
 ```
 
+[Order dictionary by keys](https://www.geeksforgeeks.org/python-sort-python-dictionaries-by-key-or-value/)
+```python
+myKeys = list(myDict.keys())
+myKeys.sort()
+sorted_dict = {i: myDict[i] for i in myKeys}
+```
+
 [Remove multiple keys from a dictionary safely](https://stackoverflow.com/questions/8995611/removing-multiple-keys-from-a-dictionary-safely)
 ```python
 entries = ('a', 'b', 'c')
