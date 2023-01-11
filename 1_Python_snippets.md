@@ -428,6 +428,15 @@ df = pd.json_normalize(data)
 df = df.explode('column_name')
 ```
 
+[Convert variable into ordered categorical/ ordinal](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.astype.html)
+```python
+from pandas.api.types import CategoricalDtype
+cat_dtype = CategoricalDtype(
+    categories=[2, 1], ordered=True)
+ser.astype(cat_dtype)
+
+```
+
 # General Python snippets
 Check Python documentation
 ```python
