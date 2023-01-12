@@ -45,3 +45,4 @@ Specific tasks/ resources:
   - [Forecasting for Economics and Business](https://donskerclass.github.io/Forecasting.html) (non-code-based and R)
   - [Econometrics](https://donskerclass.github.io/EconometricsII/Econometrics.html) (non-code-based and R)
 - [Propensity score matching in Python](https://towardsdatascience.com/psmpy-propensity-score-matching-in-python-a3e0cd4d2631)
+- [Why can R2 be negative and what does it mean?](https://stats.stackexchange.com/questions/183265/what-does-negative-r-squared-mean)
