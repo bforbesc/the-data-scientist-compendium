@@ -29,6 +29,11 @@ pd.set_option("display.max_columns", None)
 pd.set_option("display.max_rows", None)
 ```
 
+[Change pandas float formarting to 3 digits]()
+```python
+pd.set_option('display.float_format', lambda x: '%.3f' % x)
+```
+
 [How to print multiple outputs in the same cell in a Jupyter notebook](https://www.roelpeters.be/jupyter-notebooks-how-to-print-multiple-outputs-in-a-cell/)
 ```python
 from IPython.core.interactiveshell import InteractiveShell 
