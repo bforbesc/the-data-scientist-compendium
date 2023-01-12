@@ -1,8 +1,13 @@
 # 🧮 DASK
 - [Official documentation](https://docs.dask.org/en/stable/): including examples and tutorials
 - [Dask archives](https://coiled.io/blog/tag/dask/): official blog with additional examples and tutorials
-- [XGboost](https://xgboost.readthedocs.io/en/stable/tutorials/dask.html): example of a full implementation; other example can be found [here](https://github.com/coiled/coiled-resources/blob/main/blogs/dask-python-xgboost-example-100GB-synth-dataset.ipynb) and [here](https://matthewrocklin.com/blog/work/2017/03/28/dask-xgboost)
-- Resource management:
+- [XGboost](https://xgboost.readthedocs.io/en/stable/tutorials/dask.html): 
+  - Examples of a full implementation: [#1](https://github.com/coiled/coiled-resources/blob/main/blogs/dask-python-xgboost-example-100GB-synth-dataset.ipynb); [#2](https://matthewrocklin.com/blog/work/2017/03/28/dask-xgboost)
+  - Possible bugs:
+    - [Using no penalty/regularizers in linear regression](https://github.com/dask/dask-ml/issues/240)
+    - [DaskXGBClassifier implementation of .predict()](https://github.com/dmlc/xgboost/issues/5985) 
+    - [Multiple constant columns detected](https://stackoverflow.com/questions/56474033/python-dask-ml-linear-regression-multiple-constant-columns-detected-error)
+- Resource management:[#3](https://medium.com/rapids-ai/a-new-official-dask-api-for-xgboost-e8b10f3d1eb7)
   - [Best practices](https://docs.dask.org/en/stable/best-practices.html)
   - [Choosing chunk sizes](https://blog.dask.org/2021/11/02/choosing-dask-chunk-sizes)
   - [Memory usage](https://www.coiled.io/blog/dask-memory-usage)
