@@ -42,9 +42,13 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 	- [XGBoost (from scratch)](https://medium.com/analytics-vidhya/what-makes-xgboost-so-extreme-e1544a4433bb)
 	- [structured learning](https://pystruct.github.io/intro.html)
 	- [double debiased machine learning for causal inference](https://towardsdatascience.com/double-debiased-machine-learning-part-1-of-2-eb767a59975b)
-- [CatBoost vs. Light GBM vs. XGBoost](https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db)
 - [Stacking vs. Bagging vs. Boosting](https://mksaad.wordpress.com/2019/12/21/stacking-vs-bagging-vs-boosting/)
-- [Guide to hyperparameter tuning in XGBoost](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
+- XGBoost:
+	- [XGBoost vs. CatBoost vs. Light GBM](https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db)
+	- [XGBoost vs. Random Forest](https://medium.com/geekculture/xgboost-versus-random-forest-898e42870f30)
+	- [Guide to hyperparameter tuning in XGBoost](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
+	- [XGBoost for time series](https://machinelearningmastery.com/xgboost-for-time-series-forecasting/)
+	- [Early stopping](https://machinelearningmastery.com/avoid-overfitting-by-early-stopping-with-xgboost-in-python/)
 - [5 SMOTE techniques for oversampling your imbalanced data](https://towardsdatascience.com/5-smote-techniques-for-oversampling-your-imbalance-data-b8155bdbe2b5)
 - [How to do cross-validation when upsampling data](https://kiwidamien.github.io/how-to-do-cross-validation-when-upsampling-data.html)
 - Which machine learning algorithms require ... ?
@@ -61,6 +65,7 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 - Models for ordinal data: [Ordinal Regression - statsmodels](https://www.statsmodels.org/dev/examples/notebooks/generated/ordinal_regression.html); [Ordinal Regression - Mord](https://albertum.medium.com/nominal-vs-ordinal-classification-1cb97c8993e6), [OrdinalClassifier (wrapper)](https://github.com/leeprevost/OrdinalClassifier)
 	- Other examples: [statsmodels](https://analyticsindiamag.com/a-complete-tutorial-on-ordinal-regression-in-python/), , [Mord & OrdinalClassifier](https://www.kaggle.com/code/andregoios/fetal-health-ordinal-regression#Logisitc-regression-classifier----baseline)
 - [Baseline models: mean, median, constant](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyRegressor.html#sklearn.dummy.DummyRegressor)
+- [Cross-validation for time series data](https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/)
 
 
 # 📝 formulas/ reminders
