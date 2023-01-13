@@ -439,7 +439,12 @@ from pandas.api.types import CategoricalDtype
 cat_dtype = CategoricalDtype(
     categories=[2, 1], ordered=True)
 ser.astype(cat_dtype)
+```
 
+[Merg report of unmatched observations](https://towardsdatascience.com/merging-data-the-pandas-missing-output-dafca42c9fe)
+```python
+df = pd.merge(on="id", how="left", indicator=True)
+df["_match"].value_counts(dropna=False)
 ```
 
 # General Python snippets
