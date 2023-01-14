@@ -441,6 +441,11 @@ cat_dtype = CategoricalDtype(
 ser.astype(cat_dtype)
 ```
 
+[Convert dictionary into categorical variable](https://stackoverflow.com/questions/13264511/typeerror-unhashable-type-dict)
+```python
+df["dict_variable"] = df["dict_variable"].apply(lambda x: frozenset(x.items()))
+```
+
 [Merg report of unmatched observations](https://towardsdatascience.com/merging-data-the-pandas-missing-output-dafca42c9fe)
 ```python
 df = pd.merge(on="id", how="left", indicator=True)
