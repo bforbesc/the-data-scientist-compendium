@@ -41,7 +41,7 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 	- [XGBoost (from scratch)](https://medium.com/analytics-vidhya/what-makes-xgboost-so-extreme-e1544a4433bb)
 	- [structured learning](https://pystruct.github.io/intro.html)
 	- [double debiased machine learning for causal inference](https://towardsdatascience.com/double-debiased-machine-learning-part-1-of-2-eb767a59975b)
-- [Stacking vs. Bagging vs. Boosting](https://mksaad.wordpress.com/2019/12/21/stacking-vs-bagging-vs-boosting/)
+	- [Stacking vs. Bagging vs. Boosting](https://mksaad.wordpress.com/2019/12/21/stacking-vs-bagging-vs-boosting/)
 - XGBoost:
 	- [XGBoost vs. CatBoost vs. Light GBM](https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db)
 	- [XGBoost vs. Random Forest](https://medium.com/geekculture/xgboost-versus-random-forest-898e42870f30)
@@ -65,6 +65,7 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 	- Other examples: [statsmodels](https://analyticsindiamag.com/a-complete-tutorial-on-ordinal-regression-in-python/), , [Mord & OrdinalClassifier](https://www.kaggle.com/code/andregoios/fetal-health-ordinal-regression#Logisitc-regression-classifier----baseline)
 - [Baseline models: mean, median, constant](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyRegressor.html#sklearn.dummy.DummyRegressor)
 - [Cross-validation for time series data](https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/)
+- [Random forest tuning](https://www.analyticsvidhya.com/blog/2020/03/beginners-guide-random-forest-hyperparameter-tuning/)
 
 
 # 📝 formulas/ reminders
