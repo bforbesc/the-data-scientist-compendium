@@ -29,6 +29,7 @@ Specific tasks/ resources:
 - [An introduction to ‘margins’](https://cran.r-project.org/web/packages/margins/vignettes/Introduction.html?utm_source=pocket_mylist)
 - [Difference-in-differences (DiD) package](https://bcallaway11.github.io/did/)
 - [Count data models](https://stats.oarc.ucla.edu/stata/seminars/regression-models-with-count-data/)
+- [Methods to deal with zero values in logarithmic transformation](https://aosmith.rbind.io/2018/09/19/the-log-0-problem/#generate-log-normal-data-with-0-values)
 
 ## <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 - [Difference-in-differences (DiD) package](https://differences.readthedocs.io/en/latest/getting_started/index.html)
