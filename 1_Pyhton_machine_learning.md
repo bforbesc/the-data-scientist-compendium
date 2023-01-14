@@ -25,7 +25,7 @@ These are the code examples from two very good books which you can buy online:
 - [Machine learning operations principles](https://ml-ops.org/content/mlops-principles)
 - [The People + AI Guidebook (Google)](https://pair.withgoogle.com/guidebook/): methods, best practices and examples for designing better AI systems
 
-# 🤔 machine learning explained
+# 🤔 concepts and tips
 Theoretical and practical explanations of machine learning concepts and ideas:
 - [Machine learning algorithms: a visual guide](https://chart-studio.plotly.com/create/?fid=SolClover%3A40&utm_source=pocket_mylist#/)
 - [Distance metrics in high dimensions](https://towardsdatascience.com/the-surprising-behaviour-of-distance-metrics-in-high-dimensions-c2cb72779ea6)
@@ -66,6 +66,7 @@ Theoretical and practical explanations of machine learning concepts and ideas:
 - [Baseline models: mean, median, constant](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyRegressor.html#sklearn.dummy.DummyRegressor)
 - [Cross-validation for time series data](https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/)
 - [Random forest tuning](https://www.analyticsvidhya.com/blog/2020/03/beginners-guide-random-forest-hyperparameter-tuning/)
+- [Methods to deal with zeros in log transformation](https://discuss.analyticsvidhya.com/t/methods-to-deal-with-zero-values-while-performing-log-transformation-of-variable/2431)
 
 
 # 📝 formulas/ reminders
