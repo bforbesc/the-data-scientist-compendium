@@ -262,6 +262,30 @@ Remove white spaces from column headers
 df.columns = [col.strip() for col in df.columns]
 ```
 
+[Remove square brackets from column](https://stackoverflow.com/questions/38147447/how-to-remove-square-bracket-from-pandas-dataframe)
+```python
+df['value'] = df['value'].str.strip('[]')
+```
+
+[Map True/ False to dummy/ binary variable](https://stackoverflow.com/questions/17383094/how-can-i-map-true-false-to-1-0-in-a-pandas-dataframe)
+```python
+df["somecolumn"] = df["somecolumn"].astype(int)
+```
+
+[Convert a column of list to dummies](https://stackoverflow.com/questions/29034928/pandas-convert-a-column-of-list-to-dummies)
+```python
+from sklearn.preprocessing import MultiLabelBinarizer
+mlb = MultiLabelBinarizer()
+pd.DataFrame(mlb.fit_transform(df['groups']),columns=mlb.classes_, index=df.index)
+```
+
+[MultiLabelBinarizer output classes in letters instead of categories](https://stackoverflow.com/questions/51335535/multilabelbinarizer-output-classes-in-letters-instead-of-categories)
+```python
+from sklearn.preprocessing import MultiLabelBinarizer
+one_hot = MultiLabelBinarizer()
+a = one_hot.fit_transform(df['short_name'].fillna('missing').str.split(', ')) 
+```
+
 [Drop rows containing empty cells](https://stackoverflow.com/questions/29314033/drop-rows-containing-empty-cells-from-a-pandas-dataframe)
 ```python
 df['Tenant'].replace('', np.nan, inplace=True)
