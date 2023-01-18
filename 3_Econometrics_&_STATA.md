@@ -19,8 +19,15 @@ Specific tasks/ resources:
 - [Decomposiing, probing, and plotting interactions in STATA](https://stats.oarc.ucla.edu/stata/seminars/interactions-stata/)
 - [Causal machine learning for Econometrics: causal forests](https://towardsdatascience.com/causal-machine-learning-for-econometrics-causal-forests-5ab3aec825a7)
 
+### Snippets
+[Handle too many values when using encode](https://www.statalist.org/forums/forum/general-stata-discussion/general/1359717-error-message-too-many-values-when-using-encode-command)
 ```stata
-encode var, (var1)
+egen long artist_code = group(artist_name)
+```
+
+Create a list of variables
+```stata
+local explanatory_variables "var1 var2 var3"
 ```
 
 ## <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" />
