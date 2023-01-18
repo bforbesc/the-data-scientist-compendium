@@ -18,6 +18,7 @@ General guides to using STATA useful for both begginer and advanced users:
 Specific tasks/ resources:
 - [Decomposiing, probing, and plotting interactions in STATA](https://stats.oarc.ucla.edu/stata/seminars/interactions-stata/)
 - [Causal machine learning for Econometrics: causal forests](https://towardsdatascience.com/causal-machine-learning-for-econometrics-causal-forests-5ab3aec825a7)
+- [Propensity score matching](https://www.ssc.wisc.edu/sscc/pubs/stata_psmatch.htm) and complementary resources: [#1](https://rpubs.com/buidiengiau/psm-stata), [#2](https://medium.com/@thestataguide/propensity-score-matching-in-stata-ba77178e4611)
 
 ### Snippets
 [Handle too many values when using encode](https://www.statalist.org/forums/forum/general-stata-discussion/general/1359717-error-message-too-many-values-when-using-encode-command)
