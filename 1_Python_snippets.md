@@ -476,6 +476,11 @@ df = pd.merge(on="id", how="left", indicator=True)
 df["_match"].value_counts(dropna=False)
 ```
 
+[Add groupby column/ results to main dataframe](https://stackoverflow.com/questions/37189878/pandas-add-column-to-groupby-dataframe)
+```python
+df['mean_value'] = df.groupby('c')['value'].transform('mean')
+```
+
 # General Python snippets
 Check Python documentation
 ```python
