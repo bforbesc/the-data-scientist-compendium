@@ -387,3 +387,8 @@ FROM SaleGoal
 ```SQL
 regexp_replace(lower(unaccent(column)), '[^\w]+',' ','g') AS new_column
 ```
+
+### PostgreSQL
+```SQL
+SELECT unaccent('Hôtel');
+```
