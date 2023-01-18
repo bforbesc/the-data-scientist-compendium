@@ -19,6 +19,9 @@ Specific tasks/ resources:
 - [Decomposiing, probing, and plotting interactions in STATA](https://stats.oarc.ucla.edu/stata/seminars/interactions-stata/)
 - [Causal machine learning for Econometrics: causal forests](https://towardsdatascience.com/causal-machine-learning-for-econometrics-causal-forests-5ab3aec825a7)
 
+```stata
+encode var, (var1)
+```
 
 ## <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" />
 - Regression model diagnostics:
