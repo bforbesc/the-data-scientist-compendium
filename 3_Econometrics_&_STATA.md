@@ -46,6 +46,7 @@ local explanatory_variables "var1 var2 var3"
 ## <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 - [Difference-in-differences (DiD) package](https://differences.readthedocs.io/en/latest/getting_started/index.html)
 - [Generalized linear models](https://towardsdatascience.com/scikit-learns-generalized-linear-models-4899695445fa)
+- [Packages for causal inference](https://towardsdatascience.com/4-python-packages-to-learn-causal-analysis-9a8eaab9fdab)
 
 ## 🎓general resources
 - [Matching Methods for Causal Inference: a Machine Learning Update](https://humboldt-wi.github.io/blog/research/applied_predictive_modeling_19/matching_methods/)
