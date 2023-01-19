@@ -491,6 +491,11 @@ df["_match"].value_counts(dropna=False)
 df['mean_value'] = df.groupby('c')['value'].transform('mean')
 ```
 
+[Identify the order of classes used in the model](https://stackoverflow.com/questions/16858652/how-to-find-the-corresponding-class-in-clf-predict-proba)
+```python
+clf.classes_
+```
+
 # General Python snippets
 Check Python documentation
 ```python
