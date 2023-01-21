@@ -59,7 +59,6 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 
 
 ## 🤓 other interesting content
-- [11 data acience videos every data scientist must watch](https://pypi.org/project/ipython/)
 - Data science interview preparation:
 	- [‼️MASSIVE‼️ compilation of data science career resources](https://github.com/cdeweyx/DS-Career-Resources): anything from interview preparation to general advice for aspiring data scientists
 	- [122 data science interview questions and answers](https://www.edureka.co/blog/interview-questions/data-science-interview-questions/)
