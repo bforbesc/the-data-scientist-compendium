@@ -39,3 +39,4 @@
 - [When to use label and one-hot encoding](https://towardsdatascience.com/categorical-encoding-using-label-encoding-and-one-hot-encoder-911ef77fb5bd)
 - [Python Programming](https://pythonprogramming.net/): tutorials on everything Python, from game developement, to machine learning and quantum computing
 - [How to troubleshoot memory problems in Python](https://towardsdatascience.com/how-to-troubleshoot-memory-problems-in-python-93ea0f62296d)
+- [Data types ranges and sizes](https://learn.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-170)
