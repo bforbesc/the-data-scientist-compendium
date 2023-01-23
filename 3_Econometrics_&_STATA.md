@@ -49,6 +49,7 @@ local explanatory_variables "var1 var2 var3"
 - [Difference-in-differences (DiD) package](https://differences.readthedocs.io/en/latest/getting_started/index.html)
 - [Generalized linear models](https://towardsdatascience.com/scikit-learns-generalized-linear-models-4899695445fa)
 - [Packages for causal inference](https://towardsdatascience.com/4-python-packages-to-learn-causal-analysis-9a8eaab9fdab)
+- [psmpy: Propensity Score Matching](https://towardsdatascience.com/psmpy-propensity-score-matching-in-python-a3e0cd4d2631)
 
 ## 🎓general resources
 - [STATA (and R) tutorials](https://errickson.net/workshops.html): matching with R;  regression and mixed effects modeling with STATA
