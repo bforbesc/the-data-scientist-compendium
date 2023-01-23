@@ -3,13 +3,13 @@
 In this section I gather the relevant books and general resources on Econometrics, using either R or STATA, which I found relevant in my work or learning journey.
 
 ## 📖 books
+- [Causal Inference: The Mixtape](https://mixtape.scunning.com/): STATA, Python and R
+- [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html): Pyhton
+- [Causal Inference: What If (the book)](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/): STATA, Python and R (as well as SAS and Julia)
+- [The Effect Book](https://theeffectbook.net/ch-EventStudies.html?panelset=stata-code): STATA and R
 - [Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)
 - [R Companion to Real Econometrics](https://bookdown.org/carillitony/bailey/)
-- [The Effect Book](https://theeffectbook.net/ch-EventStudies.html?panelset=stata-code) (both STATA and R)
 - [Principles of Econometrics with  R](https://bookdown.org/ccolonescu/RPoE4/)
-- [Causal Inference: The Mixtape](https://mixtape.scunning.com/) (non-code-based)
-- [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html) (Pyhton)
-- [Causal Inference: What If (the book)](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/): companion [Python repo](https://github.com/jrfiedler/causal_inference_python_code)
 
 
 ## ```STATA```
