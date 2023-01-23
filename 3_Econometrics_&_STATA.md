@@ -16,11 +16,13 @@ In this section I gather the relevant books and general resources on Econometric
 General guides to using STATA useful for both begginer and advanced users:
 - [STATA (and R) tutorials](https://errickson.net/workshops.html): matching with R;  regression and mixed effects modeling with STATA
 - [STATA guide](https://wlm.userweb.mwn.de/Stata/): general STATA tips
-Specific tasks/ resources:
-- [Decomposing, probing, and plotting interactions in STATA](https://stats.oarc.ucla.edu/stata/seminars/interactions-stata/)
-- [Causal machine learning for Econometrics: causal forests](https://towardsdatascience.com/causal-machine-learning-for-econometrics-causal-forests-5ab3aec825a7)
-- [Propensity score matching](https://www.ssc.wisc.edu/sscc/pubs/stata_psmatch.htm) and complementary resources: [#1](https://www.stata.com/meeting/italy14/abstracts/materials/it14_grotta.pdf) [#2](https://rpubs.com/buidiengiau/psm-stata) [#3](https://medium.com/@thestataguide/propensity-score-matching-in-stata-ba77178e4611)
-- [labmask](http://fmwww.bc.edu/RePEc/bocode/l/labmask.html): give labels to the different values of one variable
+- [Research methods](https://clas.ucdenver.edu/marcelo-perraillon/teaching/health-services-research-methods-i-hsmp-7607): everything from DiD, to propensity score matching and GLM
+- Specific tasks/ resources:
+          - [Decomposing, probing, and plotting interactions in STATA](https://stats.oarc.ucla.edu/stata/seminars/interactions-stata/)
+          - [Causal machine learning for Econometrics: causal forests](https://towardsdatascience.com/causal-machine-learning-for-econometrics-causal-forests-5ab3aec825a7)
+          - [Propensity score matching](https://www.ssc.wisc.edu/sscc/pubs/stata_psmatch.htm) and complementary resources: [#1](https://www.stata.com/meeting/italy14/abstracts/materials/it14_grotta.pdf) [#2](https://rpubs.com/buidiengiau/psm-stata) [#3](https://medium.com/@thestataguide/propensity-score-matching-in-stata-ba77178e4611)
+          - [labmask](http://fmwww.bc.edu/RePEc/bocode/l/labmask.html): give labels to the different values of one variable
+
 
 ### Snippets
 [Handle too many values when using encode](https://www.statalist.org/forums/forum/general-stata-discussion/general/1359717-error-message-too-many-values-when-using-encode-command)
@@ -51,7 +53,6 @@ local explanatory_variables "var1 var2 var3"
 
 ## 🎓general resources
 - [Matching Methods for Causal Inference: a Machine Learning Update](https://humboldt-wi.github.io/blog/research/applied_predictive_modeling_19/matching_methods/)
-- [Research methods](https://clas.ucdenver.edu/marcelo-perraillon/teaching/health-services-research-methods-i-hsmp-7607): for empirical researchers (examples in STATA) by Professor [Marcelo Coca Perraillon](https://clas.ucdenver.edu/marcelo-perraillon/)
 - [Econometrisc Academy](https://sites.google.com/site/econometricsacademy/home?authuser=0): general learning resources (on both STATA and R)
 - [Applied empirical methods](https://github.com/paulgp/applied-methods-phd): econometric methods course for empirical research
 - [Panel data econometrics](https://sites.google.com/view/christophe-hurlin/teaching-resources/panel-data-econometrics?utm_source=pocket_mylist): course on panel data
