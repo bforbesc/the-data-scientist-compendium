@@ -18,10 +18,10 @@ General guides to using STATA useful for both begginer and advanced users:
 - [STATA guide](https://wlm.userweb.mwn.de/Stata/): general STATA tips
 - [Research methods](https://clas.ucdenver.edu/marcelo-perraillon/teaching/health-services-research-methods-i-hsmp-7607): everything from DiD, to propensity score matching and GLM
 - Specific tasks/ resources:
-          - [Decomposing, probing, and plotting interactions in STATA](https://stats.oarc.ucla.edu/stata/seminars/interactions-stata/)
-          - [Causal machine learning for Econometrics: causal forests](https://towardsdatascience.com/causal-machine-learning-for-econometrics-causal-forests-5ab3aec825a7)
-          - [Propensity score matching](https://www.ssc.wisc.edu/sscc/pubs/stata_psmatch.htm) and complementary resources: [#1](https://www.stata.com/meeting/italy14/abstracts/materials/it14_grotta.pdf) [#2](https://rpubs.com/buidiengiau/psm-stata) [#3](https://medium.com/@thestataguide/propensity-score-matching-in-stata-ba77178e4611)
-          - [labmask](http://fmwww.bc.edu/RePEc/bocode/l/labmask.html): give labels to the different values of one variable
+  - [Decomposing, probing, and plotting interactions in STATA](https://stats.oarc.ucla.edu/stata/seminars/interactions-stata/)
+  - [Causal machine learning for Econometrics: causal forests](https://towardsdatascience.com/causal-machine-learning-for-econometrics-causal-forests-5ab3aec825a7)
+  - [Propensity score matching](https://www.ssc.wisc.edu/sscc/pubs/stata_psmatch.htm) and complementary resources: [#1](https://www.stata.com/meeting/italy14/abstracts/materials/it14_grotta.pdf) [#2](https://rpubs.com/buidiengiau/psm-stata) [#3](https://medium.com/@thestataguide/propensity-score-matching-in-stata-ba77178e4611)
+   - [labmask](http://fmwww.bc.edu/RePEc/bocode/l/labmask.html): give labels to the different values of one variable
 
 
 ### Snippets
