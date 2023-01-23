@@ -1,6 +1,6 @@
 # Econometrics
           
-In this section I gather the relevant books and general resources on Econometrics, using either R or STATA, which I found relevant in my work or learning journey.
+In this section I gather the relevant books and general resources on Econometrics, using either STATA, R or even Pyhton, which I found relevant in my work or learning journey.
 
 ## 📖 books
 - [Causal Inference: The Mixtape](https://mixtape.scunning.com/): STATA, Python and R
