@@ -14,7 +14,6 @@ In this section I gather the relevant books and general resources on Econometric
 
 ## ```STATA```
 General guides to using STATA useful for both begginer and advanced users:
-- [STATA (and R) tutorials](https://errickson.net/workshops.html): matching with R;  regression and mixed effects modeling with STATA
 - [STATA guide](https://wlm.userweb.mwn.de/Stata/): general STATA tips
 - [Research methods](https://clas.ucdenver.edu/marcelo-perraillon/teaching/health-services-research-methods-i-hsmp-7607): everything from DiD, to propensity score matching and GLM
 - Specific tasks/ resources:
@@ -52,6 +51,7 @@ local explanatory_variables "var1 var2 var3"
 - [Packages for causal inference](https://towardsdatascience.com/4-python-packages-to-learn-causal-analysis-9a8eaab9fdab)
 
 ## 🎓general resources
+- [STATA (and R) tutorials](https://errickson.net/workshops.html): matching with R;  regression and mixed effects modeling with STATA
 - [Matching Methods for Causal Inference: a Machine Learning Update](https://humboldt-wi.github.io/blog/research/applied_predictive_modeling_19/matching_methods/)
 - [Econometrisc Academy](https://sites.google.com/site/econometricsacademy/home?authuser=0): general learning resources (on both STATA and R)
 - [Applied empirical methods](https://github.com/paulgp/applied-methods-phd): econometric methods course for empirical research
