@@ -46,10 +46,10 @@ local explanatory_variables "var1 var2 var3"
 - [Methods to deal with zero values in logarithmic transformation](https://aosmith.rbind.io/2018/09/19/the-log-0-problem/#generate-log-normal-data-with-0-values)
 
 ## <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-- [Difference-in-differences (DiD) package](https://differences.readthedocs.io/en/latest/getting_started/index.html)
+- [Difference-in-differences package](https://differences.readthedocs.io/en/latest/getting_started/index.html)
 - [Generalized linear models](https://towardsdatascience.com/scikit-learns-generalized-linear-models-4899695445fa)
 - [Packages for causal inference](https://towardsdatascience.com/4-python-packages-to-learn-causal-analysis-9a8eaab9fdab)
-- [psmpy: Propensity Score Matching](https://towardsdatascience.com/psmpy-propensity-score-matching-in-python-a3e0cd4d2631)
+- [Propensity score matching package (psmpy)](https://towardsdatascience.com/psmpy-propensity-score-matching-in-python-a3e0cd4d2631)
 
 ## 🎓general resources
 - [STATA (and R) tutorials](https://errickson.net/workshops.html): matching with R;  regression and mixed effects modeling with STATA
