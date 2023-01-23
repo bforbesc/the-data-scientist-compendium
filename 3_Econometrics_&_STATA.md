@@ -14,8 +14,8 @@ In this section I gather the relevant books and general resources on Econometric
 
 ## ```STATA```
 General guides to using STATA useful for both begginer and advanced users:
-- [STATA tutorials](https://errickson.net/workshops.html)
-- [STATA guide](https://wlm.userweb.mwn.de/Stata/wstatgax.htm)
+- [STATA (and R) tutorials](https://errickson.net/workshops.html): matching with R;  regression and mixed effects modeling with STATA
+- [STATA guide](https://wlm.userweb.mwn.de/Stata/): general STATA tips
 Specific tasks/ resources:
 - [Decomposing, probing, and plotting interactions in STATA](https://stats.oarc.ucla.edu/stata/seminars/interactions-stata/)
 - [Causal machine learning for Econometrics: causal forests](https://towardsdatascience.com/causal-machine-learning-for-econometrics-causal-forests-5ab3aec825a7)
