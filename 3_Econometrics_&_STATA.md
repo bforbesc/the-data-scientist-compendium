@@ -15,6 +15,7 @@ In this section I gather the relevant books and general resources on Econometric
 ## ```STATA```
 General guides to using STATA useful for both begginer and advanced users:
 - [STATA guide](https://wlm.userweb.mwn.de/Stata/): general STATA tips
+- [STATA treatment effects guide](https://www.stata.com/manuals/te.pdf): teffects, didregress, etc.
 - [Research methods](https://clas.ucdenver.edu/marcelo-perraillon/teaching/health-services-research-methods-i-hsmp-7607): everything from DiD, to propensity score matching and GLM
 - Specific tasks/ resources:
   - [Decomposing, probing, and plotting interactions in STATA](https://stats.oarc.ucla.edu/stata/seminars/interactions-stata/)
