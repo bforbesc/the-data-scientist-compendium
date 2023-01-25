@@ -5,6 +5,7 @@
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): probably the most popular Python data science book, has a dedicated section on machine learning
 - [Scikit learn official guide](https://scikit-learn.org/stable/user_guide.html)
 - [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html): a book by the father of RL and his advisor
+- [Forecasting: Principles and Practice](https://otexts.com/fpp3/): time-series forecasting (code in R)
 
 These are the code examples from two very good books which you can buy online:
 - [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow (code examples)](https://github.com/ageron/handson-ml2)
@@ -24,6 +25,8 @@ These are the code examples from two very good books which you can buy online:
 - [Introductory course on Reinforcement Learning](https://www.davidsilver.uk/teaching/)
 - [Machine learning operations principles](https://ml-ops.org/content/mlops-principles)
 - [The People + AI Guidebook (Google)](https://pair.withgoogle.com/guidebook/): methods, best practices and examples for designing better AI systems
+- [Time series forecasting](https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-9-time-series-analysis-in-python-a270cb05e0b3)
+	- [with Facebook Prophet](https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-9-part-3-predicting-the-future-with-facebook-prophet-3f3af145cdc)
 
 # 🤔 concepts and tips
 Theoretical and practical explanations of machine learning concepts and ideas:
