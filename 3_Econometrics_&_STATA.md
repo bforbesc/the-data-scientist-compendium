@@ -51,6 +51,7 @@ local explanatory_variables "var1 var2 var3"
 - [Generalized linear models](https://towardsdatascience.com/scikit-learns-generalized-linear-models-4899695445fa)
 - [Packages for causal inference](https://towardsdatascience.com/4-python-packages-to-learn-causal-analysis-9a8eaab9fdab)
 - [Propensity score matching package (psmpy)](https://towardsdatascience.com/psmpy-propensity-score-matching-in-python-a3e0cd4d2631)
+- [pydynpd: Dynamic panel estimation for Difference and System GMM (generalized method-of-moments)](https://pypi.org/project/pydynpd/)
 
 ## 🎓general resources
 - [STATA (and R) tutorials](https://errickson.net/workshops.html): matching with R;  regression and mixed effects modeling with STATA
