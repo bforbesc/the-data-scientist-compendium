@@ -45,6 +45,7 @@ local explanatory_variables "var1 var2 var3"
 - [Difference-in-differences (DiD) package](https://bcallaway11.github.io/did/)
 - [Count data models](https://stats.oarc.ucla.edu/stata/seminars/regression-models-with-count-data/)
 - [Methods to deal with zero values in logarithmic transformation](https://aosmith.rbind.io/2018/09/19/the-log-0-problem/#generate-log-normal-data-with-0-values)
+- [CausalImpact:](https://google.github.io/CausalImpact/CausalImpact.html) causal inference using Bayesian structural time-series models
 
 ## <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
 - [Difference-in-differences package](https://differences.readthedocs.io/en/latest/getting_started/index.html)
@@ -52,6 +53,7 @@ local explanatory_variables "var1 var2 var3"
 - [Packages for causal inference](https://towardsdatascience.com/4-python-packages-to-learn-causal-analysis-9a8eaab9fdab)
 - [Propensity score matching package (psmpy)](https://towardsdatascience.com/psmpy-propensity-score-matching-in-python-a3e0cd4d2631)
 - [pydynpd: Dynamic panel estimation for Difference and System GMM (generalized method-of-moments)](https://pypi.org/project/pydynpd/)
+- [pmdarima](https://pypi.org/project/pmdarima/): time series analysis
 
 ## 🎓general resources
 - [STATA (and R) tutorials](https://errickson.net/workshops.html): matching with R;  regression and mixed effects modeling with STATA
