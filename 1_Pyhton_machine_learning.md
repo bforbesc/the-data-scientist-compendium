@@ -27,6 +27,7 @@ These are the code examples from two very good books which you can buy online:
 - [The People + AI Guidebook (Google)](https://pair.withgoogle.com/guidebook/): methods, best practices and examples for designing better AI systems
 - [Time series forecasting](https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-9-time-series-analysis-in-python-a270cb05e0b3)
 	- [with Facebook Prophet](https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-9-part-3-predicting-the-future-with-facebook-prophet-3f3af145cdc): the offical [documentation](https://facebook.github.io/prophet/docs/quick_start.html#python-api)
+- [‼️ Darts ‼️](https://unit8co.github.io/darts/#): the only time series package you will ever need!
 
 # 🤔 concepts and tips
 Theoretical and practical explanations of machine learning concepts and ideas:
