@@ -56,6 +56,7 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [Tips and suggestions for working with and designing with data](https://flowingdata.com/category/guides/): non-code-cased tips and suggestions for working with and designing with data
 - [Data wrapper: build graphs with ease](https://app.datawrapper.de/chart/rweXo/upload): tool (drag and drop) for building graphs easily
 - [WTF visualizations: visualizations that make no sense](https://viz.wtf/?utm_source=pocket_mylist): examples of poorly used visualizations which might lead to misinformation
+- [Python Graph Gallery](https://python-graph-gallery.com/)
 
 
 ## 🤓 other interesting content
