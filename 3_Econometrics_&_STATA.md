@@ -24,17 +24,6 @@ General guides to using STATA useful for both begginer and advanced users:
    - [labmask](http://fmwww.bc.edu/RePEc/bocode/l/labmask.html): give labels to the different values of one variable
 
 
-### Snippets
-[Handle too many values when using encode](https://www.statalist.org/forums/forum/general-stata-discussion/general/1359717-error-message-too-many-values-when-using-encode-command)
-```stata
-egen long artist_code = group(artist_name)
-```
-
-Create a list of variables
-```stata
-local explanatory_variables "var1 var2 var3"
-```
-
 ## <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" />
 - Regression model diagnostics:
   - [Collinearity, model fit and variable contribution](https://cran.r-project.org/web/packages/olsrr/vignettes/regression_diagnostics.html)
