@@ -132,20 +132,6 @@ def _rebalance_ddf(ddf):
   - [Spark tutorial](https://www.projectpro.io/apache-spark-tutorial/spark-tutorial)
   - [PySpark tutorial](https://www.projectpro.io/apache-spark-tutorial/pyspark-tutorial)
 
-## Snippets
-
-
-```python
-sc._conf.getAll() # check SparkContext configurations in shell
-
-# Create an RDD
-# by generating data
-array = sc.parallellize(range(1,100)
-
-array.getNumPartitions()
-
-# by reading from file
-```
 
 # 🏁 SQL
 
