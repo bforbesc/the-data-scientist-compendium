@@ -3,7 +3,7 @@ I hands-on compendium of everything (I have came across) data science. I started
 
 ## Table of contents
 1. Python
-	1. [Coding](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/1_Python_resources.md)
+	1. [Coding](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/1_Python_coding.md)
 	1. [Machine learning](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/1_Pyhton_machine_learning.md)
 1. [R](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/2_R.md)
 1. [Econometrics (in Python, R and STATA)](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/3_Econometrics_&_STATA.md)
