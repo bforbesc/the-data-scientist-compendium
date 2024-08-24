@@ -98,6 +98,8 @@ Cheatsheets have saved me countless hours—hopefully, they’ll do the same for
   - [FlowingData](https://flowingdata.com/category/guides/): Non-code-based tips and suggestions for working with and designing data visualizations.
   - [Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/): Helps you decide which data relationship is most important in your data story.
   - [WTF Visualizations](https://viz.wtf/?utm_source=pocket_mylist): Examples of poorly designed visualizations that can lead to misinformation.
+
+- **Big Data**:
   - [Spark by Examples](https://sparkbyexamples.com/pyspark/): A comprehensive guide to PySpark based on examples.
 
 
