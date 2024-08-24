@@ -1,97 +1,107 @@
-# The Data Scientist Compendium <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
-I hands-on compendium of everything (I have came across) data science. I started collecting these resources and snippets as a necessity for my day-to-day work, namely for teaching, and I thought I would share them with you! Because I work mostly on Pyhton you will see that there is an oversampling on resources on that programming language.
+# The Data Scientist's Compendium <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
+A hands-on compendium of everything I've encountered in data science. I started collecting these resources and snippets as a necessity for my day-to-day work, particularly for teaching, and now I’m sharing them with you! Since I primarily work with Python, you’ll find a lot of Python-focused resources here.
 
+---
 
-## 🙈 cheatsheets
-Hope these cheatsheets are of value to you. They have certainly saved me many hours of finding the right syntax to accomplish what I wanted to do.
-- [Shell](https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf)
-- [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Python - regular expressions](https://www.dataquest.io/wp-content/uploads/2019/03/python-regular-expressions-cheat-sheet.pdf)
-- [STATA](https://www.stata.com/bookstore/statacheatsheets.pdf)
-- [SQL keywords](https://www.w3schools.com/sql/sql_ref_keywords.asp)
-- [SQL style](https://www.sqlstyle.guide/)
-- [Git](https://education.github.com/git-cheat-sheet-education.pdf)
-- [PySpark](https://www.datacamp.com/cheat-sheet/pyspark-cheat-sheet-spark-in-python)
+## 📚 Table of Contents
+1. [Books](#books)
+2. [Tools](#tools)
+3. [Cheatsheets](#cheatsheets)
+4. [Other Content](#other-content)
 
-	
-## 🎓general guides/ resources
-- [W3 school](https://www.w3schools.com/python/default.asp): excellent source for simple, editable examples of code with great explanations, in an array of languages, ranging from Pyhton, R or SQL, to JavaScript, HTML/ CSS or even C
-- [Awesome list](https://github.com/sindresorhus/awesome/blob/main/readme.md): a comprehensive list of everything computer science
-- [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist): comprehensive list of programming tutorials to learn how to build an application from scratch, in multiple languages (including Python and R)
-- [Open Source Society University](https://github.com/ossu/computer-science#introduction-to-computer-science): Path to a free self-taught education in Computer Science
+---
 
+## <a name="books"></a> 📖 Books
+Here is a collection of books that I have found invaluable in my journey as a data scientist.
 
-## 💽 data sources
-- APIs databases in case you need inspiration for data for your project: [AnyAPI](https://any-api.com/)
-- Two of the best data sources about our world: 
-	- [Gapminder](https://www.gapminder.org/)
-	- [Our World in Data](https://ourworldindata.org/blog?utm_source=pocket_mylist)
-- [Nutritionix](https://www.nutritionix.com/?utm_source=pocket_mylist): the world's larget verified nutrition database
+- **Python and Data Science**:
+  - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): A comprehensive guide to data science in Python, including machine learning.
+  - [Data Science Topics](https://datascience.oneoffcoder.com/index.html): A detailed, code-focused book with examples and snippets.
+  
+- **Causal Inference**:
+  - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html): A hands-on guide to causal inference using Python.
+  - [Causal Inference: What If (the book)](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/): Covers STATA, Python, and R (also SAS and Julia).
 
+- **Machine Learning**:
+  - [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html): By the father of RL and his advisor.
+  - [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow (Code Examples)](https://github.com/ageron/handson-ml2)
+  - [Introduction to Machine Learning with Python (Code Examples)](https://github.com/amueller/introduction_to_ml_with_python)
 
-## 📊 data visualization
-- [From Data to Viz](https://www.data-to-viz.com/): tool to choose the most appropriate graph for your data, with source code in Python, R and JavaScript (D3)
-- [The Data Visualisation Catalogue](https://datavizcatalogue.com/): non-code-based library of different visualisation types (w/ some links to code examples)
-- [Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/): non-code-based tool to decide which data relationship is most important in your data story
-- [Tips and suggestions for working with and designing with data](https://flowingdata.com/category/guides/): non-code-cased tips and suggestions for working with and designing with data
-- [Data wrapper: build graphs with ease](https://app.datawrapper.de/chart/rweXo/upload): tool (drag and drop) for building graphs easily
-- [WTF visualizations: visualizations that make no sense](https://viz.wtf/?utm_source=pocket_mylist): examples of poorly used visualizations which might lead to misinformation
-- [Python Graph Gallery](https://python-graph-gallery.com/)
+- **Big Data**:
+  - [Learning Spark: Lightning-Fast Data Analytics](https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf)
 
-# <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> Python - Machine Learning
+---
 
-# 📖 books
-- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): probably the most popular Python data science book, has a dedicated section on machine learning
-- [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html): a book by the father of RL and his advisor
+## <a name="tools"></a> 🔨 Tools
+These are the tools that I frequently use for data science, organized by category.
 
-These are the code examples from two very good books which you can buy online:
-- [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow (code examples)](https://github.com/ageron/handson-ml2)
-- [Introduction to Machine Learning with Python (code examples)](https://github.com/amueller/introduction_to_ml_with_python)
-
-# 🔨 resources and tools
-- [Harvard CS181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/): lecture recaps and notes
-- [Standford CS229](https://cs229.stanford.edu/): lectures slides and notes
-- [Stanford CS231: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/): lecture recaps and notes
-- [Notes on data science & machine learning](https://chrisalbon.com/): ‼️incredible resource‼️ for Python snippets for data science and machine learning in general
-- [Machine learning mastery](https://machinelearningmastery.com/start-here/#getstarted): another ‼️awesome resource‼️ with extremely complete reach from theory and practice of data science and machine learning
-- [Machine learning operations principles](https://ml-ops.org/content/mlops-principles)
-- [The People + AI Guidebook (Google)](https://pair.withgoogle.com/guidebook/): methods, best practices and examples for designing better AI systems
-- [‼️ Darts ‼️](https://unit8co.github.io/darts/#): the only time series package you will ever need!
-
-
-# 🌐 machine learning web app
-- [Streamlit](https://docs.streamlit.io/): the library to easily create web applications in Python
-- [Heroku](https://devcenter.heroku.com/): a library which allows for deployment of your application on the web
-
-# <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> Python - Resources
-
-# 📖 books
-- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): probably the most popular Python data science book
-- [Data Science Topics](https://datascience.oneoffcoder.com/index.html): extremely complete, code-based book with great examples and useful snippets
-- [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
-- [Causal Inference: What If (the book)](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/): STATA, Python and R (as well as SAS and Julia)
-
-# 🪨 resources
-- [Pandas official 'cookbook'](https://pandas.pydata.org/pandas-docs/stable/user_guide/cookbook.html): snippets for useful pandas tasks
-- [Notes on data science & machine learning](https://chrisalbon.com/): ‼️incredible resource‼️ for Python snippets for data science and machine learning in general
-
-# 🔨tools
-- Data visualization
+- **Data Visualization**:
   - [Plotly](https://plotly.com/python/)
-  - [Bokeh](https://bokeh.org/): includes dashboard building
+  - [Bokeh](https://bokeh.org/): Includes dashboard building.
   - [Altair](https://altair-viz.github.io/)
-- Maps, geocoordinates and shapes:
+  - **Additional Resource**: [Seaborn](https://seaborn.pydata.org/): A Python visualization library based on matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics.
+
+- **Geospatial Analysis**:
   - [Geopy](https://geopy.readthedocs.io/en/stable/)
   - [Geopandas](https://geopandas.org/en/stable/docs/user_guide/data_structures.html)
   - [Shapely](https://shapely.readthedocs.io/en/stable/manual.html#points)
+  - **Additional Resource**: [Folium](https://python-visualization.github.io/folium/): A powerful Python library for visualizing geospatial data by creating interactive maps using the Leaflet.js library.
 
-## Books
-- [Learning Spark: Lightning-Fast Data Analytics](https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf) 
+- **Machine Learning**:
+  - [Harvard CS181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/): Lecture recaps and notes.
+  - [Stanford CS229](https://cs229.stanford.edu/): Lecture slides and notes.
+  - [Stanford CS231: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
+  - [Machine Learning Mastery](https://machinelearningmastery.com/start-here/#getstarted): An extensive resource covering both theory and practice.
+  - [MLOps Principles](https://ml-ops.org/content/mlops-principles): Key principles for machine learning operations.
+  - [Darts](https://unit8co.github.io/darts/#): A comprehensive time series forecasting library.
+  - **Additional Resource**: [Fastai](https://docs.fast.ai/): A deep learning library that provides an easy-to-use interface to PyTorch and supports both computer vision and natural language processing tasks.
 
-## 🔨 resources and tools
-- [Spark SQL, DataFrames and Datasets Guide (official)](https://spark.apache.org/docs/3.3.0/sql-programming-guide.html)
-- [Spark by examples](https://sparkbyexamples.com/pyspark/): a comprehensive guide to PySpark based on examples
+- **Web App Deployment**:
+  - [Streamlit](https://docs.streamlit.io/): A library to easily create web applications in Python.
+  - [Heroku](https://devcenter.heroku.com/): A platform for deploying your applications on the web.
+  - **Additional Resource**: [Flask](https://flask.palletsprojects.com/en/2.0.x/): A lightweight WSGI web application framework in Python that allows you to build web applications quickly and easily.
 
-https://www.geeksforgeeks.org/
+- **Big Data Tools**:
+  - [Spark SQL, DataFrames and Datasets Guide (Official)](https://spark.apache.org/docs/3.3.0/sql-programming-guide.html)
+  - [Spark by Examples](https://sparkbyexamples.com/pyspark/): A comprehensive guide to PySpark based on examples.
 
-- [Awesome Bash](https://github.com/awesome-lists/awesome-bash): a extremely comprehensive list of Bash scripts and resources
+---
+
+## <a name="cheatsheets"></a> 🙈 Cheatsheets
+Cheatsheets have saved me countless hours—hopefully, they’ll do the same for you.
+
+- [Shell](https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf)
+- [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Python - Regular Expressions](https://www.dataquest.io/wp-content/uploads/2019/03/python-regular-expressions-cheat-sheet.pdf)
+- [STATA](https://www.stata.com/bookstore/statacheatsheets.pdf)
+- [SQL Keywords](https://www.w3schools.com/sql/sql_ref_keywords.asp)
+- [SQL Style Guide](https://www.sqlstyle.guide/)
+- [Git](https://education.github.com/git-cheat-sheet-education.pdf)
+- [PySpark](https://www.datacamp.com/cheat-sheet/pyspark-cheat-sheet-spark-in-python)
+
+---
+
+## <a name="other-content"></a> 📦 Other Content
+
+### 🎓 General Guides & Resources
+- [W3 Schools](https://www.w3schools.com/python/default.asp): A great source for simple, editable code examples with excellent explanations.
+- [Awesome List](https://github.com/sindresorhus/awesome/blob/main/readme.md): A comprehensive list of computer science resources.
+- [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist): Tutorials for building applications from scratch in various languages.
+- [Open Source Society University](https://github.com/ossu/computer-science#introduction-to-computer-science): A self-taught path to a free education in Computer Science.
+- **Additional Resource**: [Geeks for Geeks](https://www.geeksforgeeks.org/): A comprehensive resource for learning about computer science and programming concepts, with tutorials, problem sets, and quizzes.
+
+### 📊 Data Visualization Resources
+- [From Data to Viz](https://www.data-to-viz.com/): A tool to help you choose the most appropriate graph for your data, with source code in Python, R, and JavaScript (D3).
+- [The Data Visualisation Catalogue](https://datavizcatalogue.com/): A non-code-based library of various visualization types with some links to code examples.
+- [Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/): Helps you decide which data relationship is most important in your data story.
+- [FlowingData](https://flowingdata.com/category/guides/): Non-code-based tips and suggestions for working with and designing data visualizations.
+- [Datawrapper](https://app.datawrapper.de/chart/rweXo/upload): A drag-and-drop tool for building graphs with ease.
+- [WTF Visualizations](https://viz.wtf/?utm_source=pocket_mylist): Examples of poorly designed visualizations that can lead to misinformation.
+- [Python Graph Gallery](https://python-graph-gallery.com/): A gallery of Python-based visualization examples.
+
+### 💽 Data Sources
+- **APIs & Databases**: [AnyAPI](https://any-api.com/)
+- **World Data**:
+  - [Gapminder](https://www.gapminder.org/)
+  - [Our World in Data](https://ourworldindata.org/blog?utm_source=pocket_mylist)
+- **Nutrition Data**: [Nutritionix](https://www.nutritionix.com/?utm_source=pocket_mylist): The world’s largest verified nutrition database.
