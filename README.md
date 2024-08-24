@@ -2,7 +2,6 @@
 
 A curated selection of resources for data science. This collection includes books, tools, cheatsheets and guides I've found relevant, organized by topic for easy reference.
 
----
 
 ## 📚 Table of Contents
 1. [Books](#books)
