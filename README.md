@@ -1,6 +1,6 @@
 # The Data Scientist's Compendium <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
 
-A curated selection of resources, books, tools, and guides for data science. This collection some of the most relevant materials I've found, organized by topic for easy reference.
+A curated selection of resources for data science. This collection includes books, tools, cheatsheets and guides I've found relevant, organized by topic for easy reference.
 
 ---
 
