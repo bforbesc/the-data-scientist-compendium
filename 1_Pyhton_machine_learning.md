@@ -1,81 +1,45 @@
 # <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> Python - Machine Learning
 
 # 📖 books
-- [Machine learning refined](https://jermwatt.github.io/machine_learning_refined/)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): probably the most popular Python data science book, has a dedicated section on machine learning
-- [Scikit learn official guide](https://scikit-learn.org/stable/user_guide.html)
 - [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html): a book by the father of RL and his advisor
-- [Forecasting: Principles and Practice](https://otexts.com/fpp3/): time-series forecasting (code in R)
 
 These are the code examples from two very good books which you can buy online:
 - [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow (code examples)](https://github.com/ageron/handson-ml2)
 - [Introduction to Machine Learning with Python (code examples)](https://github.com/amueller/introduction_to_ml_with_python)
 
 # 🔨 resources and tools
-- [The Machine Learning, AI and Data (MAD) Landscape](https://mattturck.com/data2021/)
-- [An introduction to machine learning with scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutorial.html): official scikit-learn (based) tutorial
 - [Harvard CS181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/): lecture recaps and notes
 - [Standford CS229](https://cs229.stanford.edu/): lectures slides and notes
-	- [Main lectures notes](https://cs229.stanford.edu/notes2022fall/main_notes.pdf): one of the best synthesis of machine learning principles out there
 - [Stanford CS231: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/): lecture recaps and notes
 - [Notes on data science & machine learning](https://chrisalbon.com/): ‼️incredible resource‼️ for Python snippets for data science and machine learning in general
 - [Machine learning mastery](https://machinelearningmastery.com/start-here/#getstarted): another ‼️awesome resource‼️ with extremely complete reach from theory and practice of data science and machine learning
-- [Guide to choosing the right algorithm/ estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/): visual tool to choose the appropriate machine learning algorithm for your specific problem
-- [Dive into Machine Learning](https://github.com/metjush/dive-into-machine-learning): an (old but interesting) guide on machine learning and data science
-- [Introductory course on Reinforcement Learning](https://www.davidsilver.uk/teaching/)
 - [Machine learning operations principles](https://ml-ops.org/content/mlops-principles)
 - [The People + AI Guidebook (Google)](https://pair.withgoogle.com/guidebook/): methods, best practices and examples for designing better AI systems
-- [Time series forecasting](https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-9-time-series-analysis-in-python-a270cb05e0b3)
-	- [with Facebook Prophet](https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-9-part-3-predicting-the-future-with-facebook-prophet-3f3af145cdc): the offical [documentation](https://facebook.github.io/prophet/docs/quick_start.html#python-api)
 - [‼️ Darts ‼️](https://unit8co.github.io/darts/#): the only time series package you will ever need!
 
-# 🤔 concepts and tips
-Theoretical and practical explanations of machine learning concepts and ideas:
-- [Machine learning algorithms: a visual guide](https://chart-studio.plotly.com/create/?fid=SolClover%3A40&utm_source=pocket_mylist#/)
-- [Distance metrics in high dimensions](https://towardsdatascience.com/the-surprising-behaviour-of-distance-metrics-in-high-dimensions-c2cb72779ea6)
-- Understanding ... 
-	- [the bias-variance tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
-	- [underfitting vs. overfitting](https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html)
-	- [ROC curves](http://www.navan.name/roc/)
-	- [gradient boosting](https://explained.ai/gradient-boosting/): great and practical explanation of gradient boosting (and other concepts)
-	- [the difference between clustering algorithms](https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html)
-	- [UMPA](https://pair-code.github.io/understanding-umap/)
-	- [neural networks (from scratch)](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3)
-	- [reinforcement learning](https://towardsdatascience.com/reinforcement-learning-101-e24b50e1d292)
-	- [XGBoost (from scratch)](https://medium.com/analytics-vidhya/what-makes-xgboost-so-extreme-e1544a4433bb)
-	- [structured learning](https://pystruct.github.io/intro.html)
-	- [double debiased machine learning for causal inference](https://towardsdatascience.com/double-debiased-machine-learning-part-1-of-2-eb767a59975b)
-	- [Stacking vs. Bagging vs. Boosting](https://mksaad.wordpress.com/2019/12/21/stacking-vs-bagging-vs-boosting/)
-- XGBoost:
-	- [XGBoost vs. CatBoost vs. Light GBM](https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db)
-	- [XGBoost vs. Random Forest](https://medium.com/geekculture/xgboost-versus-random-forest-898e42870f30)
-	- [Guide to hyperparameter tuning in XGBoost](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
-	- [XGBoost for time series](https://machinelearningmastery.com/xgboost-for-time-series-forecasting/)
-	- [Early stopping](https://machinelearningmastery.com/avoid-overfitting-by-early-stopping-with-xgboost-in-python/)
-- [5 SMOTE techniques for oversampling your imbalanced data](https://towardsdatascience.com/5-smote-techniques-for-oversampling-your-imbalance-data-b8155bdbe2b5)
-- [How to do cross-validation when upsampling data](https://kiwidamien.github.io/how-to-do-cross-validation-when-upsampling-data.html)
-- Which machine learning algorithms require ... ?
-	- [feature scaling (standardization and normalization)?](https://www.kaggle.com/getting-started/159643)
-	- [one-hot encoding?](https://stats.stackexchange.com/questions/288095/what-algorithms-require-one-hot-encoding)
-	- [scaling, besides SVM?](https://stats.stackexchange.com/questions/244507/what-algorithms-need-feature-scaling-beside-from-svm)
-- [Shap: shapley additive explanations](https://towardsdatascience.com/a-novel-approach-to-feature-importance-shapley-additive-explanations-d18af30fc21b): feature importance algorithm explained
-- [Guide on XGBoost hyperparameters tuning](https://www.kaggle.com/code/prashant111/a-guide-on-xgboost-hyperparameters-tuning/notebook)
-- [Early stopping with XGBoost](https://machinelearningmastery.com/avoid-overfitting-by-early-stopping-with-xgboost-in-python/)
-- [Bagging: hyperparameter tuning](https://www.kaggle.com/code/juanmah/tactic-03-hyperparameter-optimization-bagging)
-- [Multiclass classification: Micro, Macro & Weighted Averages](https://towardsdatascience.com/micro-macro-weighted-averages-of-f1-score-clearly-explained-b603420b292f)
-- [Multiclass classification ROC: OvO vs. OvR](https://towardsdatascience.com/multiclass-classification-evaluation-with-roc-curves-and-roc-auc-294fd4617e3a): as well, as adaptations to use probabilities ([version 1](https://medium.com/@plog397/auc-roc-curve-scoring-function-for-multi-class-classification-9822871a6659), [version 2](https://github.com/scikit-learn/scikit-learn/issues/18676))
-- Models for count data: [Poisson](https://scikit-learn.org/stable/auto_examples/linear_model/plot_poisson_regression_non_normal_loss.html); [ZIF Poission](https://timeseriesreasoning.com/contents/zero-inflated-poisson-regression-model/); [Negative Binomial](https://towardsdatascience.com/negative-binomial-regression-f99031bb25b4); [Generalized Poisson](https://towardsdatascience.com/generalized-poisson-regression-for-real-world-datasets-d1ff32607d79)
-- Models for ordinal data: [Ordinal Regression - statsmodels](https://www.statsmodels.org/dev/examples/notebooks/generated/ordinal_regression.html); [Ordinal Regression - Mord](https://albertum.medium.com/nominal-vs-ordinal-classification-1cb97c8993e6), [OrdinalClassifier (wrapper)](https://github.com/leeprevost/OrdinalClassifier)
-	- Other examples: [statsmodels](https://analyticsindiamag.com/a-complete-tutorial-on-ordinal-regression-in-python/), , [Mord & OrdinalClassifier](https://www.kaggle.com/code/andregoios/fetal-health-ordinal-regression#Logisitc-regression-classifier----baseline)
-- [Baseline models: mean, median, constant](https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyRegressor.html#sklearn.dummy.DummyRegressor)
-- [Cross-validation for time series data](https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/)
-- [Random forest tuning](https://www.analyticsvidhya.com/blog/2020/03/beginners-guide-random-forest-hyperparameter-tuning/)
-- [Methods to deal with zeros in log transformation](https://discuss.analyticsvidhya.com/t/methods-to-deal-with-zero-values-while-performing-log-transformation-of-variable/2431)
 
 # 🌐 machine learning web app
 - [Streamlit](https://docs.streamlit.io/): the library to easily create web applications in Python
 - [Heroku](https://devcenter.heroku.com/): a library which allows for deployment of your application on the web
-- Examples:
-	- [Example #1](https://towardsdatascience.com/how-to-build-a-data-science-web-app-in-python-penguin-classifier-2f101ac389f3): building a Penguin classifier deployed on the web
-	- [Example #2](https://towardsdatascience.com/how-to-write-web-apps-using-simple-python-for-data-scientists-a227a1a01582): general Streamlit snippets
 
+# <img height=50 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> Python - Resources
+
+# 📖 books
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): probably the most popular Python data science book
+- [Data Science Topics](https://datascience.oneoffcoder.com/index.html): extremely complete, code-based book with great examples and useful snippets
+- [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
+
+# 🪨 resources
+- [Pandas official 'cookbook'](https://pandas.pydata.org/pandas-docs/stable/user_guide/cookbook.html): snippets for useful pandas tasks
+- [Notes on data science & machine learning](https://chrisalbon.com/): ‼️incredible resource‼️ for Python snippets for data science and machine learning in general
+
+# 🔨tools
+- Data visualization
+  - [Plotly](https://plotly.com/python/)
+  - [Bokeh](https://bokeh.org/): includes dashboard building
+  - [Altair](https://altair-viz.github.io/)
+- Maps, geocoordinates and shapes:
+  - [Geopy](https://geopy.readthedocs.io/en/stable/)
+  - [Geopandas](https://geopandas.org/en/stable/docs/user_guide/data_structures.html)
+  - [Shapely](https://shapely.readthedocs.io/en/stable/manual.html#points)
