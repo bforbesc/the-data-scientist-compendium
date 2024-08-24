@@ -29,6 +29,7 @@ These are the code examples from two very good books which you can buy online:
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): probably the most popular Python data science book
 - [Data Science Topics](https://datascience.oneoffcoder.com/index.html): extremely complete, code-based book with great examples and useful snippets
 - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
+- [Causal Inference: What If (the book)](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/): STATA, Python and R (as well as SAS and Julia)
 
 # 🪨 resources
 - [Pandas official 'cookbook'](https://pandas.pydata.org/pandas-docs/stable/user_guide/cookbook.html): snippets for useful pandas tasks
