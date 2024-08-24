@@ -44,3 +44,14 @@ These are the code examples from two very good books which you can buy online:
   - [Geopy](https://geopy.readthedocs.io/en/stable/)
   - [Geopandas](https://geopandas.org/en/stable/docs/user_guide/data_structures.html)
   - [Shapely](https://shapely.readthedocs.io/en/stable/manual.html#points)
+
+## Books
+- [Learning Spark: Lightning-Fast Data Analytics](https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf) 
+
+## 🔨 resources and tools
+- [Spark SQL, DataFrames and Datasets Guide (official)](https://spark.apache.org/docs/3.3.0/sql-programming-guide.html)
+- [Spark by examples](https://sparkbyexamples.com/pyspark/): a comprehensive guide to PySpark based on examples
+
+https://www.geeksforgeeks.org/
+
+- [Awesome Bash](https://github.com/awesome-lists/awesome-bash): a extremely comprehensive list of Bash scripts and resources
