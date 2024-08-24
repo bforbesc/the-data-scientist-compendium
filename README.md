@@ -39,31 +39,25 @@ These are the tools that I frequently use for data science, organized by categor
   - [Plotly](https://plotly.com/python/)
   - [Bokeh](https://bokeh.org/): Includes dashboard building.
   - [Altair](https://altair-viz.github.io/)
-  - **Additional Resource**: [Seaborn](https://seaborn.pydata.org/): A Python visualization library based on matplotlib that provides a high-level interface for drawing attractive and informative statistical graphics.
+  - [From Data to Viz](https://www.data-to-viz.com/): A tool to help you choose the most appropriate graph for your data, with source code in Python.
+  - [Python Graph Gallery](https://python-graph-gallery.com/): A gallery of Python-based visualization examples.
+  - [Datawrapper](https://app.datawrapper.de/chart/rweXo/upload): A drag-and-drop tool for building graphs with ease.
 
 - **Geospatial Analysis**:
   - [Geopy](https://geopy.readthedocs.io/en/stable/)
   - [Geopandas](https://geopandas.org/en/stable/docs/user_guide/data_structures.html)
   - [Shapely](https://shapely.readthedocs.io/en/stable/manual.html#points)
-  - **Additional Resource**: [Folium](https://python-visualization.github.io/folium/): A powerful Python library for visualizing geospatial data by creating interactive maps using the Leaflet.js library.
 
 - **Machine Learning**:
-  - [Harvard CS181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/): Lecture recaps and notes.
-  - [Stanford CS229](https://cs229.stanford.edu/): Lecture slides and notes.
-  - [Stanford CS231: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
-  - [Machine Learning Mastery](https://machinelearningmastery.com/start-here/#getstarted): An extensive resource covering both theory and practice.
-  - [MLOps Principles](https://ml-ops.org/content/mlops-principles): Key principles for machine learning operations.
   - [Darts](https://unit8co.github.io/darts/#): A comprehensive time series forecasting library.
-  - **Additional Resource**: [Fastai](https://docs.fast.ai/): A deep learning library that provides an easy-to-use interface to PyTorch and supports both computer vision and natural language processing tasks.
 
 - **Web App Deployment**:
   - [Streamlit](https://docs.streamlit.io/): A library to easily create web applications in Python.
   - [Heroku](https://devcenter.heroku.com/): A platform for deploying your applications on the web.
-  - **Additional Resource**: [Flask](https://flask.palletsprojects.com/en/2.0.x/): A lightweight WSGI web application framework in Python that allows you to build web applications quickly and easily.
+  - [Flask](https://flask.palletsprojects.com/en/2.0.x/): A lightweight WSGI web application framework in Python that allows you to build web applications quickly and easily.
 
-- **Big Data Tools**:
+- **Big Data**:
   - [Spark SQL, DataFrames and Datasets Guide (Official)](https://spark.apache.org/docs/3.3.0/sql-programming-guide.html)
-  - [Spark by Examples](https://sparkbyexamples.com/pyspark/): A comprehensive guide to PySpark based on examples.
 
 ---
 
@@ -84,20 +78,28 @@ Cheatsheets have saved me countless hours—hopefully, they’ll do the same for
 ## <a name="other-content"></a> 📦 Other Content
 
 ### 🎓 General Guides & Resources
-- [W3 Schools](https://www.w3schools.com/python/default.asp): A great source for simple, editable code examples with excellent explanations.
-- [Awesome List](https://github.com/sindresorhus/awesome/blob/main/readme.md): A comprehensive list of computer science resources.
-- [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist): Tutorials for building applications from scratch in various languages.
-- [Open Source Society University](https://github.com/ossu/computer-science#introduction-to-computer-science): A self-taught path to a free education in Computer Science.
-- **Additional Resource**: [Geeks for Geeks](https://www.geeksforgeeks.org/): A comprehensive resource for learning about computer science and programming concepts, with tutorials, problem sets, and quizzes.
 
-### 📊 Data Visualization Resources
-- [From Data to Viz](https://www.data-to-viz.com/): A tool to help you choose the most appropriate graph for your data, with source code in Python, R, and JavaScript (D3).
-- [The Data Visualisation Catalogue](https://datavizcatalogue.com/): A non-code-based library of various visualization types with some links to code examples.
-- [Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/): Helps you decide which data relationship is most important in your data story.
-- [FlowingData](https://flowingdata.com/category/guides/): Non-code-based tips and suggestions for working with and designing data visualizations.
-- [Datawrapper](https://app.datawrapper.de/chart/rweXo/upload): A drag-and-drop tool for building graphs with ease.
-- [WTF Visualizations](https://viz.wtf/?utm_source=pocket_mylist): Examples of poorly designed visualizations that can lead to misinformation.
-- [Python Graph Gallery](https://python-graph-gallery.com/): A gallery of Python-based visualization examples.
+- **Python and other languages**:
+  - [W3 Schools](https://www.w3schools.com/python/default.asp): A great source for simple, editable code examples with excellent explanations.
+  - [Geeks for Geeks](https://www.geeksforgeeks.org/): A comprehensive resource for learning about computer science and programming concepts, with tutorials, problem sets, and quizzes.
+  - [Awesome List](https://github.com/sindresorhus/awesome/blob/main/readme.md): A comprehensive list of computer science resources.
+  - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist): Tutorials for building applications from scratch in various languages.
+  - [Open Source Society University](https://github.com/ossu/computer-science#introduction-to-computer-science): A self-taught path to a free education in Computer Science.
+
+- **Machine Learning**:
+  - [Harvard CS181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/): resources from Harvard's machine learning course.
+  - [Stanford CS229](https://cs229.stanford.edu/): resources from Stanfords's machine learning course.
+  - [Stanford CS231: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
+  - [Machine Learning Mastery](https://machinelearningmastery.com/start-here/#getstarted): An extensive resource covering both theory and practice.
+  - [MLOps Principles](https://ml-ops.org/content/mlops-principles): Key principles for machine learning operations.
+
+- **Data Visualization**:
+  - [The Data Visualisation Catalogue](https://datavizcatalogue.com/): A non-code-based library of various visualization types with some links to code examples.
+  - [FlowingData](https://flowingdata.com/category/guides/): Non-code-based tips and suggestions for working with and designing data visualizations.
+  - [Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/): Helps you decide which data relationship is most important in your data story.
+  - [WTF Visualizations](https://viz.wtf/?utm_source=pocket_mylist): Examples of poorly designed visualizations that can lead to misinformation.
+  - [Spark by Examples](https://sparkbyexamples.com/pyspark/): A comprehensive guide to PySpark based on examples.
+
 
 ### 💽 Data Sources
 - **APIs & Databases**: [AnyAPI](https://any-api.com/)
