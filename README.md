@@ -1,5 +1,6 @@
 # The Data Scientist's Compendium <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
-A hands-on compendium of everything I've encountered in data science. I started collecting these resources and snippets as a necessity for my day-to-day work, particularly for teaching, and now I’m sharing them with you! Since I primarily work with Python, you’ll find a lot of Python-focused resources here.
+
+A curated selection of resources, books, tools, and guides for data science. This collection some of the most relevant materials I've found, organized by topic for easy reference.
 
 ---
 
@@ -12,7 +13,6 @@ A hands-on compendium of everything I've encountered in data science. I started 
 ---
 
 ## <a name="books"></a> 📖 Books
-Here is a collection of books that I have found invaluable in my journey as a data scientist.
 
 - **Python and Data Science**:
   - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/): A comprehensive guide to data science in Python, including machine learning.
@@ -33,7 +33,6 @@ Here is a collection of books that I have found invaluable in my journey as a da
 ---
 
 ## <a name="tools"></a> 🔨 Tools
-These are the tools that I frequently use for data science, organized by category.
 
 - **Data Visualization**:
   - [Plotly](https://plotly.com/python/)
@@ -62,7 +61,6 @@ These are the tools that I frequently use for data science, organized by categor
 ---
 
 ## <a name="cheatsheets"></a> 🙈 Cheatsheets
-Cheatsheets have saved me countless hours—hopefully, they’ll do the same for you.
 
 - [Shell](https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf)
 - [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
