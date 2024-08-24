@@ -1,32 +1,16 @@
 # The Data Scientist Compendium <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
 I hands-on compendium of everything (I have came across) data science. I started collecting these resources and snippets as a necessity for my day-to-day work, namely for teaching, and I thought I would share them with you! Because I work mostly on Pyhton you will see that there is an oversampling on resources on that programming language.
 
-## Table of contents
-1. Python
-	1. [Coding](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/1_Python_coding.md)
-	1. [Machine learning](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/1_Pyhton_machine_learning.md)
-1. [R](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/2_R.md)
-1. [Econometrics (in Python, R and STATA)](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/3_Econometrics_&_STATA.md)
-1. [Big data (Spark, Dask & SQL)](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/4_Spark_Dask_SQL.md)
-1. [Git](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/5_Git.md)
-1. [Shell](https://github.com/bforbesc/the-data-scientist-compendium/blob/main/6_Shell.md)
-
 
 ## 🙈 cheatsheets
 Hope these cheatsheets are of value to you. They have certainly saved me many hours of finding the right syntax to accomplish what I wanted to do.
-- [Ultimate cheatsheet for data scientists](https://levelup.gitconnected.com/the-ultimate-cheat-sheet-for-data-scientists-d1e247b6a60c) (a list of cheatsheets; multiple languages)
 - [Shell](https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf)
-- [HTML, CSS, JavaScript](https://htmlcheatsheet.com/)
-- [Jquery](https://oscarotero.com/jquery/)
-- [Boostrap](https://hackerthemes.com/bootstrap-cheatsheet/)
 - [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Python - regular expressions](https://www.dataquest.io/wp-content/uploads/2019/03/python-regular-expressions-cheat-sheet.pdf)
 - [STATA](https://www.stata.com/bookstore/statacheatsheets.pdf)
 - [SQL keywords](https://www.w3schools.com/sql/sql_ref_keywords.asp)
 - [SQL style](https://www.sqlstyle.guide/)
 - [Git](https://education.github.com/git-cheat-sheet-education.pdf)
-- [Codeacademy](https://www.codecademy.com/resources/cheatsheets/language/python) (multiple languages)
-- [R](https://www.rstudio.com/resources/cheatsheets/)
 - [PySpark](https://www.datacamp.com/cheat-sheet/pyspark-cheat-sheet-spark-in-python)
 
 	
@@ -34,14 +18,11 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [W3 school](https://www.w3schools.com/python/default.asp): excellent source for simple, editable examples of code with great explanations, in an array of languages, ranging from Pyhton, R or SQL, to JavaScript, HTML/ CSS or even C
 - [Awesome list](https://github.com/sindresorhus/awesome/blob/main/readme.md): a comprehensive list of everything computer science
 - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist): comprehensive list of programming tutorials to learn how to build an application from scratch, in multiple languages (including Python and R)
-- [Hitchhiker's Guide to Data Science for Social Good](https://github.com/dssg/hitchhikers-guide?utm_source=pocket_mylist): resources from the [Data Science for Social Good Fellowship (DSSG)](http://dssgfellowship.org/) covering everything from ETL to machine learning
 - [Open Source Society University](https://github.com/ossu/computer-science#introduction-to-computer-science): Path to a free self-taught education in Computer Science
 
 
 ## 💽 data sources
-- APIs databases in case you need inspiration for data for your project:
-	- [ProgrammableWeb](https://www.programmableweb.com/apis/directory)
-	- [AnyAPI](https://any-api.com/)
+- APIs databases in case you need inspiration for data for your project: [AnyAPI](https://any-api.com/)
 - Two of the best data sources about our world: 
 	- [Gapminder](https://www.gapminder.org/)
 	- [Our World in Data](https://ourworldindata.org/blog?utm_source=pocket_mylist)
@@ -57,16 +38,3 @@ Hope these cheatsheets are of value to you. They have certainly saved me many ho
 - [WTF visualizations: visualizations that make no sense](https://viz.wtf/?utm_source=pocket_mylist): examples of poorly used visualizations which might lead to misinformation
 - [Python Graph Gallery](https://python-graph-gallery.com/)
 
-
-## 🤓 other interesting content
-- Data science interview preparation:
-	- [‼️MASSIVE‼️ compilation of data science career resources](https://github.com/cdeweyx/DS-Career-Resources): anything from interview preparation to general advice for aspiring data scientists
-	- [122 data science interview questions and answers](https://www.edureka.co/blog/interview-questions/data-science-interview-questions/)
-- [The best free data science eBooks](https://towardsdatascience.com/the-best-free-data-science-ebooks-b671691e5231): a list of FREE additional books you might find relevant
-- [The EDA Theoretical Guide](https://towardsdatascience.com/the-eda-theoretical-guide-b7cef7653f0d): non-code-based simple guide for Exploratory Data Analysis (EDA) ranging from reading data, to missing values analysis, outlier treatment and variable transformation
-- [HMTL code sintax validator](https://validator.w3.org/#validate_by_input): a tool to validate HTML code syntax
-- [Spurious correlations](https://tylervigen.com/spurious-correlations): examples of spurious correlations in the wild and easily one can fall victim to this statistical trap
-- [The True Size of](https://www.thetruesize.com/): map with which allows for comparison of countries' areas
-- [Graphing calculator](https://www.desmos.com/calculator): a graphic calculator
-- [Tips for improving your GitHub profile](https://towardsdatascience.com/enrich-your-github-profile-with-these-tips-272fa1eafe05?gi=27b896f9e9c4)
-- [Github quantitative finance repos](https://www.linkedin.com/posts/stylianos-iordanis-34787a19_goldman-sachs-activity-6974353708239237120-al7X/)
