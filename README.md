@@ -82,8 +82,10 @@ A curated selection of resources for data science. This collection includes book
   - [Awesome List](https://github.com/sindresorhus/awesome/blob/main/readme.md): A comprehensive list of computer science resources.
   - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning?utm_source=pocket_mylist): Tutorials for building applications from scratch in various languages.
   - [Open Source Society University](https://github.com/ossu/computer-science#introduction-to-computer-science): A self-taught path to a free education in Computer Science.
+  - [Developer Roadmaps](https://roadmap.sh/roadmaps): diagrams with selected resources for each topic (for instance, machine learning); helps to organize the concepts and provide studying materials.
 
 - **Machine Learning**:
+  - [mlcourse.ai](https://mlcourse.ai/book/#): open machine learning course.
   - [Harvard CS181: Machine Learning](https://harvard-ml-courses.github.io/cs181-web/): resources from Harvard's machine learning course.
   - [Stanford CS229](https://cs229.stanford.edu/): resources from Stanfords's machine learning course.
   - [Stanford CS231: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
