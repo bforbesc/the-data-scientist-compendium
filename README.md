@@ -20,6 +20,7 @@ A curated selection of resources for data science. This collection includes book
 - **Causal Inference**:
   - [Causal Inference for The Brave and True](https://matheusfacure.github.io/python-causality-handbook/landing-page.html): A hands-on guide to causal inference using Python.
   - [Causal Inference: What If (the book)](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/): Covers STATA, Python, and R (also SAS and Julia).
+  - [Applied Causal Inference Powered by ML and AI](https://arxiv.org/abs/2403.02467): An introduction to the emerging fusion of machine learning and causal inference.
 
 - **Machine Learning**:
   - [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html): By the father of RL and his advisor.
